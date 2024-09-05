@@ -812,5 +812,3 @@ parse_config:
       align: bottom
       o: 0.35
       arc_scale: 1.03
-  zmk_preamble: '#define KEYMAP_DRAWER'
-  zmk_additional_includes: []
