@@ -6,3 +6,4 @@ modules
 firmware
 zmk
 /config/.vscode
+.vscode/
