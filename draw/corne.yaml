@@ -31,10 +31,10 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: ▽, type: trans}
   - '2'
-  - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
   - {t: '&num_dance', h: '3'}
+  - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
+  - {t: BSPC, s: DEL}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky, s: '&caps_word'}
   - {t: ▽, type: trans}
   '1':
@@ -105,8 +105,8 @@ layers:
   - Alt+ `
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:volume-mute$$
   - $$mdi:play-pause$$
@@ -143,9 +143,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
