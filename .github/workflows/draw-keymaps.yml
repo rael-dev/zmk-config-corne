@@ -10,11 +10,12 @@ on:
       # - 'boards/*/*/*.keymap'
 
 jobs:
-  draw:
+  draw:      
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     permissions:
       contents: write  # allow workflow to commit to the repo
     with:
+      west_config_path: "config"
       keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
       config_path: "keymap_drawer.config.yaml"  # config file, ignored if not exists
       output_folder: "draw"            # path to save produced SVG and keymap YAML files

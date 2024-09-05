@@ -1,4 +1,10 @@
+parse_config:
+  zmk_additional_includes: ["zmk-helpers/include"]
+
 draw_config:
+  footer_text: "urob/zmk-config"
+  dark_mode: auto
+  
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
   key_h: 80
