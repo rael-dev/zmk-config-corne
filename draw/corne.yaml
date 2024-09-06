@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: J, h: LCTRL}
+  - {t: K, h: RSHFT}
+  - {t: L, h: LALT}
+  - {t: ;, h: LGUI}
   - Z
   - X
   - C
@@ -33,173 +33,173 @@ layers:
   - {t: '?', s: '!'}
   - '2'
   - {t: '&num_dance', h: '3'}
-  - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
+  - {t: SPACE, h: '1', s: '&dot_spc'}
   - {t: BSPC, s: DEL}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky, s: '&caps_word'}
-  - {t: ▽, type: trans}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$', s: '&caps_word'}
+  - {t: '$$mdi:transfer$$', type: trans}
   '1':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+ TAB
   - '&swapper'
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
-  - {t: ▽, type: trans}
-  - {t: '$$mdi:arrow-up$$', h: Ctl+ Home}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: UP, h: Ctl+ HOME}
   - {t: DEL, h: Ctl+ DEL}
   - {t: BSPC, h: Ctl+ BSPC}
-  - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
-  - {t: ▽, type: trans}
+  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LALT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LCTRL, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG DN
-  - {t: '$$mdi:arrow-left$$', h: Home}
-  - {t: '$$mdi:arrow-down$$', h: Ctl+ End}
-  - {t: '$$mdi:arrow-right$$', h: End}
+  - {t: LEFT, h: HOME}
+  - {t: DOWN, h: Ctl+ END}
+  - {t: RIGHT, h: END}
   - RET
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:keyboard-tab$$
+  - TAB
   - <
   - '>'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - CANCEL
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - F12
   - F7
   - F8
   - F9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:skip-backward$$
-  - $$mdi:volume-plus$$
-  - $$mdi:skip-forward$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PREV
+  - VOL UP
+  - NEXT
   - '&win_sleep'
-  - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F4, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F5, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: 'Gui+Ctl+ $$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: 'Gui+Ctl+ $$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ▽, type: trans}
+  - {t: F11, h: LGUI}
+  - {t: F4, h: LALT}
+  - {t: F5, h: LSHFT}
+  - {t: F6, h: LCTRL}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Ctl+ LEFT, h: LCTRL}
+  - {t: VOL DN, h: RSHFT}
+  - {t: Gui+Ctl+ RIGHT, h: LALT}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F10
   - F1
   - F2
   - F3
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Sft+ A
   - Gui+Ctl+Sft+ Q
   - Alt+ `
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:volume-mute$$
-  - $$mdi:play-pause$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
+  - PP
+  - {t: '$$mdi:transfer$$', type: trans}
   '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '4', h: LALT}
+  - {t: '5', h: LSHFT}
+  - {t: '6', h: LCTRL}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', h: LGUI}
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&msc SCRL_LEFT'
-  - $$mdi:mouse-move-down$$
-  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
-  - $$mdi:mouse-move-up$$
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
-  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
-  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - '&mkp MCLK'
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:cursor-default-click$$
-  - $$mdi:cursor-default-click-outline$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 2]
-  k: Esc
+  k: ESC
   l: ['0', '1', '3']
 - p: [2, 3]
-  k: ⮐
+  k: RETURN
   l: ['0', '1', '3']
 - p: [1, 3]
   k: '&smart_mouse'
   l: ['0', '1', '3']
 - p: [11, 12]
-  k: {t: '$$mdi:keyboard-tab$$', h: 'Sft+ $$mdi:apple-keyboard-option$$'}
+  k: {t: TAB, h: Sft+ LALT}
   l: ['0', '1', '3']
 - p: [12, 13]
-  k: {t: '&key_repeat', h: 'Sft+ $$mdi:apple-keyboard-control$$'}
+  k: {t: '&key_repeat', h: Sft+ LCTRL}
   l: ['0', '1', '3']
 - p: [21, 23]
   k: Ctl+ X
@@ -217,10 +217,10 @@ combos:
   k: DEL
   l: ['0', '1', '3']
 - p: [16, 17]
-  k: {t: (, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
+  k: {t: (, h: Sft+ LCTRL, s: <}
   l: ['0', '3']
 - p: [17, 18]
-  k: {t: ), h: 'Sft+ $$mdi:apple-keyboard-option$$', s: '>'}
+  k: {t: ), h: Sft+ LALT, s: '>'}
   l: ['0', '3']
 - p: [16, 17]
   k: <
@@ -229,7 +229,7 @@ combos:
   k: '>'
   l: ['1']
 - p: [17, 18]
-  k: {t: ), h: 'Sft+ $$mdi:apple-keyboard-option$$', s: '>'}
+  k: {t: ), h: Sft+ LALT, s: '>'}
   l: ['0', '3']
 - p: [27, 28]
   k: ']'
