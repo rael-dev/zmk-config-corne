@@ -113,6 +113,11 @@ layers:
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -122,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ▽, type: trans}
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-control$$'}
@@ -132,15 +137,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
