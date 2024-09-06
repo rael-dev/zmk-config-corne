@@ -96,7 +96,7 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
-#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_FAST 250
 #define COMBO_IDLE_SLOW 50
 
 // make homerow combos tap-only (so HRMs can be chorded instantaneously)
@@ -168,7 +168,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -180,7 +180,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -192,7 +192,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&key_repeat>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -204,7 +204,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&lpar_lt>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -216,7 +216,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&rpar_gt>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -358,7 +358,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <250>;      
+            tapping-term-ms = <300>;      
             quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&mo>, <&spc_morph>;
         };
