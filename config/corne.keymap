@@ -403,7 +403,7 @@
             tap-ms = <50>;
             bindings = <&kp LG(X) &kp U &kp S>;
         };
-    };fdsfdsfdswfw$edfdffre 
+    };
 
     combos {
         compatible = "zmk,combos";
