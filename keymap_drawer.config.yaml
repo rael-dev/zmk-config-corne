@@ -298,11 +298,10 @@ parse_config:
     '&num_dance': 'NUM'
 
   zmk_combos:
-    combo_bl:
-      align: top
-      offset: 2.4
     combo_mouse:
-      draw_separate: true
+      align: top
+    combo_cut:
+      align: bottom
     combo_bkt:
       draw_separate: true
     combo_rpar:
