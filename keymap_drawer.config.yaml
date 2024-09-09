@@ -114,6 +114,8 @@ parse_config:
   
   raw_binding_map: 
     '&smart_num': $$mdi:numeric$$
+    '&num_dance': $$mdi:numeric$$
+    '&num_word': $$mdi:numeric$$
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
     '&studio_unlock': $$mdi:lock-open-outline$$
