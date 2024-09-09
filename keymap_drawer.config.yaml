@@ -11,12 +11,12 @@ parse_config:
 draw_config:
   key_w: 65
   key_h: 65
-  key_rx: 4.0
-  key_ry: 4.0
+  key_rx: 6.0
+  key_ry: 6.0
   inner_pad_w: 8.0
   inner_pad_h: 8.0
-  combo_w: 22
-  combo_h: 20
+  combo_w: 20
+  combo_h: 18
   dark_mode: off
   append_colon_to_layer_header: false
 
@@ -101,7 +101,7 @@ draw_config:
     }
   
   glyph_tap_size: 18
-  glyph_hold_size: 14
+  glyph_hold_size: 13
   glyph_hold_opacity: 0.6
   glyph_shifted_size: 14
   
@@ -113,9 +113,8 @@ parse_config:
     type: trans
   
   raw_binding_map: 
-    '&smart_num': $$mdi:numeric$$
-    '&num_dance': $$mdi:numeric$$
-    '&num_word': $$mdi:numeric$$
+    '&smart_num': 
+      tap: $$mdi:numeric$$
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
     '&studio_unlock': $$mdi:lock-open-outline$$
