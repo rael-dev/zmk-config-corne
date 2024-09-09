@@ -156,7 +156,11 @@ parse_config:
     '&kp LC(N0)': $$mdi:magnify-remove-outline$$
 
     '&kp LG(L)': $$mdi:lock-outline$$
-    'Gui+Ctl+Sft+ Q': 'PIN_APP'
+    '&hmr LCTRL LG(LC(LEFT))': 'DSK_PREV'
+    '&hmr LALT LG(LC(RIGHT))': 'DSK_NEXT'
+    '&kp LG(LC(LS(Q)))': 'PIN_WIN'
+    '&kp LG(LC(LS(A)))': 'PIN_APP'
+    '&kp LA(GRAVE)': 'DSK_MNGR'
       
     '&td_sqt_dqt':
       tap: "'"
