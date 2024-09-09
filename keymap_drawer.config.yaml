@@ -113,7 +113,7 @@ parse_config:
     type: trans
   
   raw_binding_map: 
-    '&num_word': $$mdi:numeric$$
+    '&smart_num': $$mdi:numeric$$
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
     '&studio_unlock': $$mdi:lock-open-outline$$
