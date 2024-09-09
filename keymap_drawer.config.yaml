@@ -295,6 +295,7 @@ parse_config:
       type: text_with_symbol
 
     '&ind_bat': $$mdi:battery-heart-outline$$
+    '&num_dance': 'NUM'
 
   zmk_combos:
     combo_bl:
