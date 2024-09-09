@@ -9,46 +9,51 @@ parse_config:
     - "modules/helpers/include"
 
 draw_config:
-  key_w: 60
+  key_w: 65
   key_h: 65
-  append_colon_to_layer_header: false
-  draw_key_sides: true
-  outer_pad_w: 40.0
-  outer_pad_h: 56.0
-  inner_pad_w: 6.0
-  inner_pad_h: 6.0
-  combo_w: 28
-  combo_h: 26
+  key_rx: 4.0
+  key_ry: 4.0
+  inner_pad_w: 8.0
+  inner_pad_h: 8.0
+  combo_w: 22
+  combo_h: 20
   dark_mode: off
-  append_colon_to_layer_header: true
-  separate_combo_diagrams: true
+  append_colon_to_layer_header: false
 
   svg_extra_style: |
     svg.keymap {
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 10px;
+      font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 12px;
       font-weight: bold;
+      text-rendering: optimizeLegibility;
     }
  
     text.label {
       stroke: #dfdfde;
-      stroke-width: 12;
+      stroke-width: 24;
+      translate: 15px 5px;
       stroke-linejoin: round;
     }
 
     rect.combo, rect.combo-separate {
-      opacity: 0.95;
-      stroke: #c9cccf;
+      opacity: 0.9;
+      stroke: #000000;
       stroke-width: 0.5;
-      fill: #d7eaed;
-    }
-    path.combo {
-      stroke-dasharray: 4, 4;
-      stroke-opacity: 0.3;
+      fill: #FFA24A;
     }
 
-    rect.held, rect.combo.held {
+    path.combo {
+      stroke-dasharray: 4, 4;
+      stroke-opacity: 1.0;
+      stroke: #FFA24A;
+    }
+
+    rect.held {
       fill: #FF545D;
+    }
+
+    rect.combo.held {
+      fill: #FFA24A;
     }
 
     .trans.tap, .ghost.tap {
@@ -56,7 +61,7 @@ draw_config:
     }
 
     .shifted {
-      translate: -11px 3px;
+      translate: -18px 4px;
       opacity: 1.0;
       stroke: #5C96FF;
     }
