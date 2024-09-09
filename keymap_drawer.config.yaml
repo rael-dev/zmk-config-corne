@@ -25,18 +25,19 @@ draw_config:
       font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
       font-size: 12px;
       font-weight: bold;
+      font-kerning: normal;
       text-rendering: optimizeLegibility;
     }
  
     text.label {
       stroke: #dfdfde;
-      stroke-width: 24;
-      translate: 15px 5px;
+      stroke-width: 28;
       stroke-linejoin: round;
     }
 
     text.hold {
        font-size: 11px;
+       opacity: 0.9;
        translate: 0px -4px;
        text-anchor: middle;
        dominant-baseline: auto;
@@ -68,7 +69,7 @@ draw_config:
     }
 
     .shifted {
-      translate: -18px 4px;
+      translate: -14px 1px;
       opacity: 1.0;
       stroke: #5C96FF;
     }
@@ -99,9 +100,10 @@ draw_config:
       opacity: 1.0;
     }
   
-  glyph_tap_size: 16
-  glyph_hold_size: 10
-  glyph_shifted_size: 10
+  glyph_tap_size: 18
+  glyph_hold_size: 14
+  glyph_hold_opacity: 0.6
+  glyph_shifted_size: 14
   
 parse_config:    
   sticky_label: $$mdi:circle-small$$
@@ -111,6 +113,7 @@ parse_config:
     type: trans
   
   raw_binding_map: 
+    '&num_dance': $$mdi:numeric$$
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
     '&studio_unlock': $$mdi:lock-open-outline$$
@@ -274,23 +277,11 @@ parse_config:
       tap: $$mdi:mouse$$
       shifted: RIGHT
       type: text_with_symbol
-      
-    '&mmv SCRL_UP':
-      tap: $$mdi:mouse-scroll-wheel$$
-      shifted: UP
-      type: text_with_symbol
-    '&mmv SCRL_DOWN':
-      tap: $$mdi:mouse-scroll-wheel$$
-      shifted: DOWN
-      type: text_with_symbol
-    '&mmv SCRL_LEFT':
-      tap: $$mdi:mouse-scroll-wheel$$
-      shifted: LEFT
-      type: text_with_symbol
-    '&mmv SCRL_RIGHT':
-      tap: $$mdi:mouse-scroll-wheel$$
-      shifted: RIGHT
-      type: text_with_symbol
+
+    '&msc SCRL_UP': 'SCROLL_U'
+    '&msc SCRL_DOWN': 'SCROLL_D'
+    '&msc SCRL_LEFT': 'SCROLL_L'
+    '&msc SCRL_RIGHT': 'SCROLL_R'
     
     '&mkp LCLK': $$mdi:cursor-default-click-outline$$
     '&mkp RCLK': $$mdi:cursor-default-click$$
