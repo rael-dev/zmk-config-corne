@@ -43,7 +43,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - '&swapper'
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - Page Up
+  - PG UP
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - Page Down
+  - PG DN
   - {t: '$$mdi:arrow-left$$', h: HOME}
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
   - {t: '$$mdi:arrow-right$$', h: END}
