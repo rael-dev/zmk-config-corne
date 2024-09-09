@@ -96,7 +96,7 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
-#define COMBO_IDLE_FAST 250
+#define COMBO_IDLE_FAST 280
 #define COMBO_IDLE_SLOW 50
 
 // make homerow combos tap-only (so HRMs can be chorded instantaneously)
@@ -119,7 +119,7 @@
 #define DSK_NEXT    &hmr LALT LG(LC(RIGHT)) // next     desktop
 #define PIN_WIN     &kp LG(LC(LS(Q)))        // pin window across desktops
 #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
-#define DSK_MGR     &kp LA(GRAVE)            // desktop manager
+#define DSK_MNGR    &kp LA(GRAVE)            // desktop manager
 #define VOL_DOWN    &hmr RSHFT C_VOL_DN
 
 &sk {  // sticky-key config
@@ -459,8 +459,8 @@
         
         combo_copy {
             timeout-ms = <COMBO_TERM_FAST>;
-            bindings = <&kp LC(X)>;
-            key-positions = <LB3 LB1>;
+            bindings = <&kp LC(INS)>;
+            key-positions = <LB3 LB2>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -469,6 +469,14 @@
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp LS(INS)>;
             key-positions = <LB2 LB1>;
+            layers = <DEF NAV NUM>;
+            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        };
+
+        combo_undo {
+            timeout-ms = <COMBO_TERM_FAST>;
+            bindings = <&kp LC(Z)>;
+            key-positions = <LB4 LB3>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -728,7 +736,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &hml LGUI F11 &hml LALT F4  &hml LSHFT F5 &hml LCTRL F6 ___             ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F10       &kp F1        &kp F2        &kp F3        ___             PIN_APP       PIN_WIN       DSK_MGR       ___           ___          
+                &kp F10       &kp F1        &kp F2        &kp F3        ___             PIN_APP       PIN_WIN       DSK_MNGR       ___           ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             ___           ___           ___             &kp C_MUTE    &kp C_PP      ___                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
