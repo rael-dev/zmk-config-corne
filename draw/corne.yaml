@@ -154,20 +154,20 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - SCROLL_L
-  - SCROLL_D
-  - MOUSE_U
-  - SCROLL_U
-  - SCROLL_R
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - MOUSE_L
-  - MOUSE_D
-  - MOUSE_R
+  - {t: '$$mdi:mouse$$', s: LEFT, type: text_with_symbol}
+  - {t: '$$mdi:mouse$$', s: DOWN, type: text_with_symbol}
+  - {t: '$$mdi:mouse$$', s: RIGHT, type: text_with_symbol}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
