@@ -1,8 +1,9 @@
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
+  toggle_label: $$mdi:toggle-switch$$
   trans_legend:
-    tap: $$mdi:transfer$$
+    tap: $$mdi:chevron-down$$
     type: trans
   zmk_preamble: "#include <zmk-helpers/key-labels/36.h>"
   zmk_additional_includes:
@@ -56,12 +57,8 @@ draw_config:
       stroke: #FFA24A;
     }
 
-    rect.held {
+    rect.key.held {
       fill: #FF545D;
-    }
-
-    rect.combo.held {
-      fill: #FFA24A;
     }
 
     .trans.tap, .ghost.tap {
@@ -102,19 +99,9 @@ draw_config:
   
   glyph_tap_size: 18
   glyph_hold_size: 13
-  glyph_hold_opacity: 0.6
   glyph_shifted_size: 14
   
-parse_config:    
-  sticky_label: $$mdi:circle-small$$
-  toggle_label: $$mdi:toggle-switch$$
-  trans_legend:
-    tap: $$mdi:chevron-down$$
-    type: trans
-  
   raw_binding_map: 
-    '&smart_num': 
-      tap: $$mdi:numeric$$
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
     '&studio_unlock': $$mdi:lock-open-outline$$
@@ -342,8 +329,6 @@ parse_config:
       align: top
     combo_cut:
       align: bottom
-    combo_bkt:
-      draw_separate: true
     combo_rpar:
       draw_separate: true
     combo_lpar:
@@ -422,8 +407,8 @@ parse_config:
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
     
-    PG_UP: PG UP
-    PG_DN: PG DN
+    PG_UP: Page Up
+    PG_DN: Page Down
 
     # HOME: $$mdi:format-horizontal-align-left$$
     # END: $$mdi:format-horizontal-align-right$$
