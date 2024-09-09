@@ -91,18 +91,18 @@ layers:
   - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: 'Gui+Ctl+ $$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-control$$'}
+  - DSK_PREV
   - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: 'Gui+Ctl+ $$mdi:arrow-right$$', h: ALT}
+  - DSK_NEXT
   - {t: '$$mdi:chevron-down$$', type: trans}
   - F10
   - F1
   - F2
   - F3
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - Gui+Ctl+Sft+ A
-  - Gui+Ctl+Sft+ Q
-  - Alt+ `
+  - PIN_APP
+  - PIN_WIN
+  - DSK_MNGR
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
