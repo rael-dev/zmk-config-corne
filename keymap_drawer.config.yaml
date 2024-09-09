@@ -1,14 +1,3 @@
-parse_config:
-  mark_alternate_layer_activators: true
-  sticky_label: $$mdi:gesture-tap-hold$$
-  toggle_label: $$mdi:toggle-switch$$
-  trans_legend:
-    tap: $$mdi:chevron-down$$
-    type: trans
-  zmk_preamble: "#include <zmk-helpers/key-labels/36.h>"
-  zmk_additional_includes:
-    - "modules/helpers/include"
-
 draw_config:
   key_w: 65
   key_h: 65
@@ -101,6 +90,17 @@ draw_config:
   glyph_hold_size: 13
   glyph_shifted_size: 14
   
+parse_config:
+  mark_alternate_layer_activators: true
+  sticky_label: $$mdi:gesture-tap-hold$$
+  toggle_label: $$mdi:toggle-switch$$
+  trans_legend:
+    tap: $$mdi:chevron-down$$
+    type: trans
+  zmk_preamble: "#include <zmk-helpers/key-labels/36.h>"
+  zmk_additional_includes:
+    - "modules/helpers/include"
+    
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
@@ -407,8 +407,8 @@ draw_config:
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
     
-    PG_UP: Page Up
-    PG_DN: Page Down
+    PG_UP: PG UP
+    PG_DN: PG DN
 
     # HOME: $$mdi:format-horizontal-align-left$$
     # END: $$mdi:format-horizontal-align-right$$
