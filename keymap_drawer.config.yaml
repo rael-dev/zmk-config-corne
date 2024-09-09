@@ -166,17 +166,6 @@ parse_config:
     '&kp LG(LC(LS(Q)))': 'PIN_WIN'
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
-
-    '&mmv MOVE_UP': 'MOUSE_U'
-    '&mmv MOVE_DOWN': 'MOUSE_D'
-    '&mmv MOVE_LEFT': 'MOUSE_L'
-    '&mmv MOVE_RIGHT': 'MOUSE_R'
-    '&msc SCRL_UP': 'SCROLL_U'
-    '&msc SCRL_DOWN': 'SCROLL_D'
-    '&msc SCRL_LEFT': 'SCROLL_L'
-    '&msc SCRL_RIGHT': 'SCROLL_R'
-    '&smart_mouse': $$mdi:mouse$$
-
     '&win_sleep': 'SLEEP'
       
     '&td_sqt_dqt':
@@ -266,6 +255,41 @@ parse_config:
     '&bt BT_DISC 4':
       tap: $$mdi:bluetooth-off$$
       shifted: '4'
+      type: text_with_symbol
+
+    '&smart_mouse': $$mdi:mouse$$
+    '&mmv MOVE_UP':
+      tap: $$mdi:mouse$$
+      shifted: UP
+      type: text_with_symbol
+    '&mmv MOVE_DOWN':
+      tap: $$mdi:mouse$$
+      shifted: DOWN
+      type: text_with_symbol
+    '&mmv MOVE_LEFT':
+      tap: $$mdi:mouse$$
+      shifted: LEFT
+      type: text_with_symbol
+    '&mmv MOVE_RIGHT':
+      tap: $$mdi:mouse$$
+      shifted: RIGHT
+      type: text_with_symbol
+      
+    '&mmv SCRL_UP':
+      tap: $$mdi:mouse-scroll-wheel$$
+      shifted: UP
+      type: text_with_symbol
+    '&mmv SCRL_DOWN':
+      tap: $$mdi:mouse-scroll-wheel$$
+      shifted: DOWN
+      type: text_with_symbol
+    '&mmv SCRL_LEFT':
+      tap: $$mdi:mouse-scroll-wheel$$
+      shifted: LEFT
+      type: text_with_symbol
+    '&mmv SCRL_RIGHT':
+      tap: $$mdi:mouse-scroll-wheel$$
+      shifted: RIGHT
       type: text_with_symbol
     
     '&mkp LCLK': $$mdi:cursor-default-click-outline$$
