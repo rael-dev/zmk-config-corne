@@ -481,6 +481,14 @@
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
+        combo_redo {
+            timeout-ms = <COMBO_TERM_FAST>;
+            bindings = <&kp LC(Y)>;
+            key-positions = <LB1 LB0>;
+            layers = <DEF NAV NUM>;
+            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        };
+
         /* Horizontal combos - right hand */
         combo_bspc {
             timeout-ms = <COMBO_TERM_FAST>;
@@ -532,8 +540,8 @@
 
         combo_lbkt {
             timeout-ms = <COMBO_TERM_FAST>;
-            bindings = <HRC_RPAR>;
-            key-positions = <RM2 RM3>;
+            bindings = <&kp LBKT>;
+            key-positions = <RB1 RB2>;
             layers = <DEF NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };

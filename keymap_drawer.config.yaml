@@ -35,6 +35,13 @@ draw_config:
       stroke-linejoin: round;
     }
 
+    text.hold {
+       font-size: 11px;
+       translate: 0px -4px;
+       text-anchor: middle;
+       dominant-baseline: auto;
+    }
+
     rect.combo, rect.combo-separate {
       opacity: 0.9;
       stroke: #000000;
@@ -79,7 +86,7 @@ draw_config:
     }
     .text_with_symbol.shifted {
       translate: 8px 13px;
-      font-size: 8px;
+      font-size: 10px;
       opacity: 1.0;
     } 
 
@@ -92,9 +99,9 @@ draw_config:
       opacity: 1.0;
     }
   
-  glyph_tap_size: 14
-  glyph_hold_size: 8
-  glyph_shifted_size: 8
+  glyph_tap_size: 16
+  glyph_hold_size: 10
+  glyph_shifted_size: 10
   
 parse_config:    
   sticky_label: $$mdi:circle-small$$
@@ -168,6 +175,7 @@ parse_config:
     '&msc SCRL_DOWN': 'SCROLL_D'
     '&msc SCRL_LEFT': 'SCROLL_L'
     '&msc SCRL_RIGHT': 'SCROLL_R'
+    '&smart_mouse': $$mdi:mouse$$
 
     '&win_sleep': 'SLEEP'
       
