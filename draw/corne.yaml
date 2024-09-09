@@ -84,7 +84,7 @@ layers:
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
-  - '&win_sleep'
+  - SLEEP
   - {t: F11, h: '$$mdi:microsoft-windows$$'}
   - {t: F4, h: ALT}
   - {t: F5, h: '$$mdi:apple-keyboard-shift$$'}
@@ -154,20 +154,20 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&mmv MOVE_UP'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
+  - SCROLL_L
+  - SCROLL_D
+  - MOUSE_U
+  - SCROLL_U
+  - SCROLL_R
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - MOUSE_L
+  - MOUSE_D
+  - MOUSE_R
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
-  - '&mkp MCLK'
+  - {t: '$$mdi:cursor-default-click-outline$$', s: MID, type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: text_with_symbol}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -215,7 +215,7 @@ combos:
   k: $$mdi:content-paste$$
   l: ['0', '1', '3']
 - p: [20, 21]
-  k: Ctl+ Z
+  k: $$mdi:undo$$
   l: ['0', '1', '3']
 - p: [6, 7]
   k: $$mdi:backspace-outline$$
