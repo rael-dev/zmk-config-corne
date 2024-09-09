@@ -100,7 +100,7 @@ parse_config:
   zmk_preamble: "#include <zmk-helpers/key-labels/36.h>"
   zmk_additional_includes:
     - "modules/helpers/include"
-    
+
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
@@ -332,8 +332,6 @@ parse_config:
     combo_rpar:
       draw_separate: true
     combo_lpar:
-      draw_separate: true
-    combo_repeat:
       draw_separate: true
     combo_tab:
       draw_separate: true
