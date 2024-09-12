@@ -92,7 +92,7 @@ draw_config:
   
 parse_config:
   mark_alternate_layer_activators: true
-  sticky_label: $$mdi:gesture-tap-hold$$
+  sticky_label: $$mdi:circle-small$$
   toggle_label: $$mdi:toggle-switch$$
   trans_legend:
     tap: $$mdi:chevron-down$$
