@@ -168,7 +168,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -180,7 +180,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -192,7 +192,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&key_repeat>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -204,7 +204,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&lpar_lt>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -216,7 +216,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&rpar_gt>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -754,9 +754,9 @@
         NUM {
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                ___           ___           ___           ___           ___             ___           &kp N7        &kp N8        &kp N9        ___          
+                &kp 1         &kp 2         &kp 3         &kp 4         &kp 5           ___           &kp N7        &kp N8        &kp N9        ___          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                ___           ___           ___           ___           ___             ___           &hml LALT N4  &hml LSHFT N5 &hml LCTRL N6 ___          
+                &kp 6         &kp 7         &kp 8         &kp 9         &kp 0           ___           &hml LALT N4  &hml LSHFT N5 &hml LCTRL N6 ___          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 ___           ___           ___           ___           ___             &hml LGUI N0  &kp N1        &kp N2        &kp N3        ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
