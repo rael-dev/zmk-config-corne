@@ -1033,25 +1033,29 @@ rect.key.held {
 <g transform="translate(30, 1134)" class="layer-3">
 <text x="0" y="28" class="label" id="x_x">3</text>
 <g transform="translate(0, 61)">
-<g transform="translate(32, 57)" class="key trans keypos-0">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
-</g>
-<g transform="translate(98, 41)" class="key trans keypos-1">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
-</g>
-<g transform="translate(162, 32)" class="key trans keypos-2">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
-</g>
-<g transform="translate(228, 41)" class="key trans keypos-3">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
-</g>
-<g transform="translate(292, 49)" class="key trans keypos-4">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">1</text>
+</a></g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">2</text>
+</a></g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">3</text>
+</a></g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">4</text>
+</a></g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">5</text>
 </g>
 <g transform="translate(552, 49)" class="key trans keypos-5">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -1073,26 +1077,27 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(32, 122)" class="key trans keypos-10">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">6</text>
 </g>
-<g transform="translate(98, 106)" class="key trans keypos-11">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">7</text>
 </g>
-<g transform="translate(162, 98)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">8</text>
 </g>
-<g transform="translate(228, 106)" class="key trans keypos-13">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">9</text>
 </g>
-<g transform="translate(292, 114)" class="key trans keypos-14">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
-</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">0</text>
+</a></g>
 <g transform="translate(552, 114)" class="key trans keypos-15">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
