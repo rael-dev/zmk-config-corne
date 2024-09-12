@@ -13,11 +13,11 @@ layers:
   - P
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: ALT}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - D
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - J
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: ''''}
   - {t: ;, h: '$$mdi:keyboard-return$$'}
@@ -35,7 +35,7 @@ layers:
   - {t: '&num_dance', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
   - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:caps-lock$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - '2'
   '1':
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -48,10 +48,10 @@ layers:
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: ALT, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:circle-small$$'}
+  - {t: ALT, h: '$$mdi:circle-small$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - PG DN
   - {t: '$$mdi:arrow-left$$', h: HOME}
@@ -85,9 +85,9 @@ layers:
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
   - SLEEP
-  - {t: F11, h: '$$mdi:microsoft-windows$$'}
+  - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F4, h: ALT}
-  - {t: F5, h: '$$mdi:apple-keyboard-shift$$'}
+  - F5
   - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -122,22 +122,22 @@ layers:
   - '8'
   - '9'
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '6'
+  - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
   - '7'
   - '8'
-  - '9'
+  - {t: '9', h: '$$mdi:apple-keyboard-control$$'}
   - '0'
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '4', h: ALT}
-  - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-control$$'}
+  - '4'
+  - '5'
+  - '6'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '0', h: '$$mdi:microsoft-windows$$'}
+  - '0'
   - '1'
   - '2'
   - '3'
