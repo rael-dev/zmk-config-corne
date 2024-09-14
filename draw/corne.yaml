@@ -42,13 +42,13 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:file-arrow-left-right$$
-  - '&swapper'
+  - $$mdi:microsoft-visual-studio$$
   - PG UP
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
-  - {t: '$$mdi:microsoft-windows-classic$$', h: '$$mdi:circle-small$$'}
+  - '&swapper'
   - {t: ALT, h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
