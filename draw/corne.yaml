@@ -79,7 +79,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - F16
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
@@ -89,7 +89,7 @@ layers:
   - {t: F4, h: ALT}
   - F5
   - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - F14
   - {t: '$$mdi:chevron-down$$', type: trans}
   - DSK_PREV
   - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -99,17 +99,17 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - F15
   - PIN_APP
   - PIN_WIN
   - DSK_MNGR
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:volume-mute$$
   - $$mdi:play-pause$$
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
   '3':
   - '1'
@@ -186,10 +186,10 @@ layers:
   - $$mdi:cursor-default-click$$
   - {t: '$$mdi:chevron-down$$', type: trans}
 combos:
-- p: [1, 2]
+- p: [0, 1]
   k: ESC
   l: ['0', '1', '3']
-- p: [2, 3]
+- p: [12, 13]
   k: $$mdi:keyboard-return$$
   l: ['0', '1', '3']
 - p: [1, 3]
@@ -200,7 +200,7 @@ combos:
   k: {t: '$$mdi:keyboard-tab$$', h: Sft+ ALT}
   l: ['0', '1', '3']
   draw_separate: true
-- p: [12, 13]
+- p: [2, 3]
   k: $$mdi:repeat$$
   l: ['0', '1', '3']
 - p: [21, 23]
@@ -219,10 +219,10 @@ combos:
 - p: [23, 24]
   k: $$mdi:redo$$
   l: ['0', '1', '3']
-- p: [6, 7]
+- p: [11, 12]
   k: $$mdi:backspace-outline$$
   l: ['0', '1', '3']
-- p: [7, 8]
+- p: [13, 14]
   k: $$mdi:backspace-reverse-outline$$
   l: ['0', '1', '3']
 - p: [16, 17]
