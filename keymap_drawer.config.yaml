@@ -157,8 +157,15 @@ parse_config:
     '&kp LG(LC(LS(Q)))': 'PIN_WIN'
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
-    '&win_sleep': 'SLEEP'
-      
+
+    '&win_sleep': $$mdi:sleep$$
+    '&rename': $$mdi:rename-outline$$
+    '&comment': $$mdi:comment-edit-outline$$
+    '&uncomment': $$mdi:comment-remove$$
+    '&cpp_header_hop': $$mdi:file-arrow-left-right$$
+    '&search_members': $$mdi:database-search$$
+    '&context_actions': $$mdi:format-list-group-plus$$
+    
     '&td_sqt_dqt':
       tap: "'"
       shifted: '"'
@@ -338,7 +345,7 @@ parse_config:
     LALT: ALT
     
     SPACE: $$mdi:keyboard-space$$
-    # ESC: $$mdi:keyboard-esc$$
+    ESC: $$mdi:keyboard-esc$$
 
     RETURN: $$mdi:keyboard-return$$
     RET: $$mdi:keyboard-return$$
@@ -363,8 +370,8 @@ parse_config:
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
 
-    LGUI: $$mdi:microsoft-windows$$
-    RGUI: $$mdi:microsoft-windows$$
+    LGUI: $$mdi:microsoft-windows-classic$$
+    RGUI: $$mdi:microsoft-windows-classic$$
     
     TAB: $$mdi:keyboard-tab$$
 

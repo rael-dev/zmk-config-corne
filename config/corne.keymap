@@ -369,14 +369,6 @@
             bindings = <&kp SPACE>, <&dot_spc>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        
-        dot_spc: dot_spc {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <5>;
-            bindings = <&kp DOT &kp SPACE &sk LSHFT>;
-        };
 
         // tap: backspace | lshft + tap: delete | rshft + tap: shift-delete
         bs_del: bs_del {
@@ -394,14 +386,71 @@
             tapping-term-ms = <200>;
             bindings = <&kp LC(INS)>, <&kp LC(X)>;
         };
+    };
 
-        // Windows sleep key
-        win_sleep: win_sleep {
+    macros {
+        sleep: sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <500>;
             tap-ms = <50>;
             bindings = <&kp LG(X) &kp U &kp S>;
+        };
+
+        // end sentence 
+        dot_spc: dot_spc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <5>;
+            bindings = <&kp DOT &kp SPACE &sk LSHFT>;
+        };
+
+        rename: rename {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_tap>, <&kp LC(R)>,
+                <&macro_tap>, <&kp LC(R)>;
+        };
+
+        comment: comment {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_tap>, <&kp LC(K)>,
+                <&macro_tap>, <&kp LC(C)>;
+        };
+
+        uncomment: uncomment {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_tap>, <&kp LC(K)>,
+                <&macro_tap>, <&kp LC(U)>;
+        };
+
+        cpp_header_hop: cpp_header_hop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_tap>, <&kp LC(K)>, 
+                <&macro_tap>, <&kp LC(O)>;
+        };
+
+        search_members: search_members {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>, <&kp LEFT_ALT>,
+                <&macro_tap>, <&kp BACKSLASH>,
+                <&macro_release>, <&kp LEFT_ALT>;
+        };
+
+        context_actions: context_actions {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LA(ENTER)>;
         };
     };
 
@@ -726,11 +775,11 @@
         NAV {
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                ___           ___           &kp LS(TAB)   &swapper      ___             &kp PG_UP     ___           NAV_UP        NAV_DEL       NAV_BSPC          
+                ___           ___           &kp LS(TAB) &cpp_header_hop &swapper        &kp PG_UP     ___           NAV_UP        NAV_DEL       NAV_BSPC          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &sk LGUI      &sk LALT      &sk LSHFT     &sk LCTRL     ___             &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp RET      
+                &sk LGUI      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &context_actions      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                ___           ___           ___           ___           ___             &kp INS       &kp TAB       &kp LT        &kp GT        ___          
+                ___           ___           &uncomment    &comment      &rename         &kp INS       &kp TAB       &kp LT        &kp GT        ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             ___           ___           ___             ___           CANCEL        ___                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
