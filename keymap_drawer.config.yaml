@@ -158,7 +158,7 @@ parse_config:
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
 
-    '&win_sleep': $$mdi:sleep$$
+    '&sleep': $$mdi:sleep$$
     '&rename': $$mdi:rename-outline$$
     '&comment': $$mdi:comment-edit-outline$$
     '&uncomment': $$mdi:comment-remove$$
