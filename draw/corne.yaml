@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - $$mdi:microsoft-windows$$
+  - $$mdi:microsoft-windows-classic$$
   - {t: '&num_dance', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
   - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
@@ -41,28 +41,28 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:file-arrow-left-right$$
   - '&swapper'
-  - {t: '$$mdi:chevron-down$$', type: trans}
   - PG UP
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:circle-small$$'}
+  - {t: '$$mdi:microsoft-windows-classic$$', h: '$$mdi:circle-small$$'}
   - {t: ALT, h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:database-search$$
   - PG DN
   - {t: '$$mdi:arrow-left$$', h: HOME}
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
   - {t: '$$mdi:arrow-right$$', h: END}
-  - $$mdi:keyboard-return$$
+  - $$mdi:format-list-group-plus$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:comment-remove$$
+  - $$mdi:comment-edit-outline$$
+  - $$mdi:rename-outline$$
   - INS
   - $$mdi:keyboard-tab$$
   - <
@@ -84,7 +84,7 @@ layers:
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
-  - SLEEP
+  - $$mdi:sleep$$
   - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F4, h: ALT}
   - F5
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
 combos:
 - p: [0, 1]
-  k: ESC
+  k: $$mdi:keyboard-esc$$
   l: ['0', '1', '3']
 - p: [12, 13]
   k: $$mdi:keyboard-return$$
