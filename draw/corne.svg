@@ -1462,7 +1462,6 @@ rect.key.held {
 <g transform="translate(32, 32)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key  combo-separate"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-9" height="18" width="18.0" class="key  combo-separate tap glyph mdi:keyboard-tab"/>
-<text x="0" y="22" class="key  combo-separate hold"><tspan style="font-size: 88%">Sft+ ALT</tspan></text>
 </g>
 <g transform="translate(16, 101)" class="key keypos-1">
 <rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>

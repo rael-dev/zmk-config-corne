@@ -197,7 +197,7 @@ combos:
   l: ['0', '1', '3']
   a: top
 - p: [10, 11]
-  k: {t: '$$mdi:keyboard-tab$$', h: Sft+ ALT}
+  k: $$mdi:keyboard-tab$$
   l: ['0', '1', '3']
   draw_separate: true
 - p: [2, 3]
