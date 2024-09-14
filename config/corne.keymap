@@ -435,7 +435,7 @@
 
         combo_tab {
             timeout-ms = <COMBO_TERM_FAST>;
-            bindings = <HRC_TAB>;
+            bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
