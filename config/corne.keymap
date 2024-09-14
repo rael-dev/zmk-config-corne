@@ -452,6 +452,13 @@
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LA(ENTER)>;
         };
+
+        run_project: run_project {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <350>;
+            bindings = <&kp F5>, <&kp LA(F5)>;
+        };
     };
 
     combos {
@@ -775,9 +782,9 @@
         NAV {
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                ___           ___           &kp LS(TAB) &cpp_header_hop &swapper        &kp PG_UP     ___           NAV_UP        NAV_DEL       NAV_BSPC          
+                ___           ___           &kp LS(TAB) &cpp_header_hop &run_project    &kp PG_UP     ___           NAV_UP        NAV_DEL       NAV_BSPC          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &sk LGUI      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &context_actions      
+                &swapper      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &context_actions      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 ___           ___           &uncomment    &comment      &rename         &kp INS       &kp TAB       &kp LT        &kp GT        ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯

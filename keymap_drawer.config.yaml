@@ -165,6 +165,7 @@ parse_config:
     '&cpp_header_hop': $$mdi:file-arrow-left-right$$
     '&search_members': $$mdi:database-search$$
     '&context_actions': $$mdi:format-list-group-plus$$
+    '&run_project': $$mdi:microsoft-visual-studio$$
     
     '&td_sqt_dqt':
       tap: "'"
