@@ -84,7 +84,7 @@ layers:
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
-  - $$mdi:sleep$$
+  - '&sleep'
   - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F4, h: ALT}
   - F5
