@@ -412,7 +412,7 @@
         combo_esc {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp ESC>;
-            key-positions = <LT3 LT2>;
+            key-positions = <LT4 LT3>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -420,7 +420,7 @@
         combo_ret {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp RETURN>;
-            key-positions = <LT2 LT1>;
+            key-positions = <LM2 LM1>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -444,7 +444,7 @@
         combo_repeat {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <HRC_REPEAT>;
-            key-positions = <LM2 LM1>;
+            key-positions = <LT2 LT1>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -493,7 +493,7 @@
         combo_bspc {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp BSPC>;
-            key-positions = <RT1 RT2>;
+            key-positions = <LM3 LM2>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -501,7 +501,7 @@
         combo_del {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp DEL>;
-            key-positions = <RT2 RT3>;
+            key-positions = <LM1 LM0>;
             layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
@@ -740,13 +740,13 @@
         FN {
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp F12       &kp F7        &kp F8        &kp F9        ___             ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &win_sleep   
+                &kp F12       &kp F7        &kp F8        &kp F9        &kp F16         ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &win_sleep   
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-               &hml LSHFT F11 &hml LALT F4  &kp F5        &hml LCTRL F6 ___             ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___          
+               &hml LSHFT F11 &hml LALT F4  &kp F5        &hml LCTRL F6 &kp F14         ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F10       &kp F1        &kp F2        &kp F3        ___             PIN_APP       PIN_WIN       DSK_MNGR       ___           ___          
+                &kp F10       &kp F1        &kp F2        &kp F3        &kp F15         PIN_APP       PIN_WIN       DSK_MNGR       ___           ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           ___           ___             &kp C_MUTE    &kp C_PP      ___                                    
+                                            ___           &kp C_MUTE    &kp C_PP        ___           ___           ___                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
