@@ -40,14 +40,14 @@ layers:
   '1':
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:keyboard-tab-reverse$$
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:file-arrow-left-right$$
   - $$mdi:microsoft-visual-studio$$
   - PG UP
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - '&swapper'
   - {t: ALT, h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
@@ -64,9 +64,9 @@ layers:
   - $$mdi:comment-edit-outline$$
   - $$mdi:rename-outline$$
   - INS
-  - $$mdi:keyboard-tab$$
-  - <
-  - '>'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -79,7 +79,7 @@ layers:
   - F7
   - F8
   - F9
-  - F16
+  - $$mdi:projector-screen-outline$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
@@ -89,7 +89,7 @@ layers:
   - {t: F4, h: ALT}
   - F5
   - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
-  - F14
+  - $$mdi:microphone-off$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - DSK_PREV
   - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -99,7 +99,7 @@ layers:
   - F1
   - F2
   - F3
-  - F15
+  - $$mdi:headset-off$$
   - PIN_APP
   - PIN_WIN
   - DSK_MNGR

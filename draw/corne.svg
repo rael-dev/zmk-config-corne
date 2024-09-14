@@ -75,6 +75,9 @@
 <svg id="mdi:format-vertical-align-top">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-vertical-align-top" viewBox="0 0 24 24"><path d="M8,11H11V21H13V11H16L12,7L8,11M4,3V5H20V3H4Z" /></svg>
 </svg>
+<svg id="mdi:headset-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-headset-off" viewBox="0 0 24 24"><path d="M1.5,4.77L3.57,6.84C3.2,7.82 3,8.89 3,10V20A3,3 0 0,0 6,23H12V21H5V20H9V12.27L15,18.27V20H16.73L19.23,22.5L20.5,21.22L2.78,3.5L1.5,4.77M12,1C9.47,1 7.18,2.04 5.55,3.72L6.96,5.14C8.23,3.82 10,3 12,3A7,7 0 0,1 19,10V12H15V13.18L20.5,18.67C20.81,18.19 21,17.62 21,17V10A9,9 0 0,0 12,1M5,12V10C5,9.46 5.06,8.94 5.17,8.44L8.73,12H5Z" /></svg>
+</svg>
 <svg id="mdi:keyboard-esc">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
 </svg>
@@ -87,8 +90,8 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
-<svg id="mdi:keyboard-tab-reverse">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab-reverse" viewBox="0 0 24 24"><path d="M4 6H2V18H4M11 6L5 12L11 18L12.41 16.58L8.83 13H23V11H8.83L12.41 7.41L11 6Z" /></svg>
+<svg id="mdi:microphone-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-microphone-off" viewBox="0 0 24 24"><path d="M19,11C19,12.19 18.66,13.3 18.1,14.28L16.87,13.05C17.14,12.43 17.3,11.74 17.3,11H19M15,11.16L9,5.18V5A3,3 0 0,1 12,2A3,3 0 0,1 15,5V11L15,11.16M4.27,3L21,19.73L19.73,21L15.54,16.81C14.77,17.27 13.91,17.58 13,17.72V21H11V17.72C7.72,17.23 5,14.41 5,11H6.7C6.7,14 9.24,16.1 12,16.1C12.81,16.1 13.6,15.91 14.31,15.58L12.65,13.92L12,14A3,3 0 0,1 9,11V10.28L3,4.27L4.27,3Z" /></svg>
 </svg>
 <svg id="mdi:microsoft-visual-studio">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-microsoft-visual-studio" viewBox="0 0 24 24"><path d="M17,8.5L12.25,12.32L17,16V8.5M4.7,18.4L2,16.7V7.7L5,6.7L9.3,10.03L18,2L22,4.5V20L17,22L9.34,14.66L4.7,18.4M5,14L6.86,12.28L5,10.5V14Z" /></svg>
@@ -101,6 +104,9 @@
 </svg>
 <svg id="mdi:play-pause">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+</svg>
+<svg id="mdi:projector-screen-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-projector-screen-outline" viewBox="0 0 24 24"><path d="M20 2H4C3.45 2 3 2.45 3 3V4C3 4.55 3.45 5 4 5H5V14H11V16.59L6.79 20.79L8.21 22.21L11 19.41V22H13V19.41L15.79 22.21L17.21 20.79L13 16.59V14H19V5H20C20.55 5 21 4.55 21 4V3C21 2.45 20.55 2 20 2M17 12H7V5H17V12Z" /></svg>
 </svg>
 <svg id="mdi:redo">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-redo" viewBox="0 0 24 24"><path d="M18.4,10.6C16.55,9 14.15,8 11.5,8C6.85,8 2.92,11.03 1.54,15.22L3.9,16C4.95,12.81 7.95,10.5 11.5,10.5C13.45,10.5 15.23,11.22 16.62,12.38L13,16H22V7L18.4,10.6Z" /></svg>
@@ -627,9 +633,9 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(162, 32)" class="key keypos-2">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab-reverse"/>
+<g transform="translate(162, 32)" class="key trans keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(228, 41)" class="key keypos-3">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -645,9 +651,10 @@ rect.key.held {
 <tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
-<g transform="translate(618, 41)" class="key trans keypos-6">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:backspace"/>
 </g>
 <g transform="translate(682, 32)" class="key keypos-7">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -659,10 +666,9 @@ rect.key.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 <use href="#mdi:backspace-reverse" xlink:href="#mdi:backspace-reverse" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:backspace-reverse"/>
 </g>
-<g transform="translate(812, 57)" class="key keypos-9">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:backspace"/>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(32, 122)" class="key keypos-10">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -736,17 +742,17 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
 <text x="0" y="0" class="key tap">INS</text>
 </g>
-<g transform="translate(618, 171)" class="key keypos-26">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
+<g transform="translate(618, 171)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(682, 162)" class="key keypos-27">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">&lt;</text>
+<g transform="translate(682, 162)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(748, 171)" class="key keypos-28">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">&gt;</text>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(812, 187)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -922,7 +928,7 @@ rect.key.held {
 </g>
 <g transform="translate(292, 49)" class="key keypos-4">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">F16</text>
+<use href="#mdi:projector-screen-outline" xlink:href="#mdi:projector-screen-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:projector-screen-outline"/>
 </g>
 <g transform="translate(552, 49)" class="key trans keypos-5">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -965,7 +971,7 @@ rect.key.held {
 </g>
 <g transform="translate(292, 114)" class="key keypos-14">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">F14</text>
+<use href="#mdi:microphone-off" xlink:href="#mdi:microphone-off" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microphone-off"/>
 </g>
 <g transform="translate(552, 114)" class="key trans keypos-15">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -1006,7 +1012,7 @@ rect.key.held {
 </g>
 <g transform="translate(292, 179)" class="key keypos-24">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">F15</text>
+<use href="#mdi:headset-off" xlink:href="#mdi:headset-off" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:headset-off"/>
 </g>
 <g transform="translate(552, 179)" class="key keypos-25">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
