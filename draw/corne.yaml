@@ -202,6 +202,9 @@ combos:
 - p: [2, 3]
   k: $$mdi:repeat$$
   l: ['0', '1', '3']
+- p: [3, 4]
+  k: $$mdi:play-pause$$
+  l: ['0', '1', '3', '4']
 - p: [21, 23]
   k: $$mdi:content-cut$$
   l: ['0', '1', '3', '4']
