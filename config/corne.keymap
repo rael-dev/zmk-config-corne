@@ -505,6 +505,14 @@
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
+        combo_play {
+            timeout-ms = <COMBO_TERM_FAST>;
+            bindings = <&kp C_PP>;
+            key-positions = <LT1 LT0>;
+            layers = <DEF NAV NUM MOUSE>;
+            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        };
+
         combo_cut {
             timeout-ms = <COMBO_TERM_FAST>;
             bindings = <&kp LC(X)>;
