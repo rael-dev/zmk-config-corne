@@ -287,7 +287,7 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
-            ignored-key-positions = <LT1 LT3 RT0 RT1 RT2 RT3 RT4 RM1 RM2 RM3 RB1 RB2 RB3 RH0 RH1>;
+            ignored-key-positions = <LT1 LT3 LH0 RT0 RT1 RT2 RT3 RT4 RM1 RM2 RM3 RB1 RB2 RB3 RH0 RH1>;
             ignored-layers = <MOUSE>;
         };
 
@@ -466,7 +466,7 @@
 
         /* Horizontal combos - left hand */
         combo_esc {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp ESC>;
             key-positions = <LT4 LT3>;
             layers = <DEF NAV NUM MOUSE>;
@@ -474,7 +474,7 @@
         };
 
         combo_ret {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RETURN>;
             key-positions = <LM2 LM1>;
             layers = <DEF NAV NUM MOUSE>;
@@ -482,7 +482,7 @@
         };
 
         combo_mouse {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&smart_mouse>;
             key-positions = <LT3 LT1>;
             layers = <DEF NAV NUM>;
@@ -490,15 +490,15 @@
         };
 
         combo_tab {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TAB>;
-            key-positions = <LM4 LM3>;
+            key-positions = <LM4 LM3>;   
             layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
         combo_repeat {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_REPEAT>;
             key-positions = <LT2 LT1>;
             layers = <DEF NAV NUM>;
@@ -506,7 +506,7 @@
         };
 
         combo_play {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp C_PP>;
             key-positions = <LT1 LT0>;
             layers = <DEF NAV NUM MOUSE>;
@@ -514,7 +514,7 @@
         };
 
         combo_cut {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(X)>;
             key-positions = <LB3 LB1>;
             layers = <DEF NAV NUM MOUSE>;
@@ -522,7 +522,7 @@
         };
         
         combo_copy {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(INS)>;
             key-positions = <LB3 LB2>;
             layers = <DEF NAV NUM MOUSE>;
@@ -530,7 +530,7 @@
         };
         
         combo_paste {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LS(INS)>;
             key-positions = <LB2 LB1>;
             layers = <DEF NAV NUM MOUSE>;
@@ -538,7 +538,7 @@
         };
 
         combo_undo {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Z)>;
             key-positions = <LB4 LB3>;
             layers = <DEF NAV NUM MOUSE>;
@@ -546,7 +546,7 @@
         };
 
         combo_redo {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Y)>;
             key-positions = <LB1 LB0>;
             layers = <DEF NAV NUM MOUSE>;
@@ -555,7 +555,7 @@
 
         /* Horizontal combos - right hand */
         combo_bspc {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp BSPC>;
             key-positions = <LM3 LM2>;
             layers = <DEF NAV NUM MOUSE>;
@@ -563,7 +563,7 @@
         };
         
         combo_del {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp DEL>;
             key-positions = <LM1 LM0>;
             layers = <DEF NAV NUM MOUSE>;
@@ -571,7 +571,7 @@
         };
 
         combo_lpar {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_LPAR>;
             key-positions = <RM1 RM2>;
             layers = <DEF NUM>;
@@ -579,7 +579,7 @@
         };
         
         combo_rpar {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_RPAR>;
             key-positions = <RM2 RM3>;
             layers = <DEF NUM>;
@@ -587,7 +587,7 @@
         };
 
         // combo_lt {
-        //     timeout-ms = <COMBO_TERM_FAST>;
+        //     timeout-ms = <COMBO_TERM_SLOW>;
         //     bindings = <&kp LT>;
         //     key-positions = <RM1 RM2>;
         //     layers = <NAV>;
@@ -595,7 +595,7 @@
         // };
 
         // combo_gt {
-        //     timeout-ms = <COMBO_TERM_FAST>;
+        //     timeout-ms = <COMBO_TERM_SLOW>;
         //     bindings = <&kp GT>;
         //     key-positions = <RM2 RM3>;
         //     layers = <NAV>;
@@ -603,7 +603,7 @@
         // };
 
         combo_lbkt {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LBKT>;
             key-positions = <RB1 RB2>;
             layers = <DEF NUM>;
@@ -611,7 +611,7 @@
         };
 
         combo_rbkt {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RBKT>;
             key-positions = <RB2 RB3>;
             layers = <DEF NUM>;
@@ -619,7 +619,7 @@
         };
 
         combo_lbrc {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LBRC>;
             key-positions = <RM1 RM2>;
             layers = <NAV>;
@@ -627,7 +627,7 @@
         };
 
         combo_rbrc {
-            timeout-ms = <COMBO_TERM_FAST>;
+            timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RBRC>;
             key-positions = <RM2 RM3>;
             layers = <NAV>;
