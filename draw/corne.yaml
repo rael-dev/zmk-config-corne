@@ -17,10 +17,10 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: ''''}
-  - {t: ;, h: '$$mdi:keyboard-return$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - K
+  - L
+  - {t: ;, h: ''''}
   - Z
   - X
   - C
@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - $$mdi:microsoft-windows-classic$$
+  - '2'
   - {t: '&num_dance', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
   - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
@@ -73,7 +73,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - CANCEL
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:microsoft-windows-classic$$
   '2':
   - F12
   - F7
@@ -105,12 +105,12 @@ layers:
   - DSK_MNGR
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
   - $$mdi:volume-mute$$
   - $$mdi:play-pause$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   '3':
   - '1'
   - '2'
