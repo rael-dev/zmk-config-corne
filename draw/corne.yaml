@@ -33,8 +33,8 @@ layers:
   - {t: '?', s: '!'}
   - '2'
   - {t: '&num_dance', h: '3'}
-  - {t: '$$mdi:keyboard-space$$', h: '1', s: '&dot_spc'}
-  - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: SPACE 0, h: '1'}
+  - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - '2'
   '1':
