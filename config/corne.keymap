@@ -359,7 +359,7 @@
             flavor = "balanced";
             tapping-term-ms = <300>;      
             quick-tap-ms = <QUICK_TAP_MS>;
-            bindings = <&mo NAV>, <&kp SPACE>;
+            bindings = <&mo>, <&kp>;
         };
 
         // tap: space | shift + tap: dot -> space -> sticky shift
@@ -782,7 +782,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo FN        SMART_NUM     &lt_spc         &kp BSPC      &smart_shft   &mo FN
+                                            &mo FN        SMART_NUM   &lt_spc NAV SPACE &kp BSPC      &smart_shft   &mo FN
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
