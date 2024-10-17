@@ -149,31 +149,31 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   '4':
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - SCROLL_L
   - SCROLL_D
   - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
   - SCROLL_U
   - SCROLL_R
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - G
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:mouse$$', s: LEFT, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: DOWN, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: RIGHT, type: text_with_symbol}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: MID, type: text_with_symbol}
