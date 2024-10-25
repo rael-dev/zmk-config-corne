@@ -68,11 +68,11 @@
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-#define DEF "DEF"
-#define NAV "NAV"
-#define FN "FN"
-#define NUM "NUM"
-#define MOUSE "MOUSE"
+#define DEF 0
+#define NAV 1
+#define FN 2
+#define NUM 3
+#define MOUSE 4
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
