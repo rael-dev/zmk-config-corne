@@ -523,7 +523,7 @@
         
         combo_copy {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&kp LC(INS)>;
+            bindings = <&kp LC(C)>;
             key-positions = <LB3 LB2>;
             layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
@@ -531,7 +531,7 @@
         
         combo_paste {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&kp LS(INS)>;
+            bindings = <&kp LC(V)>;
             key-positions = <LB2 LB1>;
             layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
