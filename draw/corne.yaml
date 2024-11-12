@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - '2'
   '1':
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:file-arrow-left-right$$
