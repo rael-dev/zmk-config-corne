@@ -786,9 +786,9 @@
 
         combo_bdo {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to BASE>;
-            key-positions = <LT4 RT4>;
-            layers = <HMR>;
+            bindings = <&to BDO>;
+            key-positions = <LM4 RM4>;
+            layers = <BASE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
     };
