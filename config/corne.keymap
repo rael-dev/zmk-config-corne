@@ -779,7 +779,7 @@
         combo_base {
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&to BASE>;
-            key-positions = <LT4 RT4>;
+            key-positions = <LB4 RB4>;
             layers = <HMR>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
