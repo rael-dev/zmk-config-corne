@@ -26,8 +26,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
-    - name: infely
-      url-base: https://github.com/infely
+#   - name: infely
+#     url-base: https://github.com/infely
   projects:
     - name: zmk-helpers
       revision: main
@@ -38,9 +38,9 @@ manifest:
     - name: zmk-tri-state
       revision: main
       path: modules/tri-state
-    - name: nice-view-battery
-      remote: infely
-      revision: main
+#   - name: nice-view-battery
+#     remote: infely
+#     revision: main
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
     - name: zmk
