@@ -768,29 +768,29 @@
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
-        combo_modded {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to HMR>;
-            key-positions = <LT4 RT4>;
-            layers = <BASE BDO>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
+        // combo_modded {
+        //     timeout-ms = <COMBO_TERM_SLOW>;
+        //     bindings = <&to HMR>;
+        //     key-positions = <LT4 RT4>;
+        //     layers = <BASE BDO>;
+        //     require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        // };
 
-        combo_base {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to BASE>;
-            key-positions = <LB4 RB4>;
-            layers = <HMR BDO>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
+        // combo_base {
+        //     timeout-ms = <COMBO_TERM_SLOW>;
+        //     bindings = <&to BASE>;
+        //     key-positions = <LB4 RB4>;
+        //     layers = <HMR BDO>;
+        //     require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        // };
 
-        combo_bdo {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to BDO>;
-            key-positions = <LM4 RM4>;
-            layers = <BASE HMR>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
+        // combo_bdo {
+        //     timeout-ms = <COMBO_TERM_SLOW>;
+        //     bindings = <&to BDO>;
+        //     key-positions = <LM4 RM4>;
+        //     layers = <BASE HMR>;
+        //     require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        // };
     };
 
     /* use 5-column layout for Corne Mini */
