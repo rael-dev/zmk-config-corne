@@ -118,6 +118,8 @@ parse_config:
     '&bkt_macro': '{}'
     '&lgt_macro': '<>'
     '&to BDO': $$mdi::nintendo-game-boy$$
+    '&to BASE': $$mdi::typewriter$$
+    '&to HMR': $$mdi::beaker$$
     
     '&kp LC(BSPC)': $$mdi:backspace$$
     '&kp LC(DEL)': $$mdi:backspace-reverse$$
