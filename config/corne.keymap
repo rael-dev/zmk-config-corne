@@ -68,15 +68,11 @@
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-#define BASE 0
-#define HMR 1
-#define NAV 2
-#define FN 3
-#define NUM 4
-#define MOUSE 5
-#define BDO 6
-#define BDONUM 7
-#define BDOXTRA 8
+#define DEF 0
+#define NAV 1
+#define FN 2
+#define NUM 3
+#define MOUSE 4
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
@@ -473,7 +469,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp ESC>;
             key-positions = <LT4 LT3>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -481,7 +477,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RETURN>;
             key-positions = <LM2 LM1>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -489,7 +485,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&smart_mouse>;
             key-positions = <LT3 LT1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -497,7 +493,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;   
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -505,7 +501,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_REPEAT>;
             key-positions = <LT2 LT1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -513,7 +509,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp C_PP>;
             key-positions = <LT1 LT0>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -521,7 +517,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(X)>;
             key-positions = <LB3 LB1>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -529,7 +525,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(C)>;
             key-positions = <LB3 LB2>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -537,7 +533,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(V)>;
             key-positions = <LB2 LB1>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -545,7 +541,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Z)>;
             key-positions = <LB4 LB3>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -553,7 +549,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Y)>;
             key-positions = <LB1 LB0>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -562,7 +558,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp BSPC>;
             key-positions = <LM3 LM2>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -570,7 +566,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp DEL>;
             key-positions = <LM1 LM0>;
-            layers = <BASE HMR NAV NUM MOUSE>;
+            layers = <DEF NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -578,7 +574,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_LPAR>;
             key-positions = <RM1 RM2>;
-            layers = <BASE HMR NUM>;
+            layers = <DEF NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -586,7 +582,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_RPAR>;
             key-positions = <RM2 RM3>;
-            layers = <BASE HMR NUM>;
+            layers = <DEF NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -610,7 +606,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LBKT>;
             key-positions = <RB1 RB2>;
-            layers = <BASE HMR NUM>;
+            layers = <DEF NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -618,7 +614,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RBKT>;
             key-positions = <RB2 RB3>;
-            layers = <BASE HMR NUM>;
+            layers = <DEF NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -643,7 +639,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp AT>;
             key-positions = <LT3 LM3>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -651,7 +647,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp HASH>;
             key-positions = <LT2 LM2>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -659,7 +655,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp DLLR>;
             key-positions = <LT1 LM1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -667,7 +663,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PRCNT>;
             key-positions = <LT0 LM0>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -675,7 +671,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp GRAVE>;
             key-positions = <LM3 LB3>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -683,7 +679,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp BSLH>;
             key-positions = <LM2 LB2>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -691,7 +687,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp EQUAL>;
             key-positions = <LM1 LB1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -699,7 +695,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TILDE>;
             key-positions = <LM0 LB0>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -708,7 +704,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp CARET>;
             key-positions = <RT0 RM0>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -716,7 +712,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PLUS>;
             key-positions = <RT1 RM1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -724,7 +720,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp STAR>;
             key-positions = <RT2 RM2>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -732,7 +728,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp AMPS>;
             key-positions = <RT3 RM3>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -740,7 +736,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp UNDER>;
             key-positions = <RM0 RB0>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -748,7 +744,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp MINUS>;
             key-positions = <RM1 RB1>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -756,7 +752,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp FSLH>;
             key-positions = <RM2 RB2>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -764,32 +760,8 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PIPE>;
             key-positions = <RM3 RB3>;
-            layers = <BASE HMR NAV NUM>;
+            layers = <DEF NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
-        };
-
-        combo_modded {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to HMR>;
-            key-positions = <RM4 RT4>;
-            layers = <BASE BDO BDONUM BDOXTRA>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
-
-        combo_base {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to BASE>;
-            key-positions = <RB4 RM4>;
-            layers = <HMR BDO BDONUM BDOXTRA>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
-
-        combo_bdo {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to BDO>;
-            key-positions = <RT1 RT3>;
-            layers = <BASE HMR>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
     };
 
@@ -801,21 +773,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        BASE {
-            bindings = <
-            //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Y         &kp U         &kp I         &kp O         &kp P      
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp A         &kp S         &kp D         &kp F         &kp G           &kp H         &kp J         &kp K         &kp L         &kp SEMI  
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
-            //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo FN        SMART_NUM     &kp SPACE      &kp BACKSPACE  &smart_shft   &mo FN
-            //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
-            >;
-        };
-
-        HMR {
+        DEF {
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Y         &kp U         &kp I         &kp O         &kp P      
@@ -824,7 +782,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo FN        SMART_NUM  &lt_spc NAV SPACE &kp BACKSPACE  &smart_shft   &mo FN
+                                            &mo FN        SMART_NUM   &lt_spc NAV SPACE &kp BSPC      &smart_shft   &mo FN
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -838,7 +796,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 ___           ___           &uncomment    &comment      &rename         &kp INS       ___           ___           ___           ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &kp LGUI      ___           ___             ___           CANCEL        &kp RGUI                                    
+                                            ___           ___           ___             ___           CANCEL        &kp LGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -881,48 +839,6 @@
                 &kp Z         &kp X         &kp C         &kp V         &kp B           ___           &mkp MB4      &mkp MCLK      &mkp MB5     ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             ___           ___           &mkp LCLK       &mkp RCLK     ___           ___                                    
-            //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
-            >;
-        };
-
-        BDO {
-            bindings = <
-            //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp TAB       &kp Q         &kp W         &kp E         &kp R           ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                ___           &kp A         &kp S         &kp D         &kp F           ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp Z         ___           &kp C         &kp V         &kp B           ___           ___           ___           ___           ___          
-            //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &to BDOXTRA   &to BDONUM    &kp SPACE       ___           ___           ___                                 
-            //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
-            >;
-        };
-
-        BDONUM {
-            bindings = <
-            //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                ___           ___           &kp F3        &kp F4          ___             ___           ___           ___           ___           ___          
-            //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &to BDOXTRA   &to BDO       &kp SPACE       ___           ___           ___                                    
-            //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
-            >;
-        };
-
-        BDOXTRA {
-            bindings = <
-            //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp ESC       ___           ___           &kp Y         &kp T           ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp COMMA     ___           ___           ___           &kp G           ___           ___           ___           ___           ___          
-            //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp LCTRL     &kp X         ___           &kp N         &kp M           ___           ___           ___           ___           ___          
-            //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &to BDO       &to BDONUM    &kp SPACE       ___           ___           ___                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
