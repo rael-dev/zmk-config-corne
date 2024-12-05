@@ -473,7 +473,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp ESC>;
             key-positions = <LT4 LT3>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -481,7 +481,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RETURN>;
             key-positions = <LM2 LM1>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -489,7 +489,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&smart_mouse>;
             key-positions = <LT3 LT1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -497,7 +497,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;   
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -505,7 +505,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_REPEAT>;
             key-positions = <LT2 LT1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -513,7 +513,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp C_PP>;
             key-positions = <LT1 LT0>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -521,7 +521,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(X)>;
             key-positions = <LB3 LB1>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -529,7 +529,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(C)>;
             key-positions = <LB3 LB2>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -537,7 +537,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(V)>;
             key-positions = <LB2 LB1>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -545,7 +545,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Z)>;
             key-positions = <LB4 LB3>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -553,7 +553,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LC(Y)>;
             key-positions = <LB1 LB0>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -562,7 +562,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp BSPC>;
             key-positions = <LM3 LM2>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -570,7 +570,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp DEL>;
             key-positions = <LM1 LM0>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <BASE HMR NAV NUM MOUSE>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -578,7 +578,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_LPAR>;
             key-positions = <RM1 RM2>;
-            layers = <HMR NUM>;
+            layers = <BASE HMR NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -586,7 +586,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_RPAR>;
             key-positions = <RM2 RM3>;
-            layers = <HMR NUM>;
+            layers = <BASE HMR NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -610,7 +610,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp LBKT>;
             key-positions = <RB1 RB2>;
-            layers = <HMR NUM>;
+            layers = <BASE HMR NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -618,7 +618,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RBKT>;
             key-positions = <RB2 RB3>;
-            layers = <HMR NUM>;
+            layers = <BASE HMR NUM>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -643,7 +643,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp AT>;
             key-positions = <LT3 LM3>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -651,7 +651,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp HASH>;
             key-positions = <LT2 LM2>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -659,7 +659,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp DLLR>;
             key-positions = <LT1 LM1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -667,7 +667,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PRCNT>;
             key-positions = <LT0 LM0>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -675,7 +675,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp GRAVE>;
             key-positions = <LM3 LB3>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -683,7 +683,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp BSLH>;
             key-positions = <LM2 LB2>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -691,7 +691,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp EQUAL>;
             key-positions = <LM1 LB1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -699,7 +699,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TILDE>;
             key-positions = <LM0 LB0>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -708,7 +708,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp CARET>;
             key-positions = <RT0 RM0>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -716,7 +716,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PLUS>;
             key-positions = <RT1 RM1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -724,7 +724,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp STAR>;
             key-positions = <RT2 RM2>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -732,7 +732,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp AMPS>;
             key-positions = <RT3 RM3>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -740,7 +740,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp UNDER>;
             key-positions = <RM0 RB0>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -748,7 +748,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp MINUS>;
             key-positions = <RM1 RB1>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -756,7 +756,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp FSLH>;
             key-positions = <RM2 RB2>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -764,7 +764,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp PIPE>;
             key-positions = <RM3 RB3>;
-            layers = <HMR NAV NUM>;
+            layers = <BASE HMR NAV NUM>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -772,7 +772,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&to HMR>;
             key-positions = <RM4 RT4>;
-            layers = <BASE BDO>;
+            layers = <BASE BDO BDONUM BDOXTRA>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -780,7 +780,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&to BASE>;
             key-positions = <RB4 RM4>;
-            layers = <HMR BDO>;
+            layers = <HMR BDO BDONUM BDOXTRA>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -838,7 +838,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 ___           ___           &uncomment    &comment      &rename         &kp INS       ___           ___           ___           ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           ___           ___             ___           CANCEL        &kp LGUI                                    
+                                            &kp LGUI      ___           ___             ___           CANCEL        &kp RGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
