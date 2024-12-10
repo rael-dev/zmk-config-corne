@@ -117,9 +117,9 @@ parse_config:
     '&par_macro': '()'
     '&bkt_macro': '{}'
     '&lgt_macro': '<>'
-    '&to 6': $$mdi::gamepad-variant$$
-    '&to 0': $$mdi::typewriter$$
-    '&to 1': $$mdi::beaker$$
+    '&to 6': $$mdi:nintendo-game-boy$$
+    '&to 0': $$mdi:typewriter$$
+    '&to 1': $$mdi:beaker$$
     
     '&kp LC(BSPC)': $$mdi:backspace$$
     '&kp LC(DEL)': $$mdi:backspace-reverse$$
