@@ -291,7 +291,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: BDOXTRA, h: '$$mdi:toggle-switch$$'}
-  - $$mdi::nintendo-game-boy$$
+  - $$mdi::gamepad-variant$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -327,7 +327,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi::nintendo-game-boy$$
+  - $$mdi::gamepad-variant$$
   - {t: BDONUM, h: '$$mdi:toggle-switch$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -450,5 +450,5 @@ combos:
   k: $$mdi::typewriter$$
   l: [HMR, BDO]
 - p: [6, 8]
-  k: $$mdi::nintendo-game-boy$$
+  k: $$mdi::gamepad-variant$$
   l: [BASE, HMR]
