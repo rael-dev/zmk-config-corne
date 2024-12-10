@@ -68,15 +68,15 @@
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-#define BASE 0
-#define HMR 1
-#define NAV 2
-#define FN 3
-#define NUM 4
-#define MOUSE 5
-#define BDO 6
-#define BDONUM 7
-#define BDOXTRA 8
+// #define BASE 0
+// #define HMR 1
+// #define NAV 2
+// #define FN 3
+// #define NUM 4
+// #define MOUSE 5
+// #define BDO 6
+// #define BDONUM 7
+// #define BDOXTRA 8
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
@@ -473,7 +473,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp ESC>;
             key-positions = <LT4 LT3>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <HMR NAV NUM MOUSE BDO>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -481,7 +481,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp RETURN>;
             key-positions = <LM2 LM1>;
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <HMR NAV NUM MOUSE BDO>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -489,7 +489,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&smart_mouse>;
             key-positions = <LT3 LT1>;
-            layers = <HMR NAV NUM>;
+            layers = <HMR NAV NUM BDO>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
@@ -497,7 +497,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;   
-            layers = <HMR NAV NUM MOUSE>;
+            layers = <HMR NAV NUM MOUSE BDO>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
@@ -838,7 +838,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 ___           ___           &uncomment    &comment      &rename         &kp INS       ___           ___           ___           ___          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           ___           ___             ___           CANCEL        &kp LGUI                                    
+                                            &kp LGUI      ___           ___             ___           CANCEL        &kp LGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
