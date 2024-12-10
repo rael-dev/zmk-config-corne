@@ -446,9 +446,12 @@ combos:
 - p: [19, 9]
   k: $$mdi:beaker$$
   l: [BASE, BDO]
+  a: right
 - p: [29, 19]
   k: $$mdi:typewriter$$
   l: [HMR, BDO]
+  a: right
 - p: [6, 8]
   k: $$mdi:nintendo-game-boy$$
   l: [BASE, HMR]
+  a: top
