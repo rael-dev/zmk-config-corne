@@ -291,7 +291,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: BDOXTRA, h: '$$mdi:toggle-switch$$'}
-  - $$mdi::gamepad-variant$$
+  - $$mdi:nintendo-game-boy$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -327,7 +327,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi::gamepad-variant$$
+  - $$mdi:nintendo-game-boy$$
   - {t: BDONUM, h: '$$mdi:toggle-switch$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -444,11 +444,11 @@ combos:
   k: '|'
   l: [HMR, NAV, NUM]
 - p: [19, 9]
-  k: $$mdi::beaker$$
+  k: $$mdi:beaker$$
   l: [BASE, BDO]
 - p: [29, 19]
-  k: $$mdi::typewriter$$
+  k: $$mdi:typewriter$$
   l: [HMR, BDO]
 - p: [6, 8]
-  k: $$mdi::gamepad-variant$$
+  k: $$mdi:nintendo-game-boy$$
   l: [BASE, HMR]

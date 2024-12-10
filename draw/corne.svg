@@ -1,0 +1,2456 @@
+<svg width="920" height="3737" viewBox="0 0 920 3737" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="mdi:apple-keyboard-caps">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
+</svg>
+<svg id="mdi:apple-keyboard-control">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
+</svg>
+<svg id="mdi:apple-keyboard-shift">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down" viewBox="0 0 24 24"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-left">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+</svg>
+<svg id="mdi:arrow-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-up">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up" viewBox="0 0 24 24"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg>
+</svg>
+<svg id="mdi:backspace">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace" viewBox="0 0 24 24"><path d="M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.31,21 7,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12" /></svg>
+</svg>
+<svg id="mdi:backspace-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-outline" viewBox="0 0 24 24"><path d="M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12L19,15.59M22,3A2,2 0 0,1 24,5V19A2,2 0 0,1 22,21H7C6.31,21 5.77,20.64 5.41,20.11L0,12L5.41,3.88C5.77,3.35 6.31,3 7,3H22M22,5H7L2.28,12L7,19H22V5Z" /></svg>
+</svg>
+<svg id="mdi:backspace-reverse">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse" viewBox="0 0 24 24"><path d="M2,21H17C17.7,21 18.2,20.6 18.6,20.1L24,12L18.6,3.9C18.2,3.4 17.7,3 17,3H2A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21M5,8.4L6.4,7L10,10.6L13.6,7L15,8.4L11.4,12L15,15.6L13.6,17L10,13.4L6.4,17L5,15.6L8.6,12" /></svg>
+</svg>
+<svg id="mdi:backspace-reverse-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse-outline" viewBox="0 0 24 24"><path d="M5,15.59L6.41,17L10,13.41L13.59,17L15,15.59L11.41,12L15,8.41L13.59,7L10,10.59L6.41,7L5,8.41L8.59,12L5,15.59M2,3A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21H17C17.69,21 18.23,20.64 18.59,20.11L24,12L18.59,3.88C18.23,3.35 17.69,3 17,3H2M2,5H17L21.72,12L17,19H2V5Z" /></svg>
+</svg>
+<svg id="mdi:beaker">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-beaker" viewBox="0 0 24 24"><path d="M3,3V5A2,2 0 0,1 5,7V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V7A2,2 0 0,1 21,5V3H3M7,9H10V10H7V9M7,11H10V12H7V11M10,16H7V15H10V16M12,14H7V13H12V14M12,8H7V7H12V8Z" /></svg>
+</svg>
+<svg id="mdi:caps-lock">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
+</svg>
+<svg id="mdi:chevron-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-down" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+</svg>
+<svg id="mdi:circle-small">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-circle-small" viewBox="0 0 24 24"><path d="M12,10A2,2 0 0,0 10,12C10,13.11 10.9,14 12,14C13.11,14 14,13.11 14,12A2,2 0 0,0 12,10Z" /></svg>
+</svg>
+<svg id="mdi:comment-edit-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-comment-edit-outline" viewBox="0 0 24 24"><path d="M9 22C8.45 22 8 21.55 8 21V18H4C2.9 18 2 17.11 2 16V4C2 2.89 2.9 2 4 2H20C21.11 2 22 2.9 22 4V16C22 17.11 21.11 18 20 18H13.9L10.2 21.71C10 21.9 9.75 22 9.5 22H9M10 16V19.08L13.08 16H20V4H4V16H10M15.84 8.2L14.83 9.21L12.76 7.18L13.77 6.16C13.97 5.95 14.31 5.94 14.55 6.16L15.84 7.41C16.05 7.62 16.06 7.96 15.84 8.2M8 11.91L12.17 7.72L14.24 9.8L10.08 14H8V11.91Z" /></svg>
+</svg>
+<svg id="mdi:comment-remove">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-comment-remove" viewBox="0 0 24 24"><path d="M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9.5,22V22H9M9.41,6L8,7.41L10.59,10L8,12.59L9.41,14L12,11.41L14.59,14L16,12.59L13.41,10L16,7.41L14.59,6L12,8.59L9.41,6Z" /></svg>
+</svg>
+<svg id="mdi:content-copy">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-copy" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z" /></svg>
+</svg>
+<svg id="mdi:content-cut">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-cut" viewBox="0 0 24 24"><path d="M19,3L13,9L15,11L22,4V3M12,12.5A0.5,0.5 0 0,1 11.5,12A0.5,0.5 0 0,1 12,11.5A0.5,0.5 0 0,1 12.5,12A0.5,0.5 0 0,1 12,12.5M6,20A2,2 0 0,1 4,18C4,16.89 4.9,16 6,16A2,2 0 0,1 8,18C8,19.11 7.1,20 6,20M6,8A2,2 0 0,1 4,6C4,4.89 4.9,4 6,4A2,2 0 0,1 8,6C8,7.11 7.1,8 6,8M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64Z" /></svg>
+</svg>
+<svg id="mdi:content-paste">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-paste" viewBox="0 0 24 24"><path d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z" /></svg>
+</svg>
+<svg id="mdi:cursor-default-click">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-cursor-default-click" viewBox="0 0 24 24"><path d="M10.76,8.69A0.76,0.76 0 0,0 10,9.45V20.9C10,21.32 10.34,21.66 10.76,21.66C10.95,21.66 11.11,21.6 11.24,21.5L13.15,19.95L14.81,23.57C14.94,23.84 15.21,24 15.5,24C15.61,24 15.72,24 15.83,23.92L18.59,22.64C18.97,22.46 19.15,22 18.95,21.63L17.28,18L19.69,17.55C19.85,17.5 20,17.43 20.12,17.29C20.39,16.97 20.35,16.5 20,16.21L11.26,8.86L11.25,8.87C11.12,8.76 10.95,8.69 10.76,8.69M15,10V8H20V10H15M13.83,4.76L16.66,1.93L18.07,3.34L15.24,6.17L13.83,4.76M10,0H12V5H10V0M3.93,14.66L6.76,11.83L8.17,13.24L5.34,16.07L3.93,14.66M3.93,3.34L5.34,1.93L8.17,4.76L6.76,6.17L3.93,3.34M7,10H2V8H7V10" /></svg>
+</svg>
+<svg id="mdi:cursor-default-click-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-cursor-default-click-outline" viewBox="0 0 24 24"><path d="M11.5,11L17.88,16.37L17,16.55L16.36,16.67C15.73,16.8 15.37,17.5 15.65,18.07L15.92,18.65L17.28,21.59L15.86,22.25L14.5,19.32L14.24,18.74C13.97,18.15 13.22,17.97 12.72,18.38L12.21,18.78L11.5,19.35V11M10.76,8.69A0.76,0.76 0 0,0 10,9.45V20.9C10,21.32 10.34,21.66 10.76,21.66C10.95,21.66 11.11,21.6 11.24,21.5L13.15,19.95L14.81,23.57C14.94,23.84 15.21,24 15.5,24C15.61,24 15.72,24 15.83,23.92L18.59,22.64C18.97,22.46 19.15,22 18.95,21.63L17.28,18L19.69,17.55C19.85,17.5 20,17.43 20.12,17.29C20.39,16.97 20.35,16.5 20,16.21L11.26,8.86L11.25,8.87C11.12,8.76 10.95,8.69 10.76,8.69M15,10V8H20V10H15M13.83,4.76L16.66,1.93L18.07,3.34L15.24,6.17L13.83,4.76M10,0H12V5H10V0M3.93,14.66L6.76,11.83L8.17,13.24L5.34,16.07L3.93,14.66M3.93,3.34L5.34,1.93L8.17,4.76L6.76,6.17L3.93,3.34M7,10H2V8H7V10" /></svg>
+</svg>
+<svg id="mdi:database-search">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-database-search" viewBox="0 0 24 24"><path d="M18.68,12.32C16.92,10.56 14.07,10.57 12.32,12.33C10.56,14.09 10.56,16.94 12.32,18.69C13.81,20.17 16.11,20.43 17.89,19.32L21,22.39L22.39,21L19.3,17.89C20.43,16.12 20.17,13.8 18.68,12.32M17.27,17.27C16.29,18.25 14.71,18.24 13.73,17.27C12.76,16.29 12.76,14.71 13.74,13.73C14.71,12.76 16.29,12.76 17.27,13.73C18.24,14.71 18.24,16.29 17.27,17.27M10.9,20.1C10.25,19.44 9.74,18.65 9.42,17.78C6.27,17.25 4,15.76 4,14V17C4,19.21 7.58,21 12,21V21C11.6,20.74 11.23,20.44 10.9,20.1M4,9V12C4,13.68 6.07,15.12 9,15.7C9,15.63 9,15.57 9,15.5C9,14.57 9.2,13.65 9.58,12.81C6.34,12.3 4,10.79 4,9M12,3C7.58,3 4,4.79 4,7C4,9 7,10.68 10.85,11H10.9C12.1,9.74 13.76,9 15.5,9C16.41,9 17.31,9.19 18.14,9.56C19.17,9.09 19.87,8.12 20,7C20,4.79 16.42,3 12,3Z" /></svg>
+</svg>
+<svg id="mdi:file-arrow-left-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-file-arrow-left-right" viewBox="0 0 24 24"><path d="M19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M13 3.5L18.5 9H13V3.5M20 19.5V18H16V16H20V14.5L23 17L20 19.5M18 20H22V22H18V23.5L15 21L18 18.5V20Z" /></svg>
+</svg>
+<svg id="mdi:format-list-group-plus">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-list-group-plus" viewBox="0 0 24 24"><path d="M17 14V17H14V19H17V22H19V19H22V17H19V14M20 11V12.3C19.4 12.1 18.7 12 18 12C16.8 12 15.6 12.4 14.7 13H7V11H20M12.1 17H7V15H12.8C12.5 15.6 12.2 16.3 12.1 17M7 7H20V9H7V7M5 19H7V21H3V3H7V5H5V19Z" /></svg>
+</svg>
+<svg id="mdi:format-vertical-align-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-vertical-align-bottom" viewBox="0 0 24 24"><path d="M16,13H13V3H11V13H8L12,17L16,13M4,19V21H20V19H4Z" /></svg>
+</svg>
+<svg id="mdi:format-vertical-align-top">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-vertical-align-top" viewBox="0 0 24 24"><path d="M8,11H11V21H13V11H16L12,7L8,11M4,3V5H20V3H4Z" /></svg>
+</svg>
+<svg id="mdi:headset-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-headset-off" viewBox="0 0 24 24"><path d="M1.5,4.77L3.57,6.84C3.2,7.82 3,8.89 3,10V20A3,3 0 0,0 6,23H12V21H5V20H9V12.27L15,18.27V20H16.73L19.23,22.5L20.5,21.22L2.78,3.5L1.5,4.77M12,1C9.47,1 7.18,2.04 5.55,3.72L6.96,5.14C8.23,3.82 10,3 12,3A7,7 0 0,1 19,10V12H15V13.18L20.5,18.67C20.81,18.19 21,17.62 21,17V10A9,9 0 0,0 12,1M5,12V10C5,9.46 5.06,8.94 5.17,8.44L8.73,12H5Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-esc">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-return">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-space">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-space" viewBox="0 0 24 24"><path d="M3 15H5V19H19V15H21V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V15Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-tab">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
+</svg>
+<svg id="mdi:microphone-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-microphone-off" viewBox="0 0 24 24"><path d="M19,11C19,12.19 18.66,13.3 18.1,14.28L16.87,13.05C17.14,12.43 17.3,11.74 17.3,11H19M15,11.16L9,5.18V5A3,3 0 0,1 12,2A3,3 0 0,1 15,5V11L15,11.16M4.27,3L21,19.73L19.73,21L15.54,16.81C14.77,17.27 13.91,17.58 13,17.72V21H11V17.72C7.72,17.23 5,14.41 5,11H6.7C6.7,14 9.24,16.1 12,16.1C12.81,16.1 13.6,15.91 14.31,15.58L12.65,13.92L12,14A3,3 0 0,1 9,11V10.28L3,4.27L4.27,3Z" /></svg>
+</svg>
+<svg id="mdi:microsoft-visual-studio">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-microsoft-visual-studio" viewBox="0 0 24 24"><path d="M17,8.5L12.25,12.32L17,16V8.5M4.7,18.4L2,16.7V7.7L5,6.7L9.3,10.03L18,2L22,4.5V20L17,22L9.34,14.66L4.7,18.4M5,14L6.86,12.28L5,10.5V14Z" /></svg>
+</svg>
+<svg id="mdi:microsoft-windows-classic">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-microsoft-windows-classic" viewBox="0 0 24 24"><path d="M2.67,5.3V5.91L1.96,6.21V5.6L2.67,5.3M2.67,11.24V11.86L1.96,12.15V11.56L2.67,11.24M2.67,17.27V17.89L1.96,18.18V17.59L2.67,17.27M2.6,7.29V7.84L2.03,8.1V7.56L2.6,7.29M2.6,9.28V9.82L2.03,10.08V9.54L2.6,9.28M2.6,13.31V13.84L2.03,14.1V13.56L2.6,13.31M2.6,15.33V15.87L2.03,16.13V15.6L2.6,15.33M4.5,5.64V6.36L3.5,6.73V6L4.5,5.64M4.5,11.66V12.37L3.5,12.74V12.03L4.5,11.66M4.5,17.7V18.41L3.5,18.81V18.1L4.5,17.7M4.43,7.72V8.38L3.64,8.68V8L4.43,7.72M4.43,9.73V10.37L3.65,10.67V10L4.43,9.73M4.43,13.74V14.38L3.65,14.69V14.03L4.43,13.74M4.43,15.76V16.41L3.65,16.72V16.06L4.43,15.76M6.31,6.09V6.94L5.05,7.43V6.59L6.31,6.09M6.31,12.11V12.96L5.05,13.45V12.61L6.31,12.11M6.31,18.08V18.93L5.05,19.43V18.58L6.31,18.08M6.25,8.18V8.94L5.19,9.34V8.61L6.25,8.18M6.25,10.18V10.93L5.19,11.35V10.6L6.25,10.18M6.25,14.19V14.94L5.19,15.37V14.62L6.25,14.19M6.25,16.14V16.9L5.19,17.32V16.57L6.25,16.14M8.29,6.04V7.16L6.72,7.78V6.67L8.29,6.04M8.29,12.06V13.19L6.72,13.8V12.68L8.29,12.06M8.29,18.03V19.15L6.72,19.77V18.66L8.29,18.03M8.2,8.13V9.16L6.89,9.69V8.66L8.2,8.13M8.2,10.13V11.15L6.89,11.68V10.65L8.2,10.13M8.2,14.15V15.18L6.89,15.7V14.67L8.2,14.15M8.2,16.1V17.12L6.89,17.64V16.63L8.2,16.1M10.34,5.85V7.32L8.61,8V6.56L10.34,5.85M10.34,11.87V13.33L8.61,14.03V12.56L10.34,11.87M10.34,17.84V19.3L8.61,20V18.54L10.34,17.84M10.26,8.05V9.28L8.78,9.87V8.64L10.26,8.05M10.26,9.97V11.2L8.78,11.78V10.56L10.26,9.97M10.26,14.06V15.31L8.78,15.88V14.65L10.26,14.06M10.26,16V17.25L8.78,17.84V16.6L10.26,16M12.45,5.12V7.12L10.59,7.89V6C11.23,5.65 11.85,5.35 12.45,5.12M12.45,7.33V9.06L10.59,9.84V8.1L12.45,7.33M12.45,9.28V11.04L10.59,11.82V10.06L12.45,9.28M12.45,11.25V13L10.59,13.77V12L12.45,11.25M12.45,13.21V15L10.59,15.78V14L12.45,13.21M12.45,15.21V16.96L10.59,17.76V16L12.45,15.21M12.45,17.17V19.04C11.72,19.32 11.1,19.59 10.59,19.84V17.96L12.45,17.17M22.04,5.18V19.23C20.85,18.44 19.37,18.05 17.59,18.05C16.12,18.05 14.47,18.35 12.65,18.96V17.06C13.62,16.69 14.68,16.42 15.84,16.26V11.69C14.86,11.81 13.8,12.15 12.65,12.71V11.4C13.64,10.94 14.71,10.63 15.84,10.46V6C14.82,6.18 13.76,6.53 12.65,7V5.03C14.27,4.34 15.86,4 17.41,4C19.09,4 20.63,4.39 22.04,5.18M20.15,6.41C19.39,6 18.5,5.82 17.42,5.82C17.29,5.82 17.17,5.83 17.05,5.84V10.38L17.46,10.37C18.37,10.37 19.27,10.5 20.15,10.8V6.41M20.15,12.1C19.34,11.74 18.43,11.56 17.44,11.56C17.31,11.56 17.18,11.57 17.05,11.58V16.16H17.46C18.45,16.16 19.35,16.28 20.15,16.53V12.1H20.15Z" /></svg>
+</svg>
+<svg id="mdi:mouse">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse" viewBox="0 0 24 24"><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
+</svg>
+<svg id="mdi:nintendo-game-boy">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-nintendo-game-boy" viewBox="0 0 24 24"><path d="M7 1C5.9 1 5 1.9 5 3V21C5 22.11 5.9 23 7 23H14C16.76 23 19 20.76 19 18V3C19 1.9 18.11 1 17 1H7M8 4H16V11H8V4M9 14H10V16H12V17H10V19H9V17H7V16H9V14M16 15C16.55 15 17 15.45 17 16C17 16.55 16.55 17 16 17C15.45 17 15 16.55 15 16C15 15.45 15.45 15 16 15M14 17C14.55 17 15 17.45 15 18C15 18.55 14.55 19 14 19C13.45 19 13 18.55 13 18C13 17.45 13.45 17 14 17Z" /></svg>
+</svg>
+<svg id="mdi:play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+</svg>
+<svg id="mdi:projector-screen-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-projector-screen-outline" viewBox="0 0 24 24"><path d="M20 2H4C3.45 2 3 2.45 3 3V4C3 4.55 3.45 5 4 5H5V14H11V16.59L6.79 20.79L8.21 22.21L11 19.41V22H13V19.41L15.79 22.21L17.21 20.79L13 16.59V14H19V5H20C20.55 5 21 4.55 21 4V3C21 2.45 20.55 2 20 2M17 12H7V5H17V12Z" /></svg>
+</svg>
+<svg id="mdi:redo">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-redo" viewBox="0 0 24 24"><path d="M18.4,10.6C16.55,9 14.15,8 11.5,8C6.85,8 2.92,11.03 1.54,15.22L3.9,16C4.95,12.81 7.95,10.5 11.5,10.5C13.45,10.5 15.23,11.22 16.62,12.38L13,16H22V7L18.4,10.6Z" /></svg>
+</svg>
+<svg id="mdi:rename-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-rename-outline" viewBox="0 0 24 24"><path d="M15 16L11 20H21V16H15M12.06 7.19L3 16.25V20H6.75L15.81 10.94L12.06 7.19M5.92 18H5V17.08L12.06 10L13 10.94L5.92 18M18.71 8.04C19.1 7.65 19.1 7 18.71 6.63L16.37 4.29C16.17 4.09 15.92 4 15.66 4C15.41 4 15.15 4.1 14.96 4.29L13.13 6.12L16.88 9.87L18.71 8.04Z" /></svg>
+</svg>
+<svg id="mdi:repeat">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-repeat" viewBox="0 0 24 24"><path d="M17,17H7V14L3,18L7,22V19H19V13H17M7,7H17V10L21,6L17,2V5H5V11H7V7Z" /></svg>
+</svg>
+<svg id="mdi:skip-backward">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-backward" viewBox="0 0 24 24"><path d="M20,5V19L13,12M6,5V19H4V5M13,5V19L6,12" /></svg>
+</svg>
+<svg id="mdi:skip-forward">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-forward" viewBox="0 0 24 24"><path d="M4,5V19L11,12M18,5V19H20V5M11,5V19L18,12" /></svg>
+</svg>
+<svg id="mdi:sleep">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-sleep" viewBox="0 0 24 24"><path d="M23,12H17V10L20.39,6H17V4H23V6L19.62,10H23V12M15,16H9V14L12.39,10H9V8H15V10L11.62,14H15V16M7,20H1V18L4.39,14H1V12H7V14L3.62,18H7V20Z" /></svg>
+</svg>
+<svg id="mdi:toggle-switch">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch" viewBox="0 0 24 24"><path d="M17,7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7M17,15A3,3 0 0,1 14,12A3,3 0 0,1 17,9A3,3 0 0,1 20,12A3,3 0 0,1 17,15Z" /></svg>
+</svg>
+<svg id="mdi:typewriter">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-typewriter" viewBox="0 0 24 24"><path d="M20 13H16C16 14.1 15.1 15 14 15H10C8.9 15 8 14.1 8 13H4L2 18V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V18M6 20C5.11 20 4.66 18.92 5.29 18.29C5.92 17.66 7 18.11 7 19C7 19.55 6.55 20 6 20M10 20C9.11 20 8.66 18.92 9.29 18.29C9.92 17.66 11 18.11 11 19C11 19.55 10.55 20 10 20M14 20C13.11 20 12.66 18.92 13.29 18.29C13.92 17.66 15 18.11 15 19C15 19.55 14.55 20 14 20M18 20C17.11 20 16.66 18.92 17.29 18.29C17.92 17.66 19 18.11 19 19C19 19.55 18.55 20 18 20M18 10V3H6V10H3V12H21V10M8 5H16V6H8M8 7H14V8H8" /></svg>
+</svg>
+<svg id="mdi:undo">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-undo" viewBox="0 0 24 24"><path d="M12.5,8C9.85,8 7.45,9 5.6,10.6L2,7V16H11L7.38,12.38C8.77,11.22 10.54,10.5 12.5,10.5C16.04,10.5 19.05,12.81 20.1,16L22.47,15.22C21.08,11.03 17.15,8 12.5,8Z" /></svg>
+</svg>
+<svg id="mdi:volume-minus">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-minus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" /></svg>
+</svg>
+<svg id="mdi:volume-mute">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-mute" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z" /></svg>
+</svg>
+<svg id="mdi:volume-plus">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-plus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H17V8H19V11H22V13H19V16H17V13H14V11Z" /></svg>
+</svg>
+</defs>/* end glyphs */
+<style>/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
+
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key hold/shifted label text */
+text.combo, text.hold, text.shifted {
+    font-size: 11px;
+}
+
+text.hold {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.layer-activator {
+    text-decoration: underline;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler > path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler > path[stroke="none"][fill="none"] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+
+svg.keymap {
+  font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+text.label {
+  stroke: #dfdfde;
+  stroke-width: 28;
+  stroke-linejoin: round;
+}
+
+text.hold {
+   font-size: 11px;
+   opacity: 0.9;
+   translate: 0px -4px;
+   text-anchor: middle;
+   dominant-baseline: auto;
+}
+
+rect.combo, rect.combo-separate {
+  opacity: 0.9;
+  stroke: #000000;
+  stroke-width: 0.5;
+  fill: #FFA24A;
+}
+
+path.combo {
+  stroke-dasharray: 4, 4;
+  stroke-opacity: 1.0;
+  stroke: #FFA24A;
+}
+
+rect.key.held {
+  fill: #FF545D;
+}
+
+.trans.tap, .ghost.tap {
+  opacity: 0.5;
+}
+
+.shifted {
+  translate: -14px 1px;
+  opacity: 1.0;
+  stroke: #5C96FF;
+}
+
+.toggle.shifted {
+  translate: -12px 17px;
+  opacity: 1.0;
+}
+.toggle.hold {
+  translate: 12px -25px;
+}
+
+.text_with_symbol.tap {
+  translate: -1px 1px;
+}
+.text_with_symbol.shifted {
+  translate: 8px 13px;
+  font-size: 10px;
+  opacity: 1.0;
+} 
+
+.combo.text_with_symbol.tap {
+  translate: -1px 1px;
+}
+.combo.text_with_symbol.shifted {
+  translate: 7px 5px;
+  font-size: 8px;
+  opacity: 1.0;
+}
+</style>
+<g transform="translate(30, 0)" class="layer-BASE">
+<text x="0" y="28" class="label" id="BASE">BASE</text>
+<g transform="translate(0, 56)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Q</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">W</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">E</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">R</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">T</text>
+</g>
+<g transform="translate(552, 49)" class="key keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Y</text>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">U</text>
+</g>
+<g transform="translate(682, 32)" class="key keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">I</text>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">O</text>
+</g>
+<g transform="translate(812, 57)" class="key keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">P</text>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">A</text>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">S</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">D</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F</text>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">G</text>
+</g>
+<g transform="translate(552, 114)" class="key keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">H</text>
+</g>
+<g transform="translate(618, 106)" class="key keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">J</text>
+</g>
+<g transform="translate(682, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">K</text>
+</g>
+<g transform="translate(748, 106)" class="key keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">L</text>
+</g>
+<g transform="translate(812, 122)" class="key keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">;</text>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Z</text>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">X</text>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">C</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">V</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">B</text>
+</g>
+<g transform="translate(552, 179)" class="key keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">N</text>
+</g>
+<g transform="translate(618, 171)" class="key keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">M</text>
+</g>
+<g transform="translate(682, 162)" class="key keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="-22" class="key shifted">;</text>
+</g>
+<g transform="translate(748, 171)" class="key keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="-22" class="key shifted">:</text>
+</g>
+<g transform="translate(812, 187)" class="key keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="-22" class="key shifted">!</text>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;num_dance</tspan></text>
+<a href="#NUM">
+<text x="0" y="22" class="key hold layer-activator">NUM</text>
+</a></g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:circle-small" xlink:href="#mdi:circle-small" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:circle-small"/>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-7" y="-22" height="14" width="14.0" class="key shifted glyph mdi:caps-lock"/>
+</g>
+<g transform="translate(650, 238)" class="key keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="802" y="80" width="20" height="18" class="combo"/>
+<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="804" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+</g>
+<g class="combo combopos-1">
+<path d="M682,41 l-43,0" class="combo"/>
+<path d="M682,41 l43,0" class="combo"/>
+<rect rx="6" ry="6" x="672" y="32" width="20" height="18" class="combo"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="674" y="32" height="18" width="18.0" class="combo tap glyph mdi:nintendo-game-boy"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 375)" class="layer-HMR">
+<text x="0" y="28" class="label" id="HMR">HMR</text>
+<g transform="translate(0, 61)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Q</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">W</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">E</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">R</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">T</text>
+</g>
+<g transform="translate(552, 49)" class="key keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Y</text>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">U</text>
+</g>
+<g transform="translate(682, 32)" class="key keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">I</text>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">O</text>
+</g>
+<g transform="translate(812, 57)" class="key keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">P</text>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">A</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">S</text>
+<text x="0" y="22" class="key hold">ALT</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">D</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-control"/>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">G</text>
+</g>
+<g transform="translate(552, 114)" class="key keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">H</text>
+</g>
+<g transform="translate(618, 106)" class="key keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">J</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-control"/>
+</g>
+<g transform="translate(682, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">K</text>
+</g>
+<g transform="translate(748, 106)" class="key keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">L</text>
+</g>
+<g transform="translate(812, 122)" class="key keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">;</text>
+<text x="0" y="22" class="key hold">&#x27;</text>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Z</text>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">X</text>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">C</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">V</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">B</text>
+</g>
+<g transform="translate(552, 179)" class="key keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">N</text>
+</g>
+<g transform="translate(618, 171)" class="key keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">M</text>
+</g>
+<g transform="translate(682, 162)" class="key keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="-22" class="key shifted">;</text>
+</g>
+<g transform="translate(748, 171)" class="key keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="-22" class="key shifted">:</text>
+</g>
+<g transform="translate(812, 187)" class="key keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="-22" class="key shifted">!</text>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;num_dance</tspan></text>
+<a href="#NUM">
+<text x="0" y="22" class="key hold layer-activator">NUM</text>
+</a></g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+<a href="#NAV">
+<text x="0" y="39" class="key hold layer-activator">NAV</text>
+</a></g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:circle-small" xlink:href="#mdi:circle-small" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:circle-small"/>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-7" y="-22" height="14" width="14.0" class="key shifted glyph mdi:caps-lock"/>
+</g>
+<g transform="translate(650, 238)" class="key keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="55" y="40" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="56" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="185" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="186" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<path d="M162,4 h-59 a6.0,6.0 0 0 0 -6.0,6.0 v9" class="combo"/>
+<path d="M162,4 h59 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="-5" width="20" height="18" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="154" y="-5" height="18" width="18.0" class="combo tap glyph mdi:mouse"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="55" y="105" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="185" y="28" width="20" height="18" class="combo"/>
+<use href="#mdi:repeat" xlink:href="#mdi:repeat" x="186" y="28" height="18" width="18.0" class="combo tap glyph mdi:repeat"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="250" y="36" width="20" height="18" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="251" y="36" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+</g>
+<g class="combo combopos-6">
+<path d="M162,207 h-59 a6.0,6.0 0 0 1 -6.0,-6.0 v-9" class="combo"/>
+<path d="M162,207 h59 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="198" width="20" height="18" class="combo"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="154" y="198" height="18" width="18.0" class="combo tap glyph mdi:content-cut"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="120" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="121" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-copy"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="185" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="186" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-paste"/>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="55" y="170" width="20" height="18" class="combo"/>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="56" y="170" height="18" width="18.0" class="combo tap glyph mdi:undo"/>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="250" y="166" width="20" height="18" class="combo"/>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="251" y="166" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="121" y="93" height="18" width="18.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="250" y="101" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="251" y="101" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="640" y="158" width="20" height="18" class="combo"/>
+<text x="650" y="167" class="combo tap">[</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="705" y="158" width="20" height="18" class="combo"/>
+<text x="715" y="167" class="combo tap">]</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="88" y="64" width="20" height="18" class="combo"/>
+<text x="98" y="73" class="combo tap">@</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="152" y="56" width="20" height="18" class="combo"/>
+<text x="162" y="65" class="combo tap">#</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="218" y="64" width="20" height="18" class="combo"/>
+<text x="228" y="73" class="combo tap">$</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="282" y="72" width="20" height="18" class="combo"/>
+<text x="292" y="81" class="combo tap">%</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="88" y="129" width="20" height="18" class="combo"/>
+<text x="98" y="138" class="combo tap">`</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="152" y="121" width="20" height="18" class="combo"/>
+<text x="162" y="130" class="combo tap">\</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="218" y="129" width="20" height="18" class="combo"/>
+<text x="228" y="138" class="combo tap">=</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="282" y="137" width="20" height="18" class="combo"/>
+<text x="292" y="146" class="combo tap">~</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="542" y="72" width="20" height="18" class="combo"/>
+<text x="552" y="81" class="combo tap">^</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="608" y="64" width="20" height="18" class="combo"/>
+<text x="618" y="73" class="combo tap">+</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="672" y="56" width="20" height="18" class="combo"/>
+<text x="682" y="65" class="combo tap">*</text>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="738" y="64" width="20" height="18" class="combo"/>
+<text x="748" y="73" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="542" y="137" width="20" height="18" class="combo"/>
+<text x="552" y="146" class="combo tap">_</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="608" y="129" width="20" height="18" class="combo"/>
+<text x="618" y="138" class="combo tap">-</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="672" y="121" width="20" height="18" class="combo"/>
+<text x="682" y="130" class="combo tap">/</text>
+</g>
+<g class="combo combopos-30">
+<rect rx="6" ry="6" x="738" y="129" width="20" height="18" class="combo"/>
+<text x="748" y="138" class="combo tap">|</text>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="802" y="145" width="20" height="18" class="combo"/>
+<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="804" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
+</g>
+<g class="combo combopos-32">
+<path d="M682,41 l-43,0" class="combo"/>
+<path d="M682,41 l43,0" class="combo"/>
+<rect rx="6" ry="6" x="672" y="32" width="20" height="18" class="combo"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="674" y="32" height="18" width="18.0" class="combo tap glyph mdi:nintendo-game-boy"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 754)" class="layer-NAV">
+<text x="0" y="28" class="label" id="NAV">NAV</text>
+<g transform="translate(0, 61)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g transform="translate(98, 41)" class="key trans keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 32)" class="key trans keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:file-arrow-left-right" xlink:href="#mdi:file-arrow-left-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:file-arrow-left-right"/>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:microsoft-visual-studio" xlink:href="#mdi:microsoft-visual-studio" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microsoft-visual-studio"/>
+</g>
+<g transform="translate(552, 49)" class="key keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
+</text>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:backspace"/>
+</g>
+<g transform="translate(682, 32)" class="key keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-up"/>
+<use href="#mdi:format-vertical-align-top" xlink:href="#mdi:format-vertical-align-top" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:format-vertical-align-top"/>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+<use href="#mdi:backspace-reverse" xlink:href="#mdi:backspace-reverse" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:backspace-reverse"/>
+</g>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;swapper</tspan></text>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">ALT</text>
+<use href="#mdi:circle-small" xlink:href="#mdi:circle-small" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:circle-small"/>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:circle-small" xlink:href="#mdi:circle-small" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:circle-small"/>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:circle-small" xlink:href="#mdi:circle-small" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:circle-small"/>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:database-search" xlink:href="#mdi:database-search" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:database-search"/>
+</g>
+<g transform="translate(552, 114)" class="key keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g transform="translate(618, 106)" class="key keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left"/>
+<text x="0" y="22" class="key hold">HOME</text>
+</g>
+<g transform="translate(682, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-down"/>
+<use href="#mdi:format-vertical-align-bottom" xlink:href="#mdi:format-vertical-align-bottom" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:format-vertical-align-bottom"/>
+</g>
+<g transform="translate(748, 106)" class="key keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right"/>
+<text x="0" y="22" class="key hold">END</text>
+</g>
+<g transform="translate(812, 122)" class="key keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:format-list-group-plus" xlink:href="#mdi:format-list-group-plus" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:format-list-group-plus"/>
+</g>
+<g transform="translate(32, 187)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(98, 171)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:comment-remove" xlink:href="#mdi:comment-remove" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:comment-remove"/>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:comment-edit-outline" xlink:href="#mdi:comment-edit-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:comment-edit-outline"/>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:rename-outline" xlink:href="#mdi:rename-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:rename-outline"/>
+</g>
+<g transform="translate(552, 179)" class="key keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">INS</text>
+</g>
+<g transform="translate(618, 171)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 162)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:microsoft-windows-classic" xlink:href="#mdi:microsoft-windows-classic" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows-classic"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key trans keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key held keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key held"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">CANCEL</text>
+</g>
+<g transform="translate(650, 238)" class="key keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:microsoft-windows-classic" xlink:href="#mdi:microsoft-windows-classic" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows-classic"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="55" y="40" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="56" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="185" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="186" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<path d="M162,4 h-59 a6.0,6.0 0 0 0 -6.0,6.0 v9" class="combo"/>
+<path d="M162,4 h59 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="-5" width="20" height="18" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="154" y="-5" height="18" width="18.0" class="combo tap glyph mdi:mouse"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="55" y="105" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="185" y="28" width="20" height="18" class="combo"/>
+<use href="#mdi:repeat" xlink:href="#mdi:repeat" x="186" y="28" height="18" width="18.0" class="combo tap glyph mdi:repeat"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="250" y="36" width="20" height="18" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="251" y="36" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+</g>
+<g class="combo combopos-6">
+<path d="M162,207 h-59 a6.0,6.0 0 0 1 -6.0,-6.0 v-9" class="combo"/>
+<path d="M162,207 h59 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="198" width="20" height="18" class="combo"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="154" y="198" height="18" width="18.0" class="combo tap glyph mdi:content-cut"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="120" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="121" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-copy"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="185" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="186" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-paste"/>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="55" y="170" width="20" height="18" class="combo"/>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="56" y="170" height="18" width="18.0" class="combo tap glyph mdi:undo"/>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="250" y="166" width="20" height="18" class="combo"/>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="251" y="166" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="121" y="93" height="18" width="18.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="250" y="101" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="251" y="101" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="640" y="93" width="20" height="18" class="combo"/>
+<text x="650" y="102" class="combo tap">{</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="705" y="93" width="20" height="18" class="combo"/>
+<text x="715" y="102" class="combo tap">}</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="88" y="64" width="20" height="18" class="combo"/>
+<text x="98" y="73" class="combo tap">@</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="152" y="56" width="20" height="18" class="combo"/>
+<text x="162" y="65" class="combo tap">#</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="218" y="64" width="20" height="18" class="combo"/>
+<text x="228" y="73" class="combo tap">$</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="282" y="72" width="20" height="18" class="combo"/>
+<text x="292" y="81" class="combo tap">%</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="88" y="129" width="20" height="18" class="combo"/>
+<text x="98" y="138" class="combo tap">`</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="152" y="121" width="20" height="18" class="combo"/>
+<text x="162" y="130" class="combo tap">\</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="218" y="129" width="20" height="18" class="combo"/>
+<text x="228" y="138" class="combo tap">=</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="282" y="137" width="20" height="18" class="combo"/>
+<text x="292" y="146" class="combo tap">~</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="542" y="72" width="20" height="18" class="combo"/>
+<text x="552" y="81" class="combo tap">^</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="608" y="64" width="20" height="18" class="combo"/>
+<text x="618" y="73" class="combo tap">+</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="672" y="56" width="20" height="18" class="combo"/>
+<text x="682" y="65" class="combo tap">*</text>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="738" y="64" width="20" height="18" class="combo"/>
+<text x="748" y="73" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="542" y="137" width="20" height="18" class="combo"/>
+<text x="552" y="146" class="combo tap">_</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="608" y="129" width="20" height="18" class="combo"/>
+<text x="618" y="138" class="combo tap">-</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="672" y="121" width="20" height="18" class="combo"/>
+<text x="682" y="130" class="combo tap">/</text>
+</g>
+<g class="combo combopos-30">
+<rect rx="6" ry="6" x="738" y="129" width="20" height="18" class="combo"/>
+<text x="748" y="138" class="combo tap">|</text>
+</g>
+</g>
+</g>
+<g transform="translate(30, 1134)" class="layer-FN">
+<text x="0" y="28" class="label" id="FN">FN</text>
+<g transform="translate(0, 56)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F12</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F7</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F8</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F9</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:projector-screen-outline" xlink:href="#mdi:projector-screen-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:projector-screen-outline"/>
+</g>
+<g transform="translate(552, 49)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:skip-backward" xlink:href="#mdi:skip-backward" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:skip-backward"/>
+</g>
+<g transform="translate(682, 32)" class="key keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:volume-plus" xlink:href="#mdi:volume-plus" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:volume-plus"/>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:skip-forward" xlink:href="#mdi:skip-forward" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:skip-forward"/>
+</g>
+<g transform="translate(812, 57)" class="key keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:sleep" xlink:href="#mdi:sleep" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:sleep"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F11</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F4</text>
+<text x="0" y="22" class="key hold">ALT</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F5</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F6</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-control"/>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:microphone-off" xlink:href="#mdi:microphone-off" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microphone-off"/>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">DSK_PREV</tspan></text>
+</g>
+<g transform="translate(682, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:volume-minus" xlink:href="#mdi:volume-minus" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:volume-minus"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+</g>
+<g transform="translate(748, 106)" class="key keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">DSK_NEXT</tspan></text>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F10</text>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F1</text>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F2</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F3</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:headset-off" xlink:href="#mdi:headset-off" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:headset-off"/>
+</g>
+<g transform="translate(552, 179)" class="key keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">PIN_APP</text>
+</g>
+<g transform="translate(618, 171)" class="key keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">PIN_WIN</text>
+</g>
+<g transform="translate(682, 162)" class="key keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">DSK_MNGR</tspan></text>
+</g>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key held keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key held"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:volume-mute" xlink:href="#mdi:volume-mute" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:volume-mute"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:play-pause"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key held alternate keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key held alternate"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 1509)" class="layer-NUM">
+<text x="0" y="28" class="label" id="NUM">NUM</text>
+<g transform="translate(0, 61)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">1</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">2</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">3</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">4</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">5</text>
+</g>
+<g transform="translate(552, 49)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">7</text>
+</g>
+<g transform="translate(682, 32)" class="key keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">8</text>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">9</text>
+</g>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">6</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">7</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">8</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">9</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:apple-keyboard-control"/>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">0</text>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">4</text>
+</g>
+<g transform="translate(682, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">5</text>
+</g>
+<g transform="translate(748, 106)" class="key keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">6</text>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(98, 171)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 162)" class="key trans keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(228, 171)" class="key trans keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(292, 179)" class="key trans keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(552, 179)" class="key keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">0</text>
+</g>
+<g transform="translate(618, 171)" class="key keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">1</text>
+</g>
+<g transform="translate(682, 162)" class="key keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">2</text>
+</g>
+<g transform="translate(748, 171)" class="key keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">3</text>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key trans keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key held keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key held"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key trans keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="55" y="40" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="56" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="185" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="186" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<path d="M162,4 h-59 a6.0,6.0 0 0 0 -6.0,6.0 v9" class="combo"/>
+<path d="M162,4 h59 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="-5" width="20" height="18" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="154" y="-5" height="18" width="18.0" class="combo tap glyph mdi:mouse"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="55" y="105" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="185" y="28" width="20" height="18" class="combo"/>
+<use href="#mdi:repeat" xlink:href="#mdi:repeat" x="186" y="28" height="18" width="18.0" class="combo tap glyph mdi:repeat"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="250" y="36" width="20" height="18" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="251" y="36" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+</g>
+<g class="combo combopos-6">
+<path d="M162,207 h-59 a6.0,6.0 0 0 1 -6.0,-6.0 v-9" class="combo"/>
+<path d="M162,207 h59 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="198" width="20" height="18" class="combo"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="154" y="198" height="18" width="18.0" class="combo tap glyph mdi:content-cut"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="120" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="121" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-copy"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="185" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="186" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-paste"/>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="55" y="170" width="20" height="18" class="combo"/>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="56" y="170" height="18" width="18.0" class="combo tap glyph mdi:undo"/>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="250" y="166" width="20" height="18" class="combo"/>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="251" y="166" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="121" y="93" height="18" width="18.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="250" y="101" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="251" y="101" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="640" y="158" width="20" height="18" class="combo"/>
+<text x="650" y="167" class="combo tap">[</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="705" y="158" width="20" height="18" class="combo"/>
+<text x="715" y="167" class="combo tap">]</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="88" y="64" width="20" height="18" class="combo"/>
+<text x="98" y="73" class="combo tap">@</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="152" y="56" width="20" height="18" class="combo"/>
+<text x="162" y="65" class="combo tap">#</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="218" y="64" width="20" height="18" class="combo"/>
+<text x="228" y="73" class="combo tap">$</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="282" y="72" width="20" height="18" class="combo"/>
+<text x="292" y="81" class="combo tap">%</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="88" y="129" width="20" height="18" class="combo"/>
+<text x="98" y="138" class="combo tap">`</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="152" y="121" width="20" height="18" class="combo"/>
+<text x="162" y="130" class="combo tap">\</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="218" y="129" width="20" height="18" class="combo"/>
+<text x="228" y="138" class="combo tap">=</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="282" y="137" width="20" height="18" class="combo"/>
+<text x="292" y="146" class="combo tap">~</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="542" y="72" width="20" height="18" class="combo"/>
+<text x="552" y="81" class="combo tap">^</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="608" y="64" width="20" height="18" class="combo"/>
+<text x="618" y="73" class="combo tap">+</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="672" y="56" width="20" height="18" class="combo"/>
+<text x="682" y="65" class="combo tap">*</text>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="738" y="64" width="20" height="18" class="combo"/>
+<text x="748" y="73" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="542" y="137" width="20" height="18" class="combo"/>
+<text x="552" y="146" class="combo tap">_</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="608" y="129" width="20" height="18" class="combo"/>
+<text x="618" y="138" class="combo tap">-</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="672" y="121" width="20" height="18" class="combo"/>
+<text x="682" y="130" class="combo tap">/</text>
+</g>
+<g class="combo combopos-30">
+<rect rx="6" ry="6" x="738" y="129" width="20" height="18" class="combo"/>
+<text x="748" y="138" class="combo tap">|</text>
+</g>
+</g>
+</g>
+<g transform="translate(30, 1889)" class="layer-MOUSE">
+<text x="0" y="28" class="label" id="MOUSE">MOUSE</text>
+<g transform="translate(0, 56)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Q</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">W</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">E</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">R</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">T</text>
+</g>
+<g transform="translate(552, 49)" class="key keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">SCROLL_L</tspan></text>
+</g>
+<g transform="translate(618, 41)" class="key keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">SCROLL_D</tspan></text>
+</g>
+<g transform="translate(682, 32)" class="key text_with_symbol keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:mouse"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">UP</text>
+</g>
+<g transform="translate(748, 41)" class="key keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">SCROLL_U</tspan></text>
+</g>
+<g transform="translate(812, 57)" class="key keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">SCROLL_R</tspan></text>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">A</text>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">S</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">D</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F</text>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">G</text>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key text_with_symbol keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:mouse"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">LEFT</text>
+</g>
+<g transform="translate(682, 98)" class="key text_with_symbol keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:mouse"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">DOWN</text>
+</g>
+<g transform="translate(748, 106)" class="key text_with_symbol keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:mouse"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">RIGHT</text>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Z</text>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">X</text>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">C</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">V</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">B</text>
+</g>
+<g transform="translate(552, 179)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 171)" class="key text_with_symbol keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:cursor-default-click-outline"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">4</text>
+</g>
+<g transform="translate(682, 162)" class="key text_with_symbol keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:cursor-default-click-outline"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">MID</text>
+</g>
+<g transform="translate(748, 171)" class="key text_with_symbol keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:cursor-default-click-outline"/>
+<text x="0" y="-22" class="key text_with_symbol shifted">5</text>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key trans keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key trans keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:cursor-default-click-outline"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:cursor-default-click" xlink:href="#mdi:cursor-default-click" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:cursor-default-click"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="55" y="40" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="56" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="185" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="186" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="55" y="105" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="250" y="36" width="20" height="18" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="251" y="36" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+</g>
+<g class="combo combopos-4">
+<path d="M162,207 h-59 a6.0,6.0 0 0 1 -6.0,-6.0 v-9" class="combo"/>
+<path d="M162,207 h59 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="198" width="20" height="18" class="combo"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="154" y="198" height="18" width="18.0" class="combo tap glyph mdi:content-cut"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="120" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="121" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-copy"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="185" y="158" width="20" height="18" class="combo"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="186" y="158" height="18" width="18.0" class="combo tap glyph mdi:content-paste"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="55" y="170" width="20" height="18" class="combo"/>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="56" y="170" height="18" width="18.0" class="combo tap glyph mdi:undo"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="250" y="166" width="20" height="18" class="combo"/>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="251" y="166" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="121" y="93" height="18" width="18.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="250" y="101" width="20" height="18" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="251" y="101" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 2263)" class="layer-BDO">
+<text x="0" y="28" class="label" id="BDO">BDO</text>
+<g transform="translate(0, 61)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Q</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">W</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">E</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">R</text>
+</g>
+<g transform="translate(552, 49)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 41)" class="key trans keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 32)" class="key trans keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 41)" class="key trans keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">A</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">S</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">D</text>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F</text>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key trans keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 98)" class="key trans keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 106)" class="key trans keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Z</text>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">C</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">V</text>
+</g>
+<g transform="translate(552, 179)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 171)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 162)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#BDOXTRA">
+<text x="0" y="0" class="key tap layer-activator">BDOXTRA</text>
+</a><use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:toggle-switch"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#BDONUM">
+<text x="0" y="0" class="key tap layer-activator">BDONUM</text>
+</a><use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:toggle-switch"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="55" y="40" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="56" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="185" y="93" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="186" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<path d="M162,4 h-59 a6.0,6.0 0 0 0 -6.0,6.0 v9" class="combo"/>
+<path d="M162,4 h59 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<rect rx="6" ry="6" x="152" y="-5" width="20" height="18" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="154" y="-5" height="18" width="18.0" class="combo tap glyph mdi:mouse"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="55" y="105" width="20" height="18" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="802" y="80" width="20" height="18" class="combo"/>
+<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="804" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="802" y="145" width="20" height="18" class="combo"/>
+<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="804" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 2643)" class="layer-BDONUM">
+<text x="0" y="28" class="label" id="BDONUM">BDONUM</text>
+<g transform="translate(0, 56)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">1</text>
+</g>
+<g transform="translate(98, 41)" class="key keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">2</text>
+</g>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">3</text>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">4</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">5</text>
+</g>
+<g transform="translate(552, 49)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 41)" class="key trans keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 32)" class="key trans keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 41)" class="key trans keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">6</text>
+</g>
+<g transform="translate(98, 106)" class="key keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">7</text>
+</g>
+<g transform="translate(162, 98)" class="key keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">8</text>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">9</text>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">0</text>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key trans keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 98)" class="key trans keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 106)" class="key trans keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(98, 171)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F3</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">F4</text>
+</g>
+<g transform="translate(292, 179)" class="key trans keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(552, 179)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 171)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 162)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#BDOXTRA">
+<text x="0" y="0" class="key tap layer-activator">BDOXTRA</text>
+</a><use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:toggle-switch"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:nintendo-game-boy"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+</g>
+</g>
+<g transform="translate(30, 3018)" class="layer-BDOXTRA">
+<text x="0" y="28" class="label" id="BDOXTRA">BDOXTRA</text>
+<g transform="translate(0, 56)">
+<g transform="translate(32, 57)" class="key keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-esc"/>
+</g>
+<g transform="translate(98, 41)" class="key trans keypos-1">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 32)" class="key trans keypos-2">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(228, 41)" class="key keypos-3">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">Y</text>
+</g>
+<g transform="translate(292, 49)" class="key keypos-4">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">T</text>
+</g>
+<g transform="translate(552, 49)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 41)" class="key trans keypos-6">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 32)" class="key trans keypos-7">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 41)" class="key trans keypos-8">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 57)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 122)" class="key keypos-10">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="-22" class="key shifted">;</text>
+</g>
+<g transform="translate(98, 106)" class="key trans keypos-11">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(162, 98)" class="key trans keypos-12">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(228, 106)" class="key keypos-13">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">I</text>
+</g>
+<g transform="translate(292, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">G</text>
+</g>
+<g transform="translate(552, 114)" class="key trans keypos-15">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 106)" class="key trans keypos-16">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 98)" class="key trans keypos-17">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 106)" class="key trans keypos-18">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 122)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g transform="translate(98, 171)" class="key keypos-21">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">X</text>
+</g>
+<g transform="translate(162, 162)" class="key keypos-22">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">B</text>
+</g>
+<g transform="translate(228, 171)" class="key keypos-23">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">N</text>
+</g>
+<g transform="translate(292, 179)" class="key keypos-24">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">M</text>
+</g>
+<g transform="translate(552, 179)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(618, 171)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(682, 162)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(195, 238)" class="key keypos-30">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:nintendo-game-boy"/>
+</g>
+<g transform="translate(266, 247) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<a href="#BDONUM">
+<text x="0" y="0" class="key tap layer-activator">BDONUM</text>
+</a><use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-6" y="10" height="13" width="13.0" class="key hold glyph mdi:toggle-switch"/>
+</g>
+<g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+</g>
+<g transform="translate(502, 260) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(650, 238)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+</g>
+</g>
+<text x="30" y="3421" class="label" id="Combos">Combos</text>
+<g transform="translate(30, 3393)" class="layer-combopos-0">
+<g transform="translate(0, 56)">
+<g transform="translate(32, 32)" class="key  combo-separate keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key  combo-separate"/>
+<text x="0" y="0" class="key  combo-separate tap">(</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="10" height="13" width="13.0" class="key  combo-separate hold glyph mdi:apple-keyboard-control"/>
+<text x="0" y="-22" class="key  combo-separate shifted">&lt;</text>
+</g>
+<g transform="translate(16, 101)" class="key keypos-1">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 93)" class="key keypos-2">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 89)" class="key keypos-3">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 93)" class="key keypos-4">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 97)" class="key keypos-5">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 97)" class="key keypos-6">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 93)" class="key keypos-7">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(341, 89)" class="key keypos-8">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(374, 93)" class="key keypos-9">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(406, 101)" class="key keypos-10">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(16, 134)" class="key keypos-11">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 126)" class="key keypos-12">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 122)" class="key keypos-13">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 126)" class="key keypos-14">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 130)" class="key keypos-15">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 130)" class="key keypos-16">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 126)" class="key held keypos-17">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key held"/>
+</g>
+<g transform="translate(341, 122)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key held"/>
+</g>
+<g transform="translate(374, 126)" class="key keypos-19">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(406, 134)" class="key keypos-20">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(16, 166)" class="key keypos-21">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 158)" class="key keypos-22">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 154)" class="key keypos-23">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 158)" class="key keypos-24">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 162)" class="key keypos-25">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 162)" class="key keypos-26">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 158)" class="key keypos-27">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(341, 154)" class="key keypos-28">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(374, 158)" class="key keypos-29">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(406, 166)" class="key keypos-30">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(98, 192)" class="key keypos-31">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(133, 197) rotate(15.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(171, 203) rotate(30.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-8" y="-16" width="16" height="33" class="key"/>
+</g>
+<g transform="translate(251, 203) rotate(-30.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-8" y="-16" width="16" height="33" class="key"/>
+</g>
+<g transform="translate(289, 197) rotate(-15.0)" class="key keypos-35">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(325, 192)" class="key keypos-36">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+</g>
+</g>
+<g transform="translate(482, 3393)" class="layer-combopos-1">
+<g transform="translate(0, 56)">
+<g transform="translate(32, 32)" class="key  combo-separate keypos-0">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key  combo-separate"/>
+<text x="0" y="0" class="key  combo-separate tap">)</text>
+<text x="0" y="22" class="key  combo-separate hold"><tspan style="font-size: 88%">Sft+ ALT</tspan></text>
+<text x="0" y="-22" class="key  combo-separate shifted">&gt;</text>
+</g>
+<g transform="translate(16, 101)" class="key keypos-1">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 93)" class="key keypos-2">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 89)" class="key keypos-3">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 93)" class="key keypos-4">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 97)" class="key keypos-5">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 97)" class="key keypos-6">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 93)" class="key keypos-7">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(341, 89)" class="key keypos-8">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(374, 93)" class="key keypos-9">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(406, 101)" class="key keypos-10">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(16, 134)" class="key keypos-11">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 126)" class="key keypos-12">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 122)" class="key keypos-13">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 126)" class="key keypos-14">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 130)" class="key keypos-15">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 130)" class="key keypos-16">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 126)" class="key keypos-17">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(341, 122)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key held"/>
+</g>
+<g transform="translate(374, 126)" class="key held keypos-19">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key held"/>
+</g>
+<g transform="translate(406, 134)" class="key keypos-20">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(16, 166)" class="key keypos-21">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(49, 158)" class="key keypos-22">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(81, 154)" class="key keypos-23">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(114, 158)" class="key keypos-24">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(146, 162)" class="key keypos-25">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(276, 162)" class="key keypos-26">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(309, 158)" class="key keypos-27">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(341, 154)" class="key keypos-28">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(374, 158)" class="key keypos-29">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(406, 166)" class="key keypos-30">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(98, 192)" class="key keypos-31">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(133, 197) rotate(15.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(171, 203) rotate(30.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-8" y="-16" width="16" height="33" class="key"/>
+</g>
+<g transform="translate(251, 203) rotate(-30.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-8" y="-16" width="16" height="33" class="key"/>
+</g>
+<g transform="translate(289, 197) rotate(-15.0)" class="key keypos-35">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+<g transform="translate(325, 192)" class="key keypos-36">
+<rect rx="6" ry="6" x="-8" y="-8" width="16" height="16" class="key"/>
+</g>
+</g>
+</g>
+</svg>
