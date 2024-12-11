@@ -402,9 +402,9 @@ combos:
   l: [HMR, BDO]
   a: left
 - p: [20, 0]
-  k: $$mdi:beaker$$
+  k: $$mdi:nintendo-game-boy$$
   l: [BASE, BDO]
-  a: top
+  a: left
 - p: [11, 12]
   k: $$mdi:backspace-outline$$
   l: [BASE, HMR, NAV, NUM, MOUSE]

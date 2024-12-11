@@ -553,10 +553,10 @@ rect.key.held {
 <use href="#mdi:beaker" xlink:href="#mdi:beaker" x="-13" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
 </g>
 <g class="combo combopos-11">
-<path d="M32,20 l0,145" class="combo"/>
-<path d="M32,20 l0,15" class="combo"/>
-<rect rx="6" ry="6" x="22" y="11" width="20" height="18" class="combo"/>
-<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="11" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+<path d="M-4,122 v59 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
+<path d="M-4,122 v-59 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
+<rect rx="6" ry="6" x="-14" y="113" width="20" height="18" class="combo"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="-13" y="113" height="18" width="18.0" class="combo tap glyph mdi:nintendo-game-boy"/>
 </g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
@@ -1966,10 +1966,10 @@ rect.key.held {
 <use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="-13" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
 </g>
 <g class="combo combopos-6">
-<path d="M32,20 l0,145" class="combo"/>
-<path d="M32,20 l0,15" class="combo"/>
-<rect rx="6" ry="6" x="22" y="11" width="20" height="18" class="combo"/>
-<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="11" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+<path d="M-4,122 v59 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
+<path d="M-4,122 v-59 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
+<rect rx="6" ry="6" x="-14" y="113" width="20" height="18" class="combo"/>
+<use href="#mdi:nintendo-game-boy" xlink:href="#mdi:nintendo-game-boy" x="-13" y="113" height="18" width="18.0" class="combo tap glyph mdi:nintendo-game-boy"/>
 </g>
 </g>
 </g>
