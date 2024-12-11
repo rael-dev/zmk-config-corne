@@ -349,10 +349,6 @@ parse_config:
       draw_separate: true
     combo_bdo:
       align: left
-    combo_base:
-      align: left
-    combo_modded:
-      align: left
       
   zmk_keycode_map:
     LALT: ALT
