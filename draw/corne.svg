@@ -547,10 +547,8 @@ rect.key.held {
 <use href="#mdi:redo" xlink:href="#mdi:redo" x="251" y="166" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
 </g>
 <g class="combo combopos-10">
-<path d="M-4,89 v26 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
-<path d="M-4,89 v-26 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
-<rect rx="6" ry="6" x="-14" y="80" width="20" height="18" class="combo"/>
-<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="-13" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+<rect rx="6" ry="6" x="22" y="80" width="20" height="18" class="combo"/>
+<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
 </g>
 <g class="combo combopos-11">
 <path d="M-4,122 v59 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
@@ -812,10 +810,8 @@ rect.key.held {
 <text x="292" y="146" class="combo tap">~</text>
 </g>
 <g class="combo combopos-19">
-<path d="M-4,154 v26 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
-<path d="M-4,154 v-26 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
-<rect rx="6" ry="6" x="-14" y="145" width="20" height="18" class="combo"/>
-<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="-13" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
+<rect rx="6" ry="6" x="22" y="145" width="20" height="18" class="combo"/>
+<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="24" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="120" y="93" width="20" height="18" class="combo"/>
@@ -1954,16 +1950,12 @@ rect.key.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="56" y="105" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo combopos-4">
-<path d="M-4,89 v26 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
-<path d="M-4,89 v-26 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
-<rect rx="6" ry="6" x="-14" y="80" width="20" height="18" class="combo"/>
-<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="-13" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+<rect rx="6" ry="6" x="22" y="80" width="20" height="18" class="combo"/>
+<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
 </g>
 <g class="combo combopos-5">
-<path d="M-4,154 v26 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
-<path d="M-4,154 v-26 a6.0,6.0 0 0 1 6.0,-6.0 h9" class="combo"/>
-<rect rx="6" ry="6" x="-14" y="145" width="20" height="18" class="combo"/>
-<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="-13" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
+<rect rx="6" ry="6" x="22" y="145" width="20" height="18" class="combo"/>
+<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="24" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
 </g>
 <g class="combo combopos-6">
 <path d="M-4,122 v59 a6.0,6.0 0 0 0 6.0,6.0 h9" class="combo"/>
