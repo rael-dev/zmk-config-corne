@@ -641,7 +641,7 @@
 
         combo_bdo {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <&to 1>;
+            bindings = <&to 6>;
             key-positions = <LB4 LT4>;
             layers = <0 6>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;

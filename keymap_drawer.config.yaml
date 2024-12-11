@@ -348,7 +348,7 @@ parse_config:
     combo_lpar:
       draw_separate: true
     combo_bdo:
-      align: top
+      align: left
     combo_base:
       align: left
     combo_modded:
