@@ -350,9 +350,9 @@ parse_config:
     combo_bdo:
       align: top
     combo_base:
-      align: right
+      align: left
     combo_modded:
-      align: right
+      align: left
       
   zmk_keycode_map:
     LALT: ALT
