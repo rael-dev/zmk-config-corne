@@ -117,8 +117,8 @@ parse_config:
     '&par_macro': '()'
     '&bkt_macro': '{}'
     '&lgt_macro': '<>'
-    '&to 0': $$mdi:typewriter$$
-    '&to 1': $$mdi:beaker$$
+    '&to 1': $$mdi:typewriter$$
+    '&to 0': $$mdi:beaker$$
     
     '&kp LC(BSPC)': $$mdi:backspace$$
     '&kp LC(DEL)': $$mdi:backspace-reverse$$
