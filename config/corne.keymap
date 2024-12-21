@@ -661,7 +661,7 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <HRC_LPAR>;
             key-positions = <RM1 RM2>;
-            layers = <d 4>;
+            layers = <0 4>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
         
