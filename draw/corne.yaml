@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
-  HMR:
+  Homerow:
   - Q
   - W
   - E
@@ -31,13 +31,13 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - NAV
-  - {t: '&num_dance', h: FN}
-  - {t: '$$mdi:keyboard-space$$', h: BASE}
+  - Funciton
+  - {t: '&num_dance', h: Numbers}
+  - {t: '$$mdi:keyboard-space$$', h: Navigation}
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
-  - NAV
-  NOHMR:
+  - Funciton
+  Typing:
   - Q
   - W
   - E
@@ -68,50 +68,13 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - NAV
-  - {t: '&num_dance', h: FN}
+  - Funciton
+  - {t: '&num_dance', h: Numbers}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
-  - NAV
-  BASE:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '?', s: '!'}
-  - NAV
-  - {t: '&num_dance', h: FN}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:backspace-outline$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
-  - NAV
-  NAV:
+  - Funciton
+  Navigation:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -142,50 +105,50 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:microsoft-windows-classic$$', type: held}
+  - $$mdi:microsoft-windows-classic$$
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - CANCEL
-  - {t: '$$mdi:microsoft-windows-classic$$', type: held alternate}
-  FN:
-  - F12
-  - F7
-  - F8
-  - F9
-  - $$mdi:projector-screen-outline$$
+  - $$mdi:microsoft-windows-classic$$
+  Funciton:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
   - $$mdi:sleep$$
-  - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F4, h: ALT}
-  - F5
-  - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:microphone-off$$
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - {t: '$$mdi:chevron-down$$', type: trans}
   - DSK_PREV
   - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
   - DSK_NEXT
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - F10
-  - F1
-  - F2
-  - F3
+  - F11
+  - F12
+  - $$mdi:microphone-off$$
   - $$mdi:headset-off$$
+  - $$mdi:projector-screen-outline$$
   - PIN_APP
   - PIN_WIN
   - DSK_MNGR
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - $$mdi:volume-mute$$
+  - $$mdi:play-pause$$
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:volume-mute$$', type: held}
-  - {t: '$$mdi:play-pause$$', type: held alternate}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  NUM:
+  - {type: held alternate}
+  Numbers:
   - '1'
   - '2'
   - '3'
@@ -217,12 +180,12 @@ layers:
   - '3'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  MOUSE:
+  Mouse:
   - Q
   - W
   - E
@@ -262,116 +225,113 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [12, 13]
   k: $$mdi:keyboard-return$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [1, 3]
   k: $$mdi:mouse$$
-  l: [HMR, NOHMR, BASE, FN]
+  l: [Homerow, Typing, Navigation, Numbers]
   a: top
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [2, 3]
   k: $$mdi:repeat$$
-  l: [NOHMR, BASE, FN]
-- p: [3, 4]
-  k: $$mdi:play-pause$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Typing, Navigation, Numbers]
 - p: [21, 23]
   k: $$mdi:content-cut$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
   a: bottom
 - p: [21, 22]
   k: $$mdi:content-copy$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [22, 23]
   k: $$mdi:content-paste$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [20, 21]
   k: $$mdi:undo$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [23, 24]
   k: $$mdi:redo$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [11, 12]
   k: $$mdi:backspace-outline$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [13, 14]
   k: $$mdi:backspace-reverse-outline$$
-  l: [HMR, NOHMR, BASE, FN, NUM]
+  l: [Homerow, Typing, Navigation, Numbers, Mouse]
 - p: [1, 11]
   k: '@'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [2, 12]
   k: '#'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [3, 13]
   k: $
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [4, 14]
   k: '%'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [11, 21]
   k: '`'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [12, 22]
   k: \
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [13, 23]
   k: '='
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [14, 24]
   k: '~'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [10, 0]
   k: $$mdi:typewriter$$
-  l: [NOHMR]
+  l: [Typing]
 - p: [20, 10]
   k: $$mdi:beaker$$
-  l: [HMR]
+  l: [Homerow]
 - p: [16, 17]
   k: {t: (, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
-  l: [HMR, FN]
+  l: [Homerow, Numbers]
   draw_separate: true
 - p: [17, 18]
   k: {t: ), h: Sft+ ALT, s: '>'}
-  l: [HMR, FN]
+  l: [Homerow, Numbers]
   draw_separate: true
 - p: [26, 27]
   k: '['
-  l: [HMR, FN]
+  l: [Homerow, Numbers]
 - p: [27, 28]
   k: ']'
-  l: [HMR, FN]
+  l: [Homerow, Numbers]
 - p: [16, 17]
   k: '{'
-  l: [BASE]
+  l: [Navigation]
 - p: [17, 18]
   k: '}'
-  l: [BASE]
+  l: [Navigation]
 - p: [5, 15]
   k: ^
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [6, 16]
   k: +
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [7, 17]
   k: '*'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [8, 18]
   k: '&'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [15, 25]
   k: _
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [16, 26]
   k: '-'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [17, 27]
   k: /
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
 - p: [18, 28]
   k: '|'
-  l: [HMR, BASE, FN]
+  l: [Homerow, Navigation, Numbers]
