@@ -585,7 +585,7 @@ rect.key.held {
 </g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="22" y="145" width="20" height="18" class="combo"/>
-<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="145" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
+<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="24" y="145" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="640" y="158" width="20" height="18" class="combo"/>
@@ -839,7 +839,7 @@ rect.key.held {
 </g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="22" y="80" width="20" height="18" class="combo"/>
-<use href="#mdi:typewriter" xlink:href="#mdi:typewriter" x="24" y="80" height="18" width="18.0" class="combo tap glyph mdi:typewriter"/>
+<use href="#mdi:beaker" xlink:href="#mdi:beaker" x="24" y="80" height="18" width="18.0" class="combo tap glyph mdi:beaker"/>
 </g>
 </g>
 </g>

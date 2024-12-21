@@ -286,10 +286,10 @@ combos:
   k: '~'
   l: [Homerow, Navigation, Numbers]
 - p: [10, 0]
-  k: $$mdi:typewriter$$
+  k: $$mdi:beaker$$
   l: [Typing]
 - p: [20, 10]
-  k: $$mdi:beaker$$
+  k: $$mdi:typewriter$$
   l: [Homerow]
 - p: [16, 17]
   k: {t: (, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
