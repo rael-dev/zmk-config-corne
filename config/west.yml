@@ -44,7 +44,7 @@ manifest:
 #     remote: infely
 #     revision: main
     - name: nice-view-gem #new entry
-      remote: m165437 #new entry
+      remote: rael-dev #new entry
       revision: main #new entry
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
