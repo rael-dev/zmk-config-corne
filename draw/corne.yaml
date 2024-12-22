@@ -32,7 +32,7 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - FUNC
-  - {t: '&num_dance', h: NUM}
+  - {t: '&num_dance', h: NUMBERS}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
@@ -69,7 +69,7 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - FUNC
-  - {t: '&num_dance', h: NUM}
+  - {t: '&num_dance', h: NUMBERS}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held alternate}
-  NUM:
+  NUMBERS:
   - '1'
   - '2'
   - '3'
@@ -225,66 +225,66 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [12, 13]
   k: $$mdi:keyboard-return$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [1, 3]
   k: $$mdi:mouse$$
-  l: [HOMEROW, TYPING, NAV, NUM]
+  l: [HOMEROW, TYPING, NAV, NUMBERS]
   a: top
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [2, 3]
   k: $$mdi:repeat$$
-  l: [TYPING, NAV, NUM]
+  l: [TYPING, NAV, NUMBERS]
 - p: [21, 23]
   k: $$mdi:content-cut$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
   a: bottom
 - p: [21, 22]
   k: $$mdi:content-copy$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [22, 23]
   k: $$mdi:content-paste$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [20, 21]
   k: $$mdi:undo$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [23, 24]
   k: $$mdi:redo$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [11, 12]
   k: $$mdi:backspace-outline$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [13, 14]
   k: $$mdi:backspace-reverse-outline$$
-  l: [HOMEROW, TYPING, NAV, NUM, MOUSE]
+  l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
 - p: [1, 11]
   k: '@'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [2, 12]
   k: '#'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [3, 13]
   k: $
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [4, 14]
   k: '%'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [11, 21]
   k: '`'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [12, 22]
   k: \
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [13, 23]
   k: '='
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [14, 24]
   k: '~'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [10, 0]
   k: $$mdi:beaker$$
   l: [TYPING]
@@ -293,18 +293,18 @@ combos:
   l: [HOMEROW]
 - p: [16, 17]
   k: {t: (, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
-  l: [HOMEROW, NUM]
+  l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [17, 18]
   k: {t: ), h: Sft+ ALT, s: '>'}
-  l: [HOMEROW, NUM]
+  l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [26, 27]
   k: '['
-  l: [HOMEROW, NUM]
+  l: [HOMEROW, NUMBERS]
 - p: [27, 28]
   k: ']'
-  l: [HOMEROW, NUM]
+  l: [HOMEROW, NUMBERS]
 - p: [16, 17]
   k: '{'
   l: [NAV]
@@ -313,25 +313,25 @@ combos:
   l: [NAV]
 - p: [5, 15]
   k: ^
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [6, 16]
   k: +
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [7, 17]
   k: '*'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [8, 18]
   k: '&'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [15, 25]
   k: _
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [16, 26]
   k: '-'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [17, 27]
   k: /
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
 - p: [18, 28]
   k: '|'
-  l: [HOMEROW, NAV, NUM]
+  l: [HOMEROW, NAV, NUMBERS]
