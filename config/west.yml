@@ -43,7 +43,7 @@ manifest:
 #   - name: nice-view-battery
 #     remote: infely
 #     revision: main
-    - name: nice-view-gem #new entry
+    - name: custom-nice-view #new entry
       remote: rael-dev #new entry
       revision: main #new entry
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
