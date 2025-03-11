@@ -25,9 +25,7 @@ manifest:
     - name: upstream
       url-base: https://github.com/zmkfirmware
     - name: urob
-      url-base: https://github.com/urob
-#   - name: infely
-#       url-base: https://github.com/infely
+      url-base: https://github.com/urobas
     - name: rael-dev #new entry
       url-base: https://github.com/rael-dev #new entry
   projects:
@@ -39,10 +37,7 @@ manifest:
       path: modules/auto-layer
     - name: zmk-tri-state
       revision: main
-      path: modules/tri-state
-#   - name: nice-view-battery
-#     remote: infely
-#     revision: main
+      path: modules/tri-statesa
     - name: custom-nice-view #new entry
       remote: rael-dev #new entry
       revision: main #new entry
