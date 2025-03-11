@@ -25,7 +25,7 @@ manifest:
     - name: upstream
       url-base: https://github.com/zmkfirmware
     - name: urob
-      url-base: https://github.com/urobas
+      url-base: https://github.com/urob
     - name: rael-dev #new entry
       url-base: https://github.com/rael-dev #new entry
   projects:
