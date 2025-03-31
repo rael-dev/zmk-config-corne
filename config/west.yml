@@ -28,6 +28,8 @@ manifest:
       url-base: https://github.com/urob
     - name: rael-dev #new entry
       url-base: https://github.com/rael-dev #new entry
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
     - name: zmk-helpers
       revision: main
@@ -40,6 +42,9 @@ manifest:
       path: modules/tri-statesa
     - name: custom-nice-view #new entry
       remote: rael-dev #new entry
+      revision: main #new entry
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
       revision: main #new entry
     # ZMK with Zephyr namespaced under /zmk. This requires that ZMK imports
     # Zephyr with a path other than `zephyr` (as in `going-modular`).
