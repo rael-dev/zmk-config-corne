@@ -40,7 +40,7 @@ manifest:
     - name: zmk-tri-state
       revision: main
       path: modules/tri-statesa
-    - name: custom-nice-view #new entry
+    - name: nice-view-mix #new entry
       remote: rael-dev #new entry
       revision: main #new entry
     - name: nice-view-gem #new entry
