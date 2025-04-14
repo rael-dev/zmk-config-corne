@@ -216,8 +216,8 @@ text.footer {
     paint-order: stroke;
 }
 
-/* styling for combo tap, and key hold/shifted label text */
-text.combo, text.hold, text.shifted {
+/* styling for combo tap, and key non-tap label text */
+text.combo, text.hold, text.shifted, text.left, text.right {
     font-size: 11px;
 }
 
@@ -231,12 +231,20 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.left {
+    text-anchor: start;
+}
+
+text.right {
+    text-anchor: end;
+}
+
 text.layer-activator {
     text-decoration: underline;
 }
 
 /* styling for hold/shifted label text in combo box */
-text.combo.hold, text.combo.shifted {
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
     font-size: 8px;
 }
 
@@ -939,9 +947,9 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
 <use href="#mdi:format-list-group-plus" xlink:href="#mdi:format-list-group-plus" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:format-list-group-plus"/>
 </g>
-<g transform="translate(32, 187)" class="key trans keypos-20">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(32, 187)" class="key keypos-20">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">&amp;osrs</text>
 </g>
 <g transform="translate(98, 171)" class="key trans keypos-21">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -1872,7 +1880,7 @@ rect.key.held {
 <g transform="translate(32, 32)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key  combo-separate"/>
 <text x="0" y="0" class="key  combo-separate tap">)</text>
-<text x="0" y="22" class="key  combo-separate hold"><tspan style="font-size: 88%">Sft+ ALT</tspan></text>
+<text x="0" y="22" class="key  combo-separate hold">Sft+ALT</text>
 <text x="0" y="-22" class="key  combo-separate shifted">&gt;</text>
 </g>
 <g transform="translate(16, 101)" class="key keypos-1">
