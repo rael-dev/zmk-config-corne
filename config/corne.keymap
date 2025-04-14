@@ -468,7 +468,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_tap>, <&kp LA(TILDE)>;
+                <&macro_press>, <&kp LEFT_ALT>,
+                <&macro_tap>, <&kp TILDE>,
+                <&macro_release>, <&kp LEFT_ALT>;
         };
     };
 
