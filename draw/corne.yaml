@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+layout: {zmk_keyboard: corne, layout_name: five_column_transform}
 layers:
   HOMEROW:
   - Q
@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
   - {t: '$$mdi:arrow-right$$', h: END}
   - $$mdi:format-list-group-plus$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&osrs'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:comment-remove$$
   - $$mdi:comment-edit-outline$$
@@ -292,11 +292,11 @@ combos:
   k: $$mdi:typewriter$$
   l: [HOMEROW]
 - p: [16, 17]
-  k: {t: (, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
+  k: {t: (, h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
   l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [17, 18]
-  k: {t: ), h: Sft+ ALT, s: '>'}
+  k: {t: ), h: Sft+ALT, s: '>'}
   l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [26, 27]
