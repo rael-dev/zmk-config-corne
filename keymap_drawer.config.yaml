@@ -159,7 +159,7 @@ parse_config:
     '&kp LG(LC(LS(Q)))': 'PIN_WIN'
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
-    '&kp F14': $$mdi:microphone-off$$
+    '&kp F13': $$mdi:microphone-off$$
     '&kp F15': $$mdi:headset-off$$
     '&kp F16': $$mdi:projector-screen-outline$$
 
