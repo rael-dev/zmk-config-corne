@@ -140,14 +140,14 @@ layers:
   - PIN_APP
   - PIN_WIN
   - DSK_MNGR
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
   - $$mdi:volume-mute$$
   - $$mdi:play-pause$$
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held alternate}
+  - BT PRV
+  - {t: BT NXT, type: held alternate}
   NUMBERS:
   - '1'
   - '2'

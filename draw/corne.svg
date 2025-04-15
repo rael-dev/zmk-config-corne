@@ -36,6 +36,9 @@
 <svg id="mdi:beaker">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-beaker" viewBox="0 0 24 24"><path d="M3,3V5A2,2 0 0,1 5,7V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V7A2,2 0 0,1 21,5V3H3M7,9H10V10H7V9M7,11H10V12H7V11M10,16H7V15H10V16M12,14H7V13H12V14M12,8H7V7H12V8Z" /></svg>
 </svg>
+<svg id="mdi:bluetooth">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth" viewBox="0 0 24 24"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg>
+</svg>
 <svg id="mdi:caps-lock">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
 </svg>
@@ -44,6 +47,9 @@
 </svg>
 <svg id="mdi:circle-small">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-circle-small" viewBox="0 0 24 24"><path d="M12,10A2,2 0 0,0 10,12C10,13.11 10.9,14 12,14C13.11,14 14,13.11 14,12A2,2 0 0,0 12,10Z" /></svg>
+</svg>
+<svg id="mdi:close-thick">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-close-thick" viewBox="0 0 24 24"><path d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z" /></svg>
 </svg>
 <svg id="mdi:comment-edit-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-comment-edit-outline" viewBox="0 0 24 24"><path d="M9 22C8.45 22 8 21.55 8 21V18H4C2.9 18 2 17.11 2 16V4C2 2.89 2.9 2 4 2H20C21.11 2 22 2.9 22 4V16C22 17.11 21.11 18 20 18H13.9L10.2 21.71C10 21.9 9.75 22 9.5 22H9M10 16V19.08L13.08 16H20V4H4V16H10M15.84 8.2L14.83 9.21L12.76 7.18L13.77 6.16C13.97 5.95 14.31 5.94 14.55 6.16L15.84 7.41C16.05 7.62 16.06 7.96 15.84 8.2M8 11.91L12.17 7.72L14.24 9.8L10.08 14H8V11.91Z" /></svg>
@@ -1252,9 +1258,10 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 88%">DSK_MNGR</tspan></text>
 </g>
-<g transform="translate(748, 171)" class="key trans keypos-28">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(748, 171)" class="key text_with_symbol keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:bluetooth"/>
+<use href="#mdi:close-thick" xlink:href="#mdi:close-thick" x="-7" y="-22" height="14" width="14.0" class="key text_with_symbol shifted glyph mdi:close-thick"/>
 </g>
 <g transform="translate(812, 187)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
@@ -1275,12 +1282,17 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(578, 247) rotate(-15.0)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(578, 247) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">PRV</tspan>
+</text>
 </g>
 <g transform="translate(650, 238)" class="key held alternate keypos-35">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key held alternate"/>
+<text x="0" y="0" class="key held alternate tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">NXT</tspan>
+</text>
 </g>
 </g>
 </g>
