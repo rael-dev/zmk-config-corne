@@ -98,7 +98,7 @@
 #define QUICK_TAP_MS 175
 
 #define COMBO_TERM_FAST 18
-#define COMBO_TERM_SLOW 30
+#define COMBO_TERM_SLOW 40
 
 #define COMBO_IDLE_FAST 175
 #define COMBO_IDLE_SLOW 50
@@ -484,7 +484,7 @@
             bindings = <&kp ESC>;
             key-positions = <LT4 LT3>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_ret {
@@ -492,7 +492,7 @@
             bindings = <&kp RETURN>;
             key-positions = <LM2 LM1>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_mouse {
@@ -500,7 +500,7 @@
             bindings = <&smart_mouse>;
             key-positions = <LT3 LT1>;
             layers = <0 1 2 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_tab {
@@ -508,7 +508,7 @@
             bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;   
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
         
         combo_repeat {
@@ -516,7 +516,7 @@
             bindings = <HRC_REPEAT>;
             key-positions = <LT2 LT1>;
             layers = <1 2 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_cut {
@@ -524,7 +524,7 @@
             bindings = <&kp LC(X)>;
             key-positions = <LB3 LB1>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
         
         combo_copy {
@@ -532,7 +532,7 @@
             bindings = <&kp LC(C)>;
             key-positions = <LB3 LB2>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
         
         combo_paste {
@@ -540,7 +540,7 @@
             bindings = <&kp LC(V)>;
             key-positions = <LB2 LB1>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_undo {
@@ -548,7 +548,7 @@
             bindings = <&kp LC(Z)>;
             key-positions = <LB4 LB3>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_redo {
@@ -556,7 +556,7 @@
             bindings = <&kp LC(Y)>;
             key-positions = <LB1 LB0>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_bspc {
@@ -564,7 +564,7 @@
             bindings = <&kp BSPC>;
             key-positions = <LM3 LM2>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
         
         combo_del {
@@ -572,7 +572,7 @@
             bindings = <&kp DEL>;
             key-positions = <LM1 LM0>;
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         /* Vertical combos - left hand */
@@ -645,7 +645,7 @@
             bindings = <&to 0>;
             key-positions = <LM4 LT4>;
             layers = <1>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_nohmr {
@@ -653,7 +653,7 @@
             bindings = <&to 1>;
             key-positions = <LB4 LM4>;
             layers = <0>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         //////////////////////////////////////////////////////  RIGHT  //////////////////////////////////////////////////////
@@ -663,7 +663,7 @@
             bindings = <HRC_LPAR>;
             key-positions = <RM1 RM2>;
             layers = <0 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
         
         combo_rpar {
@@ -671,7 +671,7 @@
             bindings = <HRC_RPAR>;
             key-positions = <RM2 RM3>;
             layers = <0 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         // combo_lt {
@@ -679,7 +679,7 @@
         //     bindings = <&kp LT>;
         //     key-positions = <RM1 RM2>;
         //     layers = <2>;
-        //     require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        //     require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         // };
 
         // combo_gt {
@@ -687,7 +687,7 @@
         //     bindings = <&kp GT>;
         //     key-positions = <RM2 RM3>;
         //     layers = <2>;
-        //     require-prior-idle-ms = <COMBO_IDLE_FAST>;
+        //     require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         // };
 
         combo_lbkt {
@@ -695,7 +695,7 @@
             bindings = <&kp LBKT>;
             key-positions = <RB1 RB2>;
             layers = <0 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_rbkt {
@@ -703,7 +703,7 @@
             bindings = <&kp RBKT>;
             key-positions = <RB2 RB3>;
             layers = <0 4>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_lbrc {
@@ -711,7 +711,7 @@
             bindings = <&kp LBRC>;
             key-positions = <RM1 RM2>;
             layers = <2>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         combo_rbrc {
@@ -719,7 +719,7 @@
             bindings = <&kp RBRC>;
             key-positions = <RM2 RM3>;
             layers = <2>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
         /* Vertical combos - right hand */
@@ -845,11 +845,11 @@
             label = "FUNC";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &sleep   
+                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp LG(L)     &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &sleep   
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp F6        &kp F7        &kp F8        &kp F9        &kp F10         ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         PIN_APP       PIN_WIN       DSK_MNGR      &bt BT_CLR    ___    
+                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         PIN_APP       PIN_WIN       DSK_MNGR      ___           &bt BT_CLR
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             ___           &kp C_MUTE    &kp C_PP        ___           &bt BT_PRV    &bt BT_NXT                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
