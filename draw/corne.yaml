@@ -117,7 +117,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:lock-outline$$
   - $$mdi:skip-backward$$
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
@@ -140,8 +140,8 @@ layers:
   - PIN_APP
   - PIN_WIN
   - DSK_MNGR
-  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {type: held}
   - $$mdi:volume-mute$$
   - $$mdi:play-pause$$

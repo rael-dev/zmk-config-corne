@@ -102,6 +102,9 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
+<svg id="mdi:lock-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-lock-outline" viewBox="0 0 24 24"><path d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" /></svg>
+</svg>
 <svg id="mdi:microphone-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-microphone-off" viewBox="0 0 24 24"><path d="M19,11C19,12.19 18.66,13.3 18.1,14.28L16.87,13.05C17.14,12.43 17.3,11.74 17.3,11H19M15,11.16L9,5.18V5A3,3 0 0,1 12,2A3,3 0 0,1 15,5V11L15,11.16M4.27,3L21,19.73L19.73,21L15.54,16.81C14.77,17.27 13.91,17.58 13,17.72V21H11V17.72C7.72,17.23 5,14.41 5,11H6.7C6.7,14 9.24,16.1 12,16.1C12.81,16.1 13.6,15.91 14.31,15.58L12.65,13.92L12,14A3,3 0 0,1 9,11V10.28L3,4.27L4.27,3Z" /></svg>
 </svg>
@@ -1165,9 +1168,9 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
 <text x="0" y="0" class="key tap">F5</text>
 </g>
-<g transform="translate(552, 49)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(552, 49)" class="key keypos-5">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:lock-outline" xlink:href="#mdi:lock-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lock-outline"/>
 </g>
 <g transform="translate(618, 41)" class="key keypos-6">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -1258,14 +1261,14 @@ rect.key.held {
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 88%">DSK_MNGR</tspan></text>
 </g>
-<g transform="translate(748, 171)" class="key text_with_symbol keypos-28">
+<g transform="translate(748, 171)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
+</g>
+<g transform="translate(812, 187)" class="key text_with_symbol keypos-29">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key text_with_symbol"/>
 <use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-9" y="-9" height="18" width="18.0" class="key text_with_symbol tap glyph mdi:bluetooth"/>
 <use href="#mdi:close-thick" xlink:href="#mdi:close-thick" x="-7" y="-22" height="14" width="14.0" class="key text_with_symbol shifted glyph mdi:close-thick"/>
-</g>
-<g transform="translate(812, 187)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(195, 238)" class="key held keypos-30">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key held"/>
