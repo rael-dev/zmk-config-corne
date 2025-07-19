@@ -898,7 +898,8 @@ rect.key.held {
 </g>
 <g transform="translate(618, 106)" class="key keypos-16">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;mt_bgol</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_left</tspan></text>
+<text x="0" y="22" class="key hold">HOME</text>
 </g>
 <g transform="translate(682, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -907,7 +908,8 @@ rect.key.held {
 </g>
 <g transform="translate(748, 106)" class="key keypos-18">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap">&amp;mt_eol</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;td_right</tspan></text>
+<text x="0" y="22" class="key hold">END</text>
 </g>
 <g transform="translate(812, 122)" class="key keypos-19">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>

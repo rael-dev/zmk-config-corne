@@ -91,9 +91,9 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - $$mdi:database-search$$
   - SCROLL_D
-  - '&mt_bgol'
+  - {t: '&td_left', h: HOME}
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
-  - '&mt_eol'
+  - {t: '&td_right', h: END}
   - PG DN
   - '&osrs'
   - ''
