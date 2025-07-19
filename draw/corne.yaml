@@ -91,18 +91,18 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - $$mdi:database-search$$
   - $$mdi:chevron-double-down$$
-  - {t: '$$mdi:arrow-left$$', s: '$$mdi:format-horizontal-align-left$$'}
+  - {t: '$$mdi:arrow-left$$', h: '$$mdi:format-horizontal-align-left$$'}
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
-  - {t: '$$mdi:arrow-right$$', s: '$$mdi:format-horizontal-align-right$$'}
+  - {t: '$$mdi:arrow-right$$', h: '$$mdi:format-horizontal-align-right$$'}
   - PG DN
   - '&osrs'
   - ''
   - $$mdi:comment-remove$$
   - $$mdi:comment-edit-outline$$
   - $$mdi:rename-outline$$
-  - $$mdi:arrow-u-down-right-bold$$
-  - $$mdi:arrow-collapse-down$$
-  - $$mdi:arrow-expand-up$$
+  - $$mdi:debug-step-over$$
+  - $$mdi:debug-step-into$$
+  - $$mdi:debug-step-out$$
   - HOME
   - INS
   - $$mdi:microsoft-windows-classic$$
@@ -126,13 +126,13 @@ layers:
   - F7
   - F8
   - F9
-  - $$mdi:arrow-u-down-right-bold$$
+  - $$mdi:debug-step-over$$
   - ''
   - ''
   - ''
   - ''
   - ''
-  - $$mdi:arrow-collapse-down$$
+  - $$mdi:debug-step-into$$
   - F12
   - $$mdi:microphone-off$$
   - $$mdi:headset-off$$
@@ -291,11 +291,9 @@ combos:
 - p: [16, 17]
   k: (
   l: [HOMEROW, NUMBERS]
-  draw_separate: true
 - p: [17, 18]
   k: )
   l: [HOMEROW, NUMBERS]
-  draw_separate: true
 - p: [26, 27]
   k: '['
   l: [HOMEROW, NUMBERS]
