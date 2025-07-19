@@ -111,8 +111,8 @@
 
 #define SMART_NUM &smart_num 4 0
 
-#define NAV_LEFT  &mt_home 0   LEFT    // tap: left  | long-tap: beginning of line
-#define NAV_RIGHT &mt_end 0    RIGHT   // tap: right | long-tap: end       of line
+#define NAV_LEFT  &mt_bgol    // tap: left  | long-tap: beginning of line
+#define NAV_RIGHT &mt_eol     // tap: right | long-tap: end       of line
 #define NAV_UP    &mt LC(HOME) UP      // tap: up    | long-tap: beginning of document
 #define NAV_DOWN  &mt LC(END)  DOWN    // tap: down  | long-tap: end       of document
 #define NAV_BSPC  &mt LC(BSPC) BSPC    // tap: bspc  | long-tap: delete word backward
@@ -170,7 +170,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <220>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <250>;
             bindings = <&kp>, <&kp>;
@@ -182,7 +182,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <220>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <250>;
             bindings = <&kp>, <&kp>;
@@ -226,24 +226,24 @@
             hold-trigger-on-release;
         };
 
-        mt_home: mt_home {
+        mt_bgol: mt_bgol {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
             quick-tap-ms = <220>;
             hold-trigger-key-positions = <0>;
-            bindings = <&masked_home>, <&kp>;
+            bindings = <&masked_home>, <&td_left>;
         };
 
-        mt_end: mt_end {
+        mt_eol: mt_eol {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
             quick-tap-ms = <220>;
             hold-trigger-key-positions = <0>;
-            bindings = <&masked_end>, <&kp>;
+            bindings = <&masked_end>, <&td_right>;
         };
 
         masked_home: masked_home {
@@ -362,7 +362,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <300>;
-            quick-tap-ms = <QCK_TAP_MS>;
+            quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&mo>, <&kp>;
         };
 
@@ -391,12 +391,26 @@
             bindings = <&kp LC(INS)>, <&kp LC(X)>;
         };
 
-        run_project: run_project {
+        dbg_run: dbg_run {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <350>;
-            bindings = <&kp F5>, <&kp LA(F5)>;
+            bindings = <&kp LA(F5)>, <&kp LC(F5)>;
         };
+
+        td_left: td_left {
+            compatible = "zmk,behavior-tap-dance";
+            binding-cells = <0>;
+            tapping-term-ms = <350>;
+            bindings = LEFT, <&kp LC(LEFT)>;
+        }
+
+        td_right: td_right {
+            compatible = "zmk,behavior-tap-dance";
+            binding-cells = <0>;
+            tapping-term-ms = <350>;
+            bindings = RIGHT, <&kp LC(RIGHT)>;
+        }
     };
 
     macros {
@@ -508,14 +522,6 @@
             bindings = <&kp TAB>;
             key-positions = <LM4 LM3>;   
             layers = <0 1 2 4 5>;
-            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
-        };
-        
-        combo_repeat {
-            timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <HRC_REPEAT>;
-            key-positions = <LT2 LT1>;
-            layers = <1 2 4>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -660,7 +666,7 @@
         /* Horizontal combos - right hand */
         combo_lpar {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <HRC_LPAR>;
+            bindings = <&kp LPAR>;
             key-positions = <RM1 RM2>;
             layers = <0 4>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
@@ -668,27 +674,11 @@
         
         combo_rpar {
             timeout-ms = <COMBO_TERM_SLOW>;
-            bindings = <HRC_RPAR>;
+            bindings = <&kp RPAR>;
             key-positions = <RM2 RM3>;
             layers = <0 4>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
-
-        // combo_lt {
-        //     timeout-ms = <COMBO_TERM_SLOW>;
-        //     bindings = <&kp LT>;
-        //     key-positions = <RM1 RM2>;
-        //     layers = <2>;
-        //     require-prior-idle-ms = <COMBO_IDLE_SLOW>;
-        // };
-
-        // combo_gt {
-        //     timeout-ms = <COMBO_TERM_SLOW>;
-        //     bindings = <&kp GT>;
-        //     key-positions = <RM2 RM3>;
-        //     layers = <2>;
-        //     require-prior-idle-ms = <COMBO_IDLE_SLOW>;
-        // };
 
         combo_lbkt {
             timeout-ms = <COMBO_TERM_SLOW>;
@@ -806,7 +796,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo 3        SMART_NUM    &lt_spc 2 SPACE  &kp BACKSPACE  &smart_shft   &mo 3
+                                            &mo 3        SMART_NUM    &lt_spc 2 SPACE  &kp BACKSPACE  &smart_shft   XXX
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -821,7 +811,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo 3         SMART_NUM     &kp SPACE      &kp BACKSPACE  &smart_shft   &mo 3
+                                            &mo 3         SMART_NUM     &kp SPACE      &kp BACKSPACE  &smart_shft   XXX
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -830,13 +820,13 @@
             label = "NAV";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp CAPS      ___           ___         &cpp_header_hop &run_project    &kp PG_UP     NAV_BSPC      NAV_UP        NAV_DEL       ___          
+                &kp CAPS      XXX           XXX         &cpp_header_hop &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &swapper      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &context_actions      
+                &swapper      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &osrs         ___           &uncomment    &comment      &rename         &kp INS       ___           ___           ___           ___          
+                &osrs         XXX           &uncomment    &comment      &rename         XXX           XXX           &kp CAPS      &kp HOME      &kp INS          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &kp LGUI      ___           ___             ___           CANCEL        &kp RGUI                                    
+                                            &kp LGUI      XXX           &kp SPACE       XXX           CANCEL        &kp RGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -845,13 +835,13 @@
             label = "FUNC";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp LG(L)     &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &sleep   
+                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp LG(L)     XXX           XXX           XXX           &sleep   
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F6        &kp F7        &kp F8        &kp F9        &kp F10         ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___          
+                &kp F6        &kp F7        &kp F8        &kp F9        &kp F10         XXX           XXX           XXX           XXX           XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         PIN_APP       PIN_WIN       DSK_MNGR      ___           &bt BT_CLR
+                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         &kp C_MUTE    &bt BT_PRV    &bt BT_NXT    XXX           &bt BT_CLR
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           &kp C_MUTE    &kp C_PP        ___           &bt BT_PRV    &bt BT_NXT                                    
+                                            ___           XXX           XXX             &kp C_PP      &kp C_VOL_DN  &kp C_VOL_UP                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -860,13 +850,13 @@
             label = "NUMBERS";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          ___           &kp N7        &kp N8        &kp N9        ___          
+                &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          XXX           &kp N7        &kp N8        &kp N9        XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &hml LSHFT N6 &kp N7        &kp N8        &hml LCTRL N9 &kp N0          ___           &kp N4        &kp N5        &kp N6        ___          
+                &hml LSHFT N6 &kp N7        &kp N8        &hml LCTRL N9 &kp N0          XXX           &kp N4        &kp N5        &kp N6        XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                ___           ___           ___           ___           ___             &kp N0        &kp N1        &kp N2        &kp N3        ___          
+                XXX           XXX           XXX           XXX           XXX             &kp N0        &kp N1        &kp N2        &kp N3        XXX          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           ___           ___             ___           ___           ___                                    
+                                            XXX           XXX           XXX             &kp BACKSPACE XXX           XXX                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -875,13 +865,13 @@
             label = "MOUSE";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp Q         &kp W         &kp E         &kp R         &kp T           U_WH_L        U_WH_D        U_MS_U         U_WH_U       U_WH_R       
+                &kp Q         &kp W         &kp E         &kp R         &kp T           U_WH_U        U_WH_L        U_MS_U         U_WH_R       XXX       
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp A         &kp S         &kp D         &kp F         &kp G           ___           U_MS_L        U_MS_D         U_MS_R       ___          
+                &kp A         &kp S         &kp D         &kp F         &kp G           U_WH_D        U_MS_L        U_MS_D         U_MS_R       XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp Z         &kp X         &kp C         &kp V         &kp B           ___           &mkp MB4      &mkp MCLK      &mkp MB5     ___          
+                &kp Z         &kp X         &kp C         &kp V         &kp B           XXX           &mkp MB4      &mkp MCLK      &mkp MB5     XXX          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           ___           &mkp LCLK       &mkp RCLK     ___           ___                                    
+                                            XXX           XXX           &mkp LCLK       &mkp RCLK     XXX           XXX                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
