@@ -400,14 +400,14 @@
 
         td_left: td_left {
             compatible = "zmk,behavior-tap-dance";
-            binding-cells = <0>;
+            #binding-cells = <0>;
             tapping-term-ms = <350>;
             bindings = <&kp LEFT>, <&kp LC(LEFT)>;
         };
 
         td_right: td_right {
             compatible = "zmk,behavior-tap-dance";
-            binding-cells = <0>;
+            #binding-cells = <0>;
             tapping-term-ms = <350>;
             bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
         };
