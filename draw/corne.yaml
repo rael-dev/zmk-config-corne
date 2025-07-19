@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
-  - FUNC
+  - ''
   TYPING:
   - Q
   - W
@@ -73,42 +73,42 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
-  - FUNC
+  - ''
   NAV:
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
   - $$mdi:file-arrow-left-right$$
-  - $$mdi:microsoft-visual-studio$$
-  - PG UP
+  - '&dbg_run'
+  - SCROLL_U
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - PG UP
   - '&swapper'
   - {t: ALT, h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - $$mdi:database-search$$
-  - PG DN
-  - {t: '$$mdi:arrow-left$$', h: HOME}
+  - SCROLL_D
+  - '&mt_bgol'
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
-  - {t: '$$mdi:arrow-right$$', h: END}
-  - $$mdi:format-list-group-plus$$
+  - '&mt_eol'
+  - PG DN
   - '&osrs'
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - $$mdi:comment-remove$$
   - $$mdi:comment-edit-outline$$
   - $$mdi:rename-outline$$
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-caps$$
+  - HOME
   - INS
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:microsoft-windows-classic$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - ''
   - CANCEL
   - $$mdi:microsoft-windows-classic$$
   FUNC:
@@ -118,110 +118,110 @@ layers:
   - F4
   - F5
   - $$mdi:lock-outline$$
-  - $$mdi:skip-backward$$
-  - $$mdi:volume-plus$$
-  - $$mdi:skip-forward$$
+  - ''
+  - ''
+  - ''
   - $$mdi:sleep$$
   - F6
   - F7
   - F8
   - F9
   - F10
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - DSK_PREV
-  - {t: '$$mdi:volume-minus$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - DSK_NEXT
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - F11
   - F12
   - $$mdi:microphone-off$$
   - $$mdi:headset-off$$
   - $$mdi:projector-screen-outline$$
-  - PIN_APP
-  - PIN_WIN
-  - DSK_MNGR
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:volume-mute$$
+  - BT PRV
+  - BT NXT
+  - ''
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {type: held}
-  - $$mdi:volume-mute$$
+  - ''
+  - ''
   - $$mdi:play-pause$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - BT PRV
-  - {t: BT NXT, type: held alternate}
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
   NUMBERS:
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
   - '7'
   - '8'
   - {t: '9', h: '$$mdi:apple-keyboard-control$$'}
   - '0'
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '0'
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
   - {type: held}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - $$mdi:backspace-outline$$
+  - ''
+  - ''
   MOUSE:
   - Q
   - W
   - E
   - R
   - T
-  - SCROLL_L
-  - SCROLL_D
-  - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
   - SCROLL_U
+  - SCROLL_L
+  - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
   - SCROLL_R
+  - ''
   - A
   - S
   - D
   - F
   - G
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - SCROLL_D
   - {t: '$$mdi:mouse$$', s: LEFT, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: DOWN, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: RIGHT, type: text_with_symbol}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - Z
   - X
   - C
   - V
   - B
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
   - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: MID, type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: text_with_symbol}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
+  - ''
   - $$mdi:cursor-default-click-outline$$
   - $$mdi:cursor-default-click$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - ''
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
@@ -236,9 +236,6 @@ combos:
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
   l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
-- p: [2, 3]
-  k: $$mdi:repeat$$
-  l: [TYPING, NAV, NUMBERS]
 - p: [21, 23]
   k: $$mdi:content-cut$$
   l: [HOMEROW, TYPING, NAV, NUMBERS, MOUSE]
@@ -292,11 +289,11 @@ combos:
   k: $$mdi:typewriter$$
   l: [HOMEROW]
 - p: [16, 17]
-  k: {t: (, h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
+  k: (
   l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [17, 18]
-  k: {t: ), h: Sft+ALT, s: '>'}
+  k: )
   l: [HOMEROW, NUMBERS]
   draw_separate: true
 - p: [26, 27]
