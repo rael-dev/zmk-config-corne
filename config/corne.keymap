@@ -206,8 +206,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <220>;
+            tapping-term-ms = <240>;
+            quick-tap-ms = <230>;
             hold-trigger-key-positions = <0>;
             bindings = <&masked_home>, <&td_left>;
         };
@@ -215,7 +215,7 @@
         td_left: td_left {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
             bindings = <&kp LEFT>, <&kp LC(LEFT)>;
         };
         
@@ -223,8 +223,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <220>;
+            tapping-term-ms = <240>;
+            quick-tap-ms = <230>;
             hold-trigger-key-positions = <0>;
             bindings = <&masked_end>, <&td_right>;
         };
@@ -232,7 +232,7 @@
         td_right: td_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
             bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
         };
 
