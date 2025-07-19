@@ -179,10 +179,10 @@ parse_config:
     '&rename': $$mdi:rename-outline$$
     '&comment': $$mdi:comment-edit-outline$$
     '&uncomment': $$mdi:comment-remove$$
-    '&cpp_header_hop': $$mdi:file-arrow-left-right$$
     '&search_members': $$mdi:database-search$$
     '&context_actions': $$mdi:format-list-group-plus$$
-    '&run_project': $$mdi:microsoft-visual-studio$$
+    '&dbg_run': $$mdi:bug-play$$
+    '&cpp_h_hop': $$mdi:file-arrow-left-right$$
     '&swapper': $$mdi:remote-desktop$$
     '&num_dance': 
       tap: $$mdi:numeric$$
