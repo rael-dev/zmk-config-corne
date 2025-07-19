@@ -32,7 +32,7 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - FUNC
-  - {t: '&num_dance', h: NUMBERS}
+  - {t: '$$mdi:numeric$$', h: NUMBERS}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
@@ -69,7 +69,7 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - FUNC
-  - {t: '&num_dance', h: NUMBERS}
+  - {t: '$$mdi:numeric$$', h: NUMBERS}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
@@ -80,7 +80,7 @@ layers:
   - ''
   - '&cpp_h_hop'
   - '&dbg_run'
-  - SCROLL_U
+  - $$mdi:chevron-double-up$$
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
@@ -90,25 +90,25 @@ layers:
   - ''
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - $$mdi:database-search$$
-  - SCROLL_D
-  - {t: '&td_left', h: HOME}
+  - $$mdi:chevron-double-down$$
+  - {t: '$$mdi:arrow-left$$', s: '$$mdi:format-horizontal-align-left$$'}
   - {t: '$$mdi:arrow-down$$', h: '$$mdi:format-vertical-align-bottom$$'}
-  - {t: '&td_right', h: END}
+  - {t: '$$mdi:arrow-right$$', s: '$$mdi:format-horizontal-align-right$$'}
   - PG DN
   - '&osrs'
   - ''
   - $$mdi:comment-remove$$
   - $$mdi:comment-edit-outline$$
   - $$mdi:rename-outline$$
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-u-down-right-bold$$
+  - $$mdi:arrow-collapse-down$$
+  - $$mdi:arrow-expand-up$$
   - HOME
   - INS
   - $$mdi:microsoft-windows-classic$$
   - ''
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - '&swapper'
+  - $$mdi:remote-desktop$$
   - CANCEL
   - $$mdi:microsoft-windows-classic$$
   FUNC:
@@ -126,13 +126,13 @@ layers:
   - F7
   - F8
   - F9
-  - F10
+  - $$mdi:arrow-u-down-right-bold$$
   - ''
   - ''
   - ''
   - ''
   - ''
-  - F11
+  - $$mdi:arrow-collapse-down$$
   - F12
   - $$mdi:microphone-off$$
   - $$mdi:headset-off$$
@@ -191,17 +191,17 @@ layers:
   - ''
   - ''
   - ''
-  - SCROLL_U
-  - SCROLL_L
+  - $$mdi:chevron-double-up$$
+  - $$mdi:chevron-double-left$$
   - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
-  - SCROLL_R
+  - $$mdi:chevron-double-right$$
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - SCROLL_D
+  - $$mdi:chevron-double-down$$
   - {t: '$$mdi:mouse$$', s: LEFT, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: DOWN, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: RIGHT, type: text_with_symbol}
