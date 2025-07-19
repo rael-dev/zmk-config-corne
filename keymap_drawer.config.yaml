@@ -122,12 +122,12 @@ parse_config:
     
     '&td_left': 
       tap: $$mdi:arrow-left$$
-      shifted: $$mdi:format-horizontal-align-left$$
-    '&masked_home': ''
+      shifted: ''
+    '&masked_home': $$mdi:format-horizontal-align-left$$
     '&td_right': 
       tap: $$mdi:arrow-right$$
-      shifted: $$mdi:format-horizontal-align-right$$
-    '&masked_end': ''
+      shifted: ''
+    '&masked_end': $$mdi:format-horizontal-align-right$$
     
     '&kp LC(HOME)': $$mdi:format-vertical-align-top$$
     '&kp LC(END)': $$mdi:format-vertical-align-bottom$$
@@ -168,9 +168,9 @@ parse_config:
     '&kp LG(LC(LS(Q)))': 'PIN_WIN'
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
-    '&kp F10': $$mdi:arrow-u-down-right-bold$$
-    '&kp F11': $$mdi:arrow-collapse-down$$
-    '&kp LS(F11)': $$mdi:arrow-expand-up$$
+    '&kp F10': $$mdi:debug-step-over$$
+    '&kp F11': $$mdi:debug-step-into$$
+    '&kp LS(F11)': $$mdi:debug-step-out$$
     '&kp F13': $$mdi:microphone-off$$
     '&kp F15': $$mdi:headset-off$$
     '&kp F16': $$mdi:projector-screen-outline$$
@@ -358,10 +358,6 @@ parse_config:
       align: top
     combo_cut:
       align: bottom
-    combo_rpar:
-      draw_separate: true
-    combo_lpar:
-      draw_separate: true
       
   zmk_keycode_map:
     LALT: ALT
