@@ -36,6 +36,9 @@
 <svg id="mdi:bluetooth">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth" viewBox="0 0 24 24"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg>
 </svg>
+<svg id="mdi:bug-play">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bug-play" viewBox="0 0 24 24"><path d="M19 7H16.19C15.74 6.2 15.12 5.5 14.37 5L16 3.41L14.59 2L12.42 4.17C11.96 4.06 11.5 4 11 4S10.05 4.06 9.59 4.17L7.41 2L6 3.41L7.62 5C6.87 5.5 6.26 6.21 5.81 7H3V9H5.09C5.03 9.33 5 9.66 5 10V11H3V13H5V14C5 14.34 5.03 14.67 5.09 15H3V17H5.81C7.26 19.5 10.28 20.61 13 19.65V19C13 16.46 14.61 14.2 17 13.35V13H19V11H17V10C17 9.66 16.97 9.33 16.91 9H19V7M13 15H9V13H13V15M13 11H9V9H13V11M17 16V22L22 19L17 16Z" /></svg>
+</svg>
 <svg id="mdi:caps-lock">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
 </svg>
@@ -89,6 +92,9 @@
 </svg>
 <svg id="mdi:debug-step-over">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-debug-step-over" viewBox="0 0 24 24"><path d="M12,14A2,2 0 0,1 14,16A2,2 0 0,1 12,18A2,2 0 0,1 10,16A2,2 0 0,1 12,14M23.46,8.86L21.87,15.75L15,14.16L18.8,11.78C17.39,9.5 14.87,8 12,8C8.05,8 4.77,10.86 4.12,14.63L2.15,14.28C2.96,9.58 7.06,6 12,6C15.58,6 18.73,7.89 20.5,10.72L23.46,8.86Z" /></svg>
+</svg>
+<svg id="mdi:file-arrow-left-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-file-arrow-left-right" viewBox="0 0 24 24"><path d="M19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M13 3.5L18.5 9H13V3.5M20 19.5V18H16V16H20V14.5L23 17L20 19.5M18 20H22V22H18V23.5L15 21L18 18.5V20Z" /></svg>
 </svg>
 <svg id="mdi:format-horizontal-align-left">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-horizontal-align-left" viewBox="0 0 24 24"><path d="M11,16V13H21V11H11V8L7,12L11,16M3,20H5V4H3V20Z" /></svg>
@@ -883,11 +889,11 @@ rect.key.held {
 </g>
 <g transform="translate(228, 41)" class="key keypos-3">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;cpp_h_hop</tspan></text>
+<use href="#mdi:file-arrow-left-right" xlink:href="#mdi:file-arrow-left-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:file-arrow-left-right"/>
 </g>
 <g transform="translate(292, 49)" class="key keypos-4">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;dbg_run</tspan></text>
+<use href="#mdi:bug-play" xlink:href="#mdi:bug-play" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:bug-play"/>
 </g>
 <g transform="translate(552, 49)" class="key keypos-5">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>

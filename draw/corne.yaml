@@ -78,8 +78,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&cpp_h_hop'
-  - '&dbg_run'
+  - $$mdi:file-arrow-left-right$$
+  - $$mdi:bug-play$$
   - $$mdi:chevron-double-up$$
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
