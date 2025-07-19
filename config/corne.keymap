@@ -202,30 +202,6 @@
             hold-trigger-on-release;
         };
 
-        hmr_lpar_lt: hmr_lpar_lt {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
-            bindings = <&kp>, <&lpar_lt>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;
-        };
-
-        hmr_rpar_gt: hmr_rpar_gt {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
-            bindings = <&kp>, <&rpar_gt>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;
-        };
-
         mt_bgol: mt_bgol {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -236,6 +212,13 @@
             bindings = <&masked_home>, <&td_left>;
         };
 
+        td_left: td_left {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LEFT>, <&kp LC(LEFT)>;
+        };
+        
         mt_eol: mt_eol {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -244,6 +227,13 @@
             quick-tap-ms = <220>;
             hold-trigger-key-positions = <0>;
             bindings = <&masked_end>, <&td_right>;
+        };
+        
+        td_right: td_right {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
         };
 
         masked_home: masked_home {
@@ -342,21 +332,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        // tap: left/right parenthesis | shft + tap: less-than/greater-than
-        lpar_lt: lpar_lt {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LPAR>, <&kp LT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        
-        rpar_gt: rpar_gt {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp RPAR>, <&kp GT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         lt_spc: lt_spc {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -396,20 +371,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <350>;
             bindings = <&kp LA(F5)>, <&kp LC(F5)>;
-        };
-
-        td_left: td_left {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&kp LEFT>, <&kp LC(LEFT)>;
-        };
-
-        td_right: td_right {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
         };
     };
 
@@ -455,7 +416,7 @@
                 <&macro_tap>, <&kp LC(U)>;
         };
 
-        cpp_header_hop: cpp_header_hop {
+        cpp_h_hop: cpp_h_hop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
@@ -470,12 +431,6 @@
                 <&macro_press>, <&kp LEFT_ALT>,
                 <&macro_tap>, <&kp BACKSLASH>,
                 <&macro_release>, <&kp LEFT_ALT>;
-        };
-
-        context_actions: context_actions {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LA(ENTER)>;
         };
 
         osrs: osrs {
@@ -820,13 +775,13 @@
             label = "NAV";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp CAPS      XXX           XXX         &cpp_header_hop &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
+                XXX           XXX           XXX           &cpp_h_hop    &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &swapper      &sk LALT      &sk LSHFT     &sk LCTRL     &search_members U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
+                &sk LSHFT      &sk LALT     XXX           &sk LCTRL   &search_members   U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &osrs         XXX           &uncomment    &comment      &rename         XXX           XXX           &kp CAPS      &kp HOME      &kp INS          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &kp LGUI      XXX           &kp SPACE       XXX           CANCEL        &kp RGUI                                    
+                                            &kp LGUI      XXX           &kp SPACE       &swapper      CANCEL        &kp RGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -852,7 +807,7 @@
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          XXX           &kp N7        &kp N8        &kp N9        XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &hml LSHFT N6 &kp N7        &kp N8        &hml LCTRL N9 &kp N0          XXX           &kp N4        &kp N5        &kp N6        XXX          
+                &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          XXX           &kp N4        &kp N5        &kp N6        XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 XXX           XXX           XXX           XXX           XXX             &kp N0        &kp N1        &kp N2        &kp N3        XXX          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
@@ -865,11 +820,11 @@
             label = "MOUSE";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp Q         &kp W         &kp E         &kp R         &kp T           U_WH_U        U_WH_L        U_MS_U         U_WH_R       XXX       
+                XXX           XXX           XXX           XXX           XXX             U_WH_U        U_WH_L        U_MS_U         U_WH_R       XXX       
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp A         &kp S         &kp D         &kp F         &kp G           U_WH_D        U_MS_L        U_MS_D         U_MS_R       XXX          
+                XXX           XXX           XXX           XXX           XXX             U_WH_D        U_MS_L        U_MS_D         U_MS_R       XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp Z         &kp X         &kp C         &kp V         &kp B           XXX           &mkp MB4      &mkp MCLK      &mkp MB5     XXX          
+                XXX           XXX           XXX           XXX           XXX             XXX           &mkp MB4      &mkp MCLK      &mkp MB5     XXX          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             XXX           XXX           &mkp LCLK       &mkp RCLK     XXX           XXX                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
