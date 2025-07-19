@@ -273,7 +273,7 @@
         smart_num: smart_num {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&mo>, <&num_dance>;
@@ -360,9 +360,9 @@
         lt_spc: lt_spc {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <300>;      
-            quick-tap-ms = <QUICK_TAP_MS>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <QCK_TAP_MS>;
             bindings = <&mo>, <&kp>;
         };
 
