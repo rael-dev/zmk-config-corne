@@ -402,14 +402,14 @@
             compatible = "zmk,behavior-tap-dance";
             binding-cells = <0>;
             tapping-term-ms = <350>;
-            bindings = LEFT, <&kp LC(LEFT)>;
+            bindings = <&kp LEFT>, <&kp LC(LEFT)>;
         }
 
         td_right: td_right {
             compatible = "zmk,behavior-tap-dance";
             binding-cells = <0>;
             tapping-term-ms = <350>;
-            bindings = RIGHT, <&kp LC(RIGHT)>;
+            bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
         }
     };
 
