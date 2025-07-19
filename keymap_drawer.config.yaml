@@ -120,6 +120,17 @@ parse_config:
     '&to 1': $$mdi:typewriter$$
     '&to 0': $$mdi:beaker$$
     
+    '&td_left': 
+      tap: $$mdi:arrow-left$$
+      shifted: $$mdi:format-horizontal-align-left$$
+    '&masked_home': ''
+    '&td_right': 
+      tap: $$mdi:arrow-right$$
+      shifted: $$mdi:format-horizontal-align-right$$
+    '&masked_end': ''
+    
+    '&kp LC(HOME)': $$mdi:format-vertical-align-top$$
+    '&kp LC(END)': $$mdi:format-vertical-align-bottom$$
     '&kp LC(BSPC)': $$mdi:backspace$$
     '&kp LC(DEL)': $$mdi:backspace-reverse$$
     '&kp LS(TAB)': $$mdi:keyboard-tab-reverse$$
@@ -132,8 +143,6 @@ parse_config:
     
     '&kp LC(LS(LALT))': $$mdi:star-three-points-outline$$
     '&kp LC(LS(LA(LGUI)))': $$mdi:star-four-points-outline$$
-    '&kp LC(HOME)': $$mdi:format-vertical-align-top$$
-    '&kp LC(END)': $$mdi:format-vertical-align-bottom$$
 
     '&kp LC(INS)': $$mdi:content-copy$$
     '&kp LC(C)': $$mdi:content-copy$$
@@ -159,6 +168,9 @@ parse_config:
     '&kp LG(LC(LS(Q)))': 'PIN_WIN'
     '&kp LG(LC(LS(A)))': 'PIN_APP'
     '&kp LA(GRAVE)': 'DSK_MNGR'
+    '&kp F10': $$mdi:arrow-u-down-right-bold$$
+    '&kp F11': $$mdi:arrow-collapse-down$$
+    '&kp LS(F11)': $$mdi:arrow-expand-up$$
     '&kp F13': $$mdi:microphone-off$$
     '&kp F15': $$mdi:headset-off$$
     '&kp F16': $$mdi:projector-screen-outline$$
@@ -171,6 +183,10 @@ parse_config:
     '&search_members': $$mdi:database-search$$
     '&context_actions': $$mdi:format-list-group-plus$$
     '&run_project': $$mdi:microsoft-visual-studio$$
+    '&swapper': $$mdi:remote-desktop$$
+    '&num_dance': 
+      tap: $$mdi:numeric$$
+      shifted: ''
     
     '&td_sqt_dqt':
       tap: "'"
@@ -279,10 +295,10 @@ parse_config:
       shifted: RIGHT
       type: text_with_symbol
 
-    '&msc SCRL_UP': 'SCROLL_U'
-    '&msc SCRL_DOWN': 'SCROLL_D'
-    '&msc SCRL_LEFT': 'SCROLL_L'
-    '&msc SCRL_RIGHT': 'SCROLL_R'
+    '&msc SCRL_UP': $$mdi:chevron-double-up$$
+    '&msc SCRL_DOWN': $$mdi:chevron-double-down$$
+    '&msc SCRL_LEFT': $$mdi:chevron-double-left$$
+    '&msc SCRL_RIGHT': $$mdi:chevron-double-right$$
     
     '&mkp LCLK': $$mdi:cursor-default-click-outline$$
     '&mkp RCLK': $$mdi:cursor-default-click$$
