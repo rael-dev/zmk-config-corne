@@ -100,10 +100,10 @@ layers:
   - $$mdi:comment-remove$$
   - $$mdi:comment-edit-outline$$
   - $$mdi:rename-outline$$
+  - HOME
   - $$mdi:debug-step-over$$
   - $$mdi:debug-step-into$$
   - $$mdi:debug-step-out$$
-  - HOME
   - INS
   - $$mdi:microsoft-windows-classic$$
   - ''
