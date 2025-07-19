@@ -75,19 +75,19 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - ''
   NAV:
-  - $$mdi:apple-keyboard-caps$$
   - ''
   - ''
-  - $$mdi:file-arrow-left-right$$
+  - ''
+  - '&cpp_h_hop'
   - '&dbg_run'
   - SCROLL_U
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - PG UP
-  - '&swapper'
-  - {t: ALT, h: '$$mdi:circle-small$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
+  - {t: ALT, h: '$$mdi:circle-small$$'}
+  - ''
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
   - $$mdi:database-search$$
   - SCROLL_D
@@ -108,7 +108,7 @@ layers:
   - $$mdi:microsoft-windows-classic$$
   - ''
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - ''
+  - '&swapper'
   - CANCEL
   - $$mdi:microsoft-windows-classic$$
   FUNC:
@@ -159,10 +159,10 @@ layers:
   - '8'
   - '9'
   - ''
-  - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
+  - '6'
   - '7'
   - '8'
-  - {t: '9', h: '$$mdi:apple-keyboard-control$$'}
+  - '9'
   - '0'
   - ''
   - '4'
@@ -186,31 +186,31 @@ layers:
   - ''
   - ''
   MOUSE:
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - SCROLL_U
   - SCROLL_L
   - {t: '$$mdi:mouse$$', s: UP, type: text_with_symbol}
   - SCROLL_R
   - ''
-  - A
-  - S
-  - D
-  - F
-  - G
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - SCROLL_D
   - {t: '$$mdi:mouse$$', s: LEFT, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: DOWN, type: text_with_symbol}
   - {t: '$$mdi:mouse$$', s: RIGHT, type: text_with_symbol}
   - ''
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: MID, type: text_with_symbol}
