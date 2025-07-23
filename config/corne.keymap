@@ -95,7 +95,8 @@
 #define XXX &none
 #define ___ &trans
 
-#define QUICK_TAP_MS 175
+#define QUICK_TAP_MS 150
+#define HOLD_TAP_PRIOR_IDLE_MS 125
 
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 40
@@ -144,7 +145,7 @@
 &mt { // MT_CORE long-tap action on hold, short-tap action on all interrupts
     flavor = "tap-preferred";
     tapping-term-ms = <220>;
-    quick-tap-ms = <220>;
+    quick-tap-ms = <QUICK_TAP_MS>;
     hold-trigger-key-positions = <0>;
 };
 
@@ -172,7 +173,7 @@
             flavor = "balanced";
             tapping-term-ms = <220>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <HOLD_TAP_PRIOR_IDLE_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -184,7 +185,7 @@
             flavor = "balanced";
             tapping-term-ms = <220>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <HOLD_TAP_PRIOR_IDLE_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -196,7 +197,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <250>;
+            require-prior-idle-ms = <HOLD_TAP_PRIOR_IDLE_MS>;
             bindings = <&kp>, <&key_repeat>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -265,7 +266,6 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&mo>, <&num_dance>;
         };
 
@@ -335,9 +335,10 @@
         lt_spc: lt_spc {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap;
             bindings = <&mo>, <&kp>;
         };
 
@@ -811,7 +812,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 XXX           XXX           XXX           XXX           XXX             &kp N0        &kp N1        &kp N2        &kp N3        XXX          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            XXX           XXX           XXX             &kp BACKSPACE XXX           XXX                                    
+                                            XXX           XXX           &kp SPACE      &kp BACKSPACE  XXX           XXX                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
