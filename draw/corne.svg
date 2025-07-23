@@ -1414,6 +1414,7 @@ rect.key.held {
 </g>
 <g transform="translate(343, 260) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(502, 260) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-24" y="-41" width="49" height="82" class="key"/>
