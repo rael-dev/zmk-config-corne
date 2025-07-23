@@ -466,7 +466,7 @@
                 <&macro_tap>, <&kp S>,
                 <&macro_release>, <&kp LEFT_SHIFT>,
                 <&macro_release>, <&kp LEFT_GUI>;
-        }
+        };
     };
 
     combos {
