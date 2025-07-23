@@ -286,7 +286,7 @@ combos:
   k: $$mdi:beaker$$
   l: [ENGINE]
 - p: [20, 10]
-  k: $$mdi:typewriter$$
+  k: $$mdi:unreal$$
   l: [HOMEROW]
 - p: [16, 17]
   k: (
