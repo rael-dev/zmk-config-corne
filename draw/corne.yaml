@@ -181,7 +181,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
+  - $$mdi:keyboard-space$$
   - $$mdi:backspace-outline$$
   - ''
   - ''
