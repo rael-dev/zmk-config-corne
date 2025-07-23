@@ -111,6 +111,7 @@
 #define HRC_RPAR   &hmr_rpar_gt RS(LALT) 0
 
 #define SMART_NUM &smart_num 4 0
+#define SMART_SPACE &lt_spc 2 0
 
 #define NAV_LEFT  &mt_bgol 0 0    // tap: left  | long-tap: beginning of line
 #define NAV_RIGHT &mt_eol 0 0     // tap: right | long-tap: end       of line
@@ -119,6 +120,10 @@
 #define NAV_BSPC  &mt LC(BSPC) BSPC    // tap: bspc  | long-tap: delete word backward
 #define NAV_DEL   &mt LC(DEL)  DEL     // tap: del   | long-tap: delete word forward
 
+#define DBG_OVER &kp F10
+#define DBG_INTO &kp F11
+#define DBG_OUT &kp LS(F11)
+
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
 #define DSK_PREV    &hmr LCTRL LG(LC(LEFT))   // previous desktop
 #define DSK_NEXT    &hmr LALT LG(LC(RIGHT)) // next     desktop
@@ -126,6 +131,7 @@
 #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
 #define DSK_MNGR    &kp LA(GRAVE)            // desktop manager
 #define VOL_DOWN    &hmr RSHFT C_VOL_DN
+#define WIN_LOCK    &kp LG(L)
 
 &sk {  // sticky-key config
     release-after-ms = <900>;  // release after 0.6s
@@ -339,7 +345,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             global-quick-tap;
-            bindings = <&mo>, <&kp>;
+            bindings = <&mo>, <&spc_morph>;
         };
 
         // tap: space | shift + tap: dot -> space -> sticky shift
@@ -397,32 +403,40 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_tap>, <&kp LC(R)>,
-                <&macro_tap>, <&kp LC(R)>;
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp R>,
+                <&macro_tap>, <&kp R>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
         comment: comment {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_tap>, <&kp LC(K)>,
-                <&macro_tap>, <&kp LC(C)>;
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp K>,
+                <&macro_tap>, <&kp C>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
         uncomment: uncomment {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_tap>, <&kp LC(K)>,
-                <&macro_tap>, <&kp LC(U)>;
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp K>,
+                <&macro_tap>, <&kp U>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
         cpp_h_hop: cpp_h_hop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_tap>, <&kp LC(K)>, 
-                <&macro_tap>, <&kp LC(O)>;
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp K>,
+                <&macro_tap>, <&kp O>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
         search_members: search_members {
@@ -442,6 +456,17 @@
                 <&macro_tap>, <&kp GRAVE>,
                 <&macro_release>, <&kp LEFT_ALT>;
         };
+
+        screencap: screencap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press>, <&kp LEFT_GUI>,
+                <&macro_press>, <&kp LEFT_SHIFT>,
+                <&macro_tap>, <&kp S>,
+                <&macro_release>, <&kp LEFT_SHIFT>,
+                <&macro_release>, <&kp LEFT_GUI>;
+        }
     };
 
     combos {
@@ -752,7 +777,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl       
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &mo 3        SMART_NUM    &lt_spc 2 SPACE  &kp BACKSPACE  &smart_shft   XXX
+                                            &mo 3         SMART_NUM     SMART_SPACE    &kp BACKSPACE  &smart_shft   XXX
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
@@ -780,7 +805,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &sk LSHFT     &sk LALT      XXX           &sk LCTRL   &search_members   U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &osrs         XXX           &uncomment    &comment      &rename         &kp HOME      &kp F10       &kp F11       &kp LS(F11)   &kp INS          
+                &osrs         XXX           &uncomment    &comment      &rename         &kp HOME      DBG_OVER      DBG_INTO      DBG_OUT       &kp INS          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             &kp LGUI      XXX           &kp SPACE       &swapper      CANCEL        &kp RGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
@@ -791,7 +816,7 @@
             label = "FUNC";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp LG(L)     XXX           XXX           XXX           &sleep   
+                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &screencap    XXX           XXX           WIN_LOCK      &sleep   
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp F6        &kp F7        &kp F8        &kp F9        &kp F10         XXX           XXX           XXX           XXX           XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
