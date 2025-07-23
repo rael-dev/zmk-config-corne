@@ -117,7 +117,7 @@ parse_config:
     '&par_macro': '()'
     '&bkt_macro': '{}'
     '&lgt_macro': '<>'
-    '&to 1': $$mdi:typewriter$$
+    '&to 1': $$mdi:unreal$$
     '&to 0': $$mdi:beaker$$
     
     '&td_left': 
