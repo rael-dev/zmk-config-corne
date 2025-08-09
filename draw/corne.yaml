@@ -85,10 +85,10 @@ layers:
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - PG UP
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$'}
-  - {t: ALT, h: '$$mdi:circle-small$$'}
+  - $$mdi:remote-desktop$$
   - ''
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:circle-small$$'}
+  - ''
+  - ''
   - $$mdi:database-search$$
   - $$mdi:chevron-double-down$$
   - {t: '$$mdi:arrow-left$$', h: '$$mdi:format-horizontal-align-left$$'}
@@ -108,7 +108,7 @@ layers:
   - $$mdi:microsoft-windows-classic$$
   - ''
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:remote-desktop$$
+  - ''
   - CANCEL
   - $$mdi:microsoft-windows-classic$$
   FUNC:
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {type: held}
   - ''
-  - ''
   - $$mdi:play-pause$$
+  - ''
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   NUMBERS:
@@ -216,7 +216,7 @@ layers:
   - {t: '$$mdi:cursor-default-click-outline$$', s: MID, type: text_with_symbol}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: text_with_symbol}
   - ''
-  - ''
+  - FUNC
   - ''
   - $$mdi:cursor-default-click-outline$$
   - $$mdi:cursor-default-click$$
@@ -284,10 +284,10 @@ combos:
   l: [HOMEROW, NAV, NUMBERS]
 - p: [10, 0]
   k: $$mdi:beaker$$
-  l: [ENGINE]
+  l: [ENGINE, MOUSE]
 - p: [20, 10]
   k: $$mdi:unreal$$
-  l: [HOMEROW]
+  l: [HOMEROW, MOUSE]
 - p: [16, 17]
   k: (
   l: [HOMEROW, NUMBERS]
