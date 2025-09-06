@@ -189,6 +189,7 @@ parse_config:
     '&num_dance': 
       tap: $$mdi:numeric$$
       shifted: ''
+    '&rider_format': $$mdi:format-indent-increase$$
     
     '&td_sqt_dqt':
       tap: "'"

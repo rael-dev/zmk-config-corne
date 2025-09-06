@@ -467,6 +467,18 @@
                 <&macro_release>, <&kp LEFT_SHIFT>,
                 <&macro_release>, <&kp LEFT_GUI>;
         };
+
+        rider_format: rider_format {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp A>,
+                <&macro_press>, <&kp LEFT_ALT>,
+                <&macro_tap>, <&kp ENTER>,
+                <&macro_release>, <&kp LEFT_ALT>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
+        };
     };
 
     combos {
@@ -801,7 +813,7 @@
             label = "NAV";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                XXX           XXX           XXX           &cpp_h_hop    &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
+               &rider_format  XXX           XXX           &cpp_h_hop    &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &swapper      XXX           XXX           XXX         &search_members   U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
