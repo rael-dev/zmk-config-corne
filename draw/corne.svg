@@ -105,6 +105,9 @@
 <svg id="mdi:format-horizontal-align-right">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-horizontal-align-right" viewBox="0 0 24 24"><path d="M13,8V11H3V13H13V16L17,12L13,8M19,20H21V4H19V20Z" /></svg>
 </svg>
+<svg id="mdi:format-indent-increase">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-indent-increase" viewBox="0 0 24 24"><path d="M11,13H21V11H11M11,9H21V7H11M3,3V5H21V3M11,17H21V15H11M3,8V16L7,12M3,21H21V19H3V21Z" /></svg>
+</svg>
 <svg id="mdi:format-vertical-align-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-vertical-align-bottom" viewBox="0 0 24 24"><path d="M16,13H13V3H11V13H8L12,17L16,13M4,19V21H20V19H4Z" /></svg>
 </svg>
@@ -887,6 +890,7 @@ rect.key.held {
 <g transform="translate(0, 61)">
 <g transform="translate(32, 57)" class="key keypos-0">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
+<use href="#mdi:format-indent-increase" xlink:href="#mdi:format-indent-increase" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:format-indent-increase"/>
 </g>
 <g transform="translate(98, 41)" class="key keypos-1">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
