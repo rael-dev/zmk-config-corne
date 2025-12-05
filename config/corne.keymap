@@ -373,11 +373,18 @@
             bindings = <&kp LC(INS)>, <&kp LC(X)>;
         };
 
-        dbg_run: dbg_run {
+        td_dbg: td_dbg {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <350>;
-            bindings = <&kp LA(F5)>, <&kp LC(F5)>;
+            bindings = <&kp F5>, <&kp LA(F5)>;
+        };
+
+        td_format: td_format {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <220>;
+            bindings = <&vs_format>, <&rd_format>;
         };
     };
 
@@ -468,7 +475,7 @@
                 <&macro_release>, <&kp LEFT_GUI>;
         };
 
-        rider_format: rider_format {
+        rd_format: rd_format {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
@@ -477,6 +484,16 @@
                 <&macro_press>, <&kp LEFT_ALT>,
                 <&macro_tap>, <&kp ENTER>,
                 <&macro_release>, <&kp LEFT_ALT>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
+        };
+
+         vs_format: vs_format {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp K>,
+                <&macro_tap>, <&kp D>,
                 <&macro_release>, <&kp LEFT_CONTROL>;
         };
     };
@@ -813,7 +830,7 @@
             label = "NAV";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-               &rider_format  XXX           XXX           &cpp_h_hop    &dbg_run        U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
+               &td_format     XXX           XXX           &cpp_h_hop    &td_dbg         U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &swapper      XXX           XXX           XXX         &search_members   U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
