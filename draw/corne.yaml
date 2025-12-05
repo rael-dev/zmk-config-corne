@@ -75,7 +75,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - ''
   NAV:
-  - ''
+  - $$mdi:format-indent-increase$$
   - ''
   - ''
   - $$mdi:file-arrow-left-right$$
