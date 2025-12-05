@@ -36,9 +36,6 @@
 <svg id="mdi:bluetooth">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth" viewBox="0 0 24 24"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg>
 </svg>
-<svg id="mdi:bug-play">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bug-play" viewBox="0 0 24 24"><path d="M19 7H16.19C15.74 6.2 15.12 5.5 14.37 5L16 3.41L14.59 2L12.42 4.17C11.96 4.06 11.5 4 11 4S10.05 4.06 9.59 4.17L7.41 2L6 3.41L7.62 5C6.87 5.5 6.26 6.21 5.81 7H3V9H5.09C5.03 9.33 5 9.66 5 10V11H3V13H5V14C5 14.34 5.03 14.67 5.09 15H3V17H5.81C7.26 19.5 10.28 20.61 13 19.65V19C13 16.46 14.61 14.2 17 13.35V13H19V11H17V10C17 9.66 16.97 9.33 16.91 9H19V7M13 15H9V13H13V15M13 11H9V9H13V11M17 16V22L22 19L17 16Z" /></svg>
-</svg>
 <svg id="mdi:caps-lock">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
 </svg>
@@ -104,9 +101,6 @@
 </svg>
 <svg id="mdi:format-horizontal-align-right">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-horizontal-align-right" viewBox="0 0 24 24"><path d="M13,8V11H3V13H13V16L17,12L13,8M19,20H21V4H19V20Z" /></svg>
-</svg>
-<svg id="mdi:format-indent-increase">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-indent-increase" viewBox="0 0 24 24"><path d="M11,13H21V11H11M11,9H21V7H11M3,3V5H21V3M11,17H21V15H11M3,8V16L7,12M3,21H21V19H3V21Z" /></svg>
 </svg>
 <svg id="mdi:format-vertical-align-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-format-vertical-align-bottom" viewBox="0 0 24 24"><path d="M16,13H13V3H11V13H8L12,17L16,13M4,19V21H20V19H4Z" /></svg>
@@ -890,7 +884,7 @@ rect.key.held {
 <g transform="translate(0, 61)">
 <g transform="translate(32, 57)" class="key keypos-0">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<use href="#mdi:format-indent-increase" xlink:href="#mdi:format-indent-increase" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:format-indent-increase"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;td_format</tspan></text>
 </g>
 <g transform="translate(98, 41)" class="key keypos-1">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
@@ -904,7 +898,7 @@ rect.key.held {
 </g>
 <g transform="translate(292, 49)" class="key keypos-4">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>
-<use href="#mdi:bug-play" xlink:href="#mdi:bug-play" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:bug-play"/>
+<text x="0" y="0" class="key tap">&amp;td_dbg</text>
 </g>
 <g transform="translate(552, 49)" class="key keypos-5">
 <rect rx="6" ry="6" x="-24" y="-24" width="49" height="49" class="key"/>

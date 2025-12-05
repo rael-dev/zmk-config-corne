@@ -75,11 +75,11 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:circle-small$$', s: '$$mdi:caps-lock$$'}
   - ''
   NAV:
-  - $$mdi:format-indent-increase$$
+  - '&td_format'
   - ''
   - ''
   - $$mdi:file-arrow-left-right$$
-  - $$mdi:bug-play$$
+  - '&td_dbg'
   - $$mdi:chevron-double-up$$
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:format-vertical-align-top$$'}
