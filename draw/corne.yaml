@@ -88,7 +88,7 @@ layers:
   - $$mdi:remote-desktop$$
   - ''
   - ''
-  - ''
+  - $$mdi:file-search$$
   - $$mdi:database-search$$
   - $$mdi:chevron-double-down$$
   - {t: '$$mdi:arrow-left$$', h: '$$mdi:format-horizontal-align-left$$'}
@@ -118,8 +118,8 @@ layers:
   - F4
   - F5
   - $$mdi:monitor-screenshot$$
-  - ''
-  - ''
+  - BT PRV
+  - BT NXT
   - $$mdi:lock-outline$$
   - $$mdi:sleep$$
   - F6
@@ -138,8 +138,8 @@ layers:
   - $$mdi:headset-off$$
   - $$mdi:space-invaders$$
   - $$mdi:volume-mute$$
-  - BT PRV
-  - BT NXT
+  - ''
+  - ''
   - ''
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {type: held}
