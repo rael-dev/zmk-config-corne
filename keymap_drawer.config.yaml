@@ -180,6 +180,7 @@ parse_config:
     '&comment': $$mdi:comment-edit-outline$$
     '&uncomment': $$mdi:comment-remove$$
     '&search_members': $$mdi:database-search$$
+    '&search_files': $$mdi:file-search$$
     '&context_actions': $$mdi:format-list-group-plus$$
     '&screencap': $$mdi:monitor-screenshot$$
     '&dot_spc': $$mdi:dots-horizontal$$

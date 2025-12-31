@@ -446,13 +446,25 @@
                 <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
+        search_files: search_files {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_press>, <&kp LSHFT>,
+                <&macro_tap>, <&kp T>,
+                <&macro_release>, <&kp LSHFT>;
+                <&macro_release>, <&kp LEFT_CONTROL>;
+        };
+
         search_members: search_members {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>, <&kp LEFT_ALT>,
-                <&macro_tap>, <&kp BACKSLASH>,
-                <&macro_release>, <&kp LEFT_ALT>;
+                <&macro_press>, <&kp LEFT_CONTROL>,
+                <&macro_tap>, <&kp N1>,
+                <&macro_tap>, <&kp M>,
+                <&macro_release>, <&kp LEFT_CONTROL>;
         };
 
         osrs: osrs {
@@ -832,7 +844,7 @@
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                &td_format     XXX           XXX           &cpp_h_hop    &td_dbg         U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &swapper      XXX           XXX           XXX         &search_members   U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
+                &swapper      XXX           XXX          &search_files &search_members  U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &osrs         XXX           &uncomment    &comment      &rename         &kp HOME      DBG_OVER      DBG_INTO      DBG_OUT       &kp INS          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
@@ -845,11 +857,11 @@
             label = "FUNC";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &screencap    XXX           XXX           WIN_LOCK      &sleep   
+                &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &screencap    &bt BT_PRV    &bt BT_NXT    WIN_LOCK      &sleep   
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp F6        &kp F7        &kp F8        &kp F9        &kp F10         XXX           XXX           XXX           XXX           XXX          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         &kp C_MUTE    &bt BT_PRV    &bt BT_NXT    XXX           &bt BT_CLR
+                &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         &kp C_MUTE    XXX           XXX           XXX           &bt BT_CLR
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                             ___           XXX           &kp C_PP        XXX           &kp C_VOL_DN  &kp C_VOL_UP                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
