@@ -145,7 +145,7 @@ layers:
   - {type: held}
   - ''
   - $$mdi:play-pause$$
-  - ''
+  - $$mdi:backup-restore$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   NUMBERS:
@@ -284,10 +284,8 @@ combos:
   l: [HOMEROW, NAV, NUMBERS]
 - p: [10, 0]
   k: $$mdi:beaker$$
-  l: [ENGINE, MOUSE]
 - p: [20, 10]
   k: $$mdi:unreal$$
-  l: [HOMEROW, MOUSE]
 - p: [16, 17]
   k: (
   l: [HOMEROW, NUMBERS]
