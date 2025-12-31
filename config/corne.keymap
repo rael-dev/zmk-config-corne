@@ -672,7 +672,6 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&to 0>;
             key-positions = <LM4 LT4>;
-            layers = <1 5>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -680,7 +679,6 @@
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&to 1>;
             key-positions = <LB4 LM4>;
-            layers = <0 5>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
@@ -863,7 +861,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp F11       &kp F12       &kp F13       &kp F15       &kp F16         &kp C_MUTE    XXX           XXX           XXX           &bt BT_CLR
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            ___           XXX           &kp C_PP        XXX           &kp C_VOL_DN  &kp C_VOL_UP                                    
+                                            ___           XXX           &kp C_PP        &sys_reset    &kp C_VOL_DN  &kp C_VOL_UP                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
