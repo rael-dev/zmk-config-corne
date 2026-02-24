@@ -7,3 +7,8 @@ firmware
 zmk
 /config/.vscode
 .vscode/
+.tooling/
+build/
+nice-view-gem/
+nice-view-mix/
+firmware/

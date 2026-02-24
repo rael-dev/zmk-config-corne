@@ -176,16 +176,46 @@ parse_config:
     '&kp F16': $$mdi:space-invaders$$
 
     '&sleep': $$mdi:sleep$$
-    '&rename': $$mdi:rename-outline$$
-    '&comment': $$mdi:comment-edit-outline$$
-    '&uncomment': $$mdi:comment-remove$$
-    '&search_members': $$mdi:database-search$$
-    '&search_files': $$mdi:file-search$$
-    '&context_actions': $$mdi:format-list-group-plus$$
     '&screencap': $$mdi:monitor-screenshot$$
     '&dot_spc': $$mdi:dots-horizontal$$
-    '&dbg_run': $$mdi:bug-play$$
-    '&cpp_h_hop': $$mdi:file-arrow-left-right$$
+    '&osrs': $$mdi:application-outline$$
+    '&td_dbg':
+      tap: $$mdi:bug-play$$
+    '&td_format':
+      tap: $$mdi:format-indent-increase$$
+      type: text_with_symbol
+    '&td_cpp_h_hop':
+      tap: $$mdi:file-arrow-left-right$$
+      type: text_with_symbol
+    '&td_search_files':
+      tap: $$mdi:file-search$$
+      type: text_with_symbol
+    '&td_search_members':
+      tap: $$mdi:database-search$$
+      type: text_with_symbol
+    '&td_rename':
+      tap: $$mdi:rename-outline$$
+      type: text_with_symbol
+    '&td_comment':
+      tap: $$mdi:comment-edit-outline$$
+      type: text_with_symbol
+    '&td_uncomment':
+      tap: $$mdi:comment-remove$$
+      type: text_with_symbol
+    '&vsc_format': $$mdi:format-indent-increase$$
+    '&vs_format': $$mdi:format-indent-increase$$
+    '&vsc_cpp_h_hop': $$mdi:file-arrow-left-right$$
+    '&vs_cpp_h_hop': $$mdi:file-arrow-left-right$$
+    '&vsc_search_files': $$mdi:file-search$$
+    '&vs_search_files': $$mdi:file-search$$
+    '&vsc_search_members': $$mdi:database-search$$
+    '&vs_search_members': $$mdi:database-search$$
+    '&vsc_rename': $$mdi:rename-outline$$
+    '&vs_rename': $$mdi:rename-outline$$
+    '&vsc_comment': $$mdi:comment-edit-outline$$
+    '&vs_comment': $$mdi:comment-edit-outline$$
+    '&vsc_uncomment': $$mdi:comment-remove$$
+    '&vs_uncomment': $$mdi:comment-remove$$
     '&swapper': $$mdi:remote-desktop$$
     '&num_dance': 
       tap: $$mdi:numeric$$
