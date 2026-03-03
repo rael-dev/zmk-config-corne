@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corne, layout_name: five_column_transform}
+﻿layout: {zmk_keyboard: corne, layout_name: five_column_transform}
 layers:
   HOMEROW:
   - Q
@@ -68,14 +68,14 @@ layers:
   - $$mdi:debug-step-into$$
   - $$mdi:debug-step-out$$
   - INS
-  - {t: '$$mdi:microsoft-windows-classic$$', type: held}
+  - {type: held}
   - ''
-  - $$mdi:keyboard-space$$
+  - $$mdi:microsoft-windows-classic$$
   - ''
   - CANCEL
   - $$mdi:microsoft-windows-classic$$
   FUNC:
-  - {t: F1, type: held}
+  - F1
   - F2
   - F3
   - F4
@@ -85,7 +85,7 @@ layers:
   - BT NXT
   - $$mdi:lock-outline$$
   - $$mdi:sleep$$
-  - {t: F6, type: held}
+  - F6
   - F7
   - F8
   - F9
@@ -105,9 +105,9 @@ layers:
   - ''
   - ''
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
   - ''
-  - $$mdi:play-pause$$
+  - {t: '$$mdi:play-pause$$', type: held}
   - $$mdi:backup-restore$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
@@ -246,8 +246,13 @@ combos:
   k: '~'
   l: [HOMEROW, NAV, NUMBERS]
 - p: [10, 0]
+  k: $$mdi:home-variant$$
+  l: [NAV, FUNC, NUMBERS, MOUSE]
+  a: left
+- p: [30, 32]
   k: {t: FUNC, h: '$$mdi:circle-small$$'}
   l: [HOMEROW]
+  a: bottom
 - p: [16, 17]
   k: (
   l: [HOMEROW, NUMBERS]

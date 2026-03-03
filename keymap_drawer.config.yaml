@@ -118,7 +118,7 @@ parse_config:
     '&bkt_macro': '{}'
     '&lgt_macro': '<>'
     '&to 1': $$mdi:unreal$$
-    '&to 0': $$mdi:beaker$$
+    '&to 0': $$mdi:home-variant$$
     
     '&td_left': 
       tap: $$mdi:arrow-left$$
@@ -187,10 +187,10 @@ parse_config:
     '&td_cpp_h_hop':
       tap: $$mdi:file-arrow-left-right$$
       type: text_with_symbol
-    '&td_search_files':
+    '&td_srch_files':
       tap: $$mdi:file-search$$
       type: text_with_symbol
-    '&td_search_members':
+    '&td_srch_mem':
       tap: $$mdi:database-search$$
       type: text_with_symbol
     '&td_rename':
@@ -390,7 +390,11 @@ parse_config:
   zmk_combos:
     combo_mouse:
       align: top
+    combo_home:
+      align: left
     combo_cut:
+      align: bottom
+    combo_fn_sticky:
       align: bottom
       
   zmk_keycode_map:

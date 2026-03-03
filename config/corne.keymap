@@ -393,14 +393,14 @@
             bindings = <&vsc_cpp_h_hop>, <&vs_cpp_h_hop>;
         };
 
-        td_search_files: td_search_files {
+        td_srch_files: td_srch_files {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <220>;
             bindings = <&vsc_search_files>, <&vs_search_files>;
         };
 
-        td_search_members: td_search_members {
+        td_srch_mem: td_srch_mem {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <220>;
@@ -777,10 +777,18 @@
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
 
+        combo_home {
+            timeout-ms = <COMBO_TERM_SLOW>;
+            bindings = <&to 0>;
+            key-positions = <LM4 LT4>;
+            layers = <1 2 3 4>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
+        };
+
         combo_fn_sticky {
             timeout-ms = <COMBO_TERM_SLOW>;
             bindings = <&sl 2>;
-            key-positions = <LM4 LT4>;
+            key-positions = <LH2 LH0>;
             layers = <0>;
             require-prior-idle-ms = <COMBO_IDLE_SLOW>;
         };
@@ -928,13 +936,13 @@
             label = "NAV";
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-               &td_format     XXX           XXX           &td_cpp_h_hop &td_dbg         U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
+                &td_format    XXX           XXX          &td_cpp_h_hop  &td_dbg         U_WH_U        NAV_BSPC      NAV_UP        NAV_DEL       &kp PG_UP          
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &swapper      XXX           XXX          &td_search_files &td_search_members U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
+                &swapper      XXX           XXX          &td_srch_files &td_srch_mem    U_WH_D        NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp PG_DN      
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &osrs         XXX           &td_uncomment &td_comment   &td_rename      &kp HOME      DBG_OVER      DBG_INTO      DBG_OUT       &kp INS          
+                &osrs         XXX          &td_uncomment  &td_comment   &td_rename      &kp HOME      DBG_OVER      DBG_INTO      DBG_OUT       &kp INS          
             //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                            &kp LGUI      XXX           &kp SPACE       XXX           CANCEL        &kp RGUI                                    
+                                            XXX           XXX           &kp LGUI        XXX           CANCEL        &kp RGUI                                    
             //                            ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯                            
             >;
         };
